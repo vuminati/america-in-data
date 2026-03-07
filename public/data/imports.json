@@ -1,0 +1,4412 @@
+[
+  {
+    "hts_code": "01022100",
+    "chapter": "01",
+    "heading": "0102",
+    "subheading": "010221",
+    "description": "Live cattle",
+    "display_name": "Live cattle",
+    "value": 2946971627,
+    "value_formatted": "$2,946,971,627"
+  },
+  {
+    "hts_code": "01012100",
+    "chapter": "01",
+    "heading": "0101",
+    "subheading": "010121",
+    "description": "Live horses",
+    "display_name": "Live horses",
+    "value": 844100232,
+    "value_formatted": "$844,100,232"
+  },
+  {
+    "hts_code": "01031000",
+    "chapter": "01",
+    "heading": "0103",
+    "subheading": "010310",
+    "description": "Live swine",
+    "display_name": "Live swine",
+    "value": 567305192,
+    "value_formatted": "$567,305,192"
+  },
+  {
+    "hts_code": "01061100",
+    "chapter": "01",
+    "heading": "0106",
+    "subheading": "010611",
+    "description": "Live primates",
+    "display_name": "Live primates",
+    "value": 137324858,
+    "value_formatted": "$137,324,858"
+  },
+  {
+    "hts_code": "01023900",
+    "chapter": "01",
+    "heading": "0102",
+    "subheading": "010239",
+    "description": "Live buffalo",
+    "display_name": "Live buffalo",
+    "value": 69926016,
+    "value_formatted": "$69,926,016"
+  },
+  {
+    "hts_code": "01051200",
+    "chapter": "01",
+    "heading": "0105",
+    "subheading": "010512",
+    "description": "Live turkeys",
+    "display_name": "Live turkeys",
+    "value": 22824959,
+    "value_formatted": "$22,824,959"
+  },
+  {
+    "hts_code": "01051300",
+    "chapter": "01",
+    "heading": "0105",
+    "subheading": "010513",
+    "description": "Live ducks",
+    "display_name": "Live ducks",
+    "value": 14554340,
+    "value_formatted": "$14,554,340"
+  },
+  {
+    "hts_code": "01062000",
+    "chapter": "01",
+    "heading": "0106",
+    "subheading": "010620",
+    "description": "Live reptiles",
+    "display_name": "Live reptiles",
+    "value": 14386820,
+    "value_formatted": "$14,386,820"
+  },
+  {
+    "hts_code": "01051100",
+    "chapter": "01",
+    "heading": "0105",
+    "subheading": "010511",
+    "description": "Live chickens",
+    "display_name": "Live chickens",
+    "value": 11517723,
+    "value_formatted": "$11,517,723"
+  },
+  {
+    "hts_code": "01061400",
+    "chapter": "01",
+    "heading": "0106",
+    "subheading": "010614",
+    "description": "Live rabbits",
+    "display_name": "Live rabbits",
+    "value": 6368671,
+    "value_formatted": "$6,368,671"
+  },
+  {
+    "hts_code": "01064100",
+    "chapter": "01",
+    "heading": "0106",
+    "subheading": "010641",
+    "description": "Live bees",
+    "display_name": "Live bees",
+    "value": 1485244,
+    "value_formatted": "$1,485,244"
+  },
+  {
+    "hts_code": "01041000",
+    "chapter": "01",
+    "heading": "0104",
+    "subheading": "010410",
+    "description": "Live sheep",
+    "display_name": "Live sheep",
+    "value": 667506,
+    "value_formatted": "$667,506"
+  },
+  {
+    "hts_code": "01013000",
+    "chapter": "01",
+    "heading": "0101",
+    "subheading": "010130",
+    "description": "Live asses",
+    "display_name": "Live asses",
+    "value": 153531,
+    "value_formatted": "$153,531"
+  },
+  {
+    "hts_code": "01063300",
+    "chapter": "01",
+    "heading": "0106",
+    "subheading": "010633",
+    "description": "Ostriches and emus",
+    "display_name": "Ostriches and emus",
+    "value": 71293,
+    "value_formatted": "$71,293"
+  },
+  {
+    "hts_code": "01061900",
+    "chapter": "01",
+    "heading": "0106",
+    "subheading": "010619",
+    "description": "Live foxes",
+    "display_name": "Live foxes",
+    "value": 43893,
+    "value_formatted": "$43,893"
+  },
+  {
+    "hts_code": "01061300",
+    "chapter": "01",
+    "heading": "0106",
+    "subheading": "010613",
+    "description": "Live camels",
+    "display_name": "Live camels",
+    "value": 40002,
+    "value_formatted": "$40,002"
+  },
+  {
+    "hts_code": "01051400",
+    "chapter": "01",
+    "heading": "0105",
+    "subheading": "010514",
+    "description": "Live geese",
+    "display_name": "Live geese",
+    "value": 10497,
+    "value_formatted": "$10,497"
+  },
+  {
+    "hts_code": "01063200",
+    "chapter": "01",
+    "heading": "0106",
+    "subheading": "010632",
+    "description": "Live parrots",
+    "display_name": "Live parrots",
+    "value": 5797,
+    "value_formatted": "$5,797"
+  },
+  {
+    "hts_code": "02010000",
+    "chapter": "02",
+    "heading": "0201",
+    "subheading": "020100",
+    "description": "Fresh/chilled beef",
+    "display_name": "Fresh/chilled beef",
+    "value": 5861659405,
+    "value_formatted": "$5,861,659,405"
+  },
+  {
+    "hts_code": "02020000",
+    "chapter": "02",
+    "heading": "0202",
+    "subheading": "020200",
+    "description": "Frozen beef",
+    "display_name": "Frozen beef",
+    "value": 4896118423,
+    "value_formatted": "$4,896,118,423"
+  },
+  {
+    "hts_code": "02030000",
+    "chapter": "02",
+    "heading": "0203",
+    "subheading": "020300",
+    "description": "Fresh/chilled pork",
+    "display_name": "Fresh/chilled pork",
+    "value": 1614717208,
+    "value_formatted": "$1,614,717,208"
+  },
+  {
+    "hts_code": "02040000",
+    "chapter": "02",
+    "heading": "0204",
+    "subheading": "020400",
+    "description": "Lamb and sheep meat",
+    "display_name": "Lamb and sheep meat",
+    "value": 1544037062,
+    "value_formatted": "$1,544,037,062"
+  },
+  {
+    "hts_code": "02030000",
+    "chapter": "02",
+    "heading": "0203",
+    "subheading": "020300",
+    "description": "Frozen pork",
+    "display_name": "Frozen pork",
+    "value": 694962935,
+    "value_formatted": "$694,962,935"
+  },
+  {
+    "hts_code": "02060000",
+    "chapter": "02",
+    "heading": "0206",
+    "subheading": "020600",
+    "description": "Edible offal (bovine)",
+    "display_name": "Edible offal (bovine)",
+    "value": 526779532,
+    "value_formatted": "$526,779,532"
+  },
+  {
+    "hts_code": "02070000",
+    "chapter": "02",
+    "heading": "0207",
+    "subheading": "020700",
+    "description": "Chicken meat",
+    "display_name": "Chicken meat",
+    "value": 315164234,
+    "value_formatted": "$315,164,234"
+  },
+  {
+    "hts_code": "02060000",
+    "chapter": "02",
+    "heading": "0206",
+    "subheading": "020600",
+    "description": "Edible offal (swine)",
+    "display_name": "Edible offal (swine)",
+    "value": 54672572,
+    "value_formatted": "$54,672,572"
+  },
+  {
+    "hts_code": "02080000",
+    "chapter": "02",
+    "heading": "0208",
+    "subheading": "020800",
+    "description": "Deer meat (venison)",
+    "display_name": "Deer meat (venison)",
+    "value": 44376525,
+    "value_formatted": "$44,376,525"
+  },
+  {
+    "hts_code": "02070000",
+    "chapter": "02",
+    "heading": "0207",
+    "subheading": "020700",
+    "description": "Turkey meat",
+    "display_name": "Turkey meat",
+    "value": 44125115,
+    "value_formatted": "$44,125,115"
+  },
+  {
+    "hts_code": "02070000",
+    "chapter": "02",
+    "heading": "0207",
+    "subheading": "020700",
+    "description": "Duck meat",
+    "display_name": "Duck meat",
+    "value": 9846464,
+    "value_formatted": "$9,846,464"
+  },
+  {
+    "hts_code": "02080000",
+    "chapter": "02",
+    "heading": "0208",
+    "subheading": "020800",
+    "description": "Frog legs",
+    "display_name": "Frog legs",
+    "value": 9295949,
+    "value_formatted": "$9,295,949"
+  },
+  {
+    "hts_code": "02080000",
+    "chapter": "02",
+    "heading": "0208",
+    "subheading": "020800",
+    "description": "Rabbit meat",
+    "display_name": "Rabbit meat",
+    "value": 6687718,
+    "value_formatted": "$6,687,718"
+  },
+  {
+    "hts_code": "02050000",
+    "chapter": "02",
+    "heading": "0205",
+    "subheading": "020500",
+    "description": "Horse and donkey meat",
+    "display_name": "Horse and donkey meat",
+    "value": 2067337,
+    "value_formatted": "$2,067,337"
+  },
+  {
+    "hts_code": "030200",
+    "chapter": "03",
+    "heading": "0302",
+    "subheading": "030200",
+    "description": "Fresh/chilled fish",
+    "display_name": "Fresh/chilled fish",
+    "value": 9677679802,
+    "value_formatted": "$9,677,679,802"
+  },
+  {
+    "hts_code": "030300",
+    "chapter": "03",
+    "heading": "0303",
+    "subheading": "030300",
+    "description": "Frozen fish",
+    "display_name": "Frozen fish",
+    "value": 4634953766,
+    "value_formatted": "$4,634,953,766"
+  },
+  {
+    "hts_code": "04060000",
+    "chapter": "04",
+    "heading": "0406",
+    "subheading": "040600",
+    "description": "Parmesan/Romano cheese",
+    "display_name": "Parmesan/Romano cheese",
+    "value": 895421042,
+    "value_formatted": "$895,421,042"
+  },
+  {
+    "hts_code": "04050000",
+    "chapter": "04",
+    "heading": "0405",
+    "subheading": "040500",
+    "description": "Butter",
+    "display_name": "Butter",
+    "value": 827019959,
+    "value_formatted": "$827,019,959"
+  },
+  {
+    "hts_code": "04090000",
+    "chapter": "04",
+    "heading": "0409",
+    "subheading": "040900",
+    "description": "Honey",
+    "display_name": "Honey",
+    "value": 650471629,
+    "value_formatted": "$650,471,629"
+  },
+  {
+    "hts_code": "04040000",
+    "chapter": "04",
+    "heading": "0404",
+    "subheading": "040400",
+    "description": "Whey",
+    "display_name": "Whey",
+    "value": 458543457,
+    "value_formatted": "$458,543,457"
+  },
+  {
+    "hts_code": "04060000",
+    "chapter": "04",
+    "heading": "0406",
+    "subheading": "040600",
+    "description": "Provolone cheese",
+    "display_name": "Provolone cheese",
+    "value": 301349540,
+    "value_formatted": "$301,349,540"
+  },
+  {
+    "hts_code": "04060000",
+    "chapter": "04",
+    "heading": "0406",
+    "subheading": "040600",
+    "description": "Swiss/Emmentaler cheese",
+    "display_name": "Swiss/Emmentaler cheese",
+    "value": 248380760,
+    "value_formatted": "$248,380,760"
+  },
+  {
+    "hts_code": "04020000",
+    "chapter": "04",
+    "heading": "0402",
+    "subheading": "040200",
+    "description": "Milk and cream (concentrated/sweetened)",
+    "display_name": "Milk and cream (concentrated/sweetened)",
+    "value": 203963592,
+    "value_formatted": "$203,963,592"
+  },
+  {
+    "hts_code": "04030000",
+    "chapter": "04",
+    "heading": "0403",
+    "subheading": "040300",
+    "description": "Yogurt",
+    "display_name": "Yogurt",
+    "value": 150758227,
+    "value_formatted": "$150,758,227"
+  },
+  {
+    "hts_code": "04060000",
+    "chapter": "04",
+    "heading": "0406",
+    "subheading": "040600",
+    "description": "Gouda/Edam cheese",
+    "display_name": "Gouda/Edam cheese",
+    "value": 148751632,
+    "value_formatted": "$148,751,632"
+  },
+  {
+    "hts_code": "04070000",
+    "chapter": "04",
+    "heading": "0407",
+    "subheading": "040700",
+    "description": "Eggs",
+    "display_name": "Eggs",
+    "value": 112756393,
+    "value_formatted": "$112,756,393"
+  },
+  {
+    "hts_code": "04060000",
+    "chapter": "04",
+    "heading": "0406",
+    "subheading": "040600",
+    "description": "Cheddar cheese",
+    "display_name": "Cheddar cheese",
+    "value": 108251414,
+    "value_formatted": "$108,251,414"
+  },
+  {
+    "hts_code": "04010000",
+    "chapter": "04",
+    "heading": "0401",
+    "subheading": "040100",
+    "description": "Milk and cream (liquid)",
+    "display_name": "Milk and cream (liquid)",
+    "value": 59519945,
+    "value_formatted": "$59,519,945"
+  },
+  {
+    "hts_code": "04060000",
+    "chapter": "04",
+    "heading": "0406",
+    "subheading": "040600",
+    "description": "Blue-veined cheese",
+    "display_name": "Blue-veined cheese",
+    "value": 24817697,
+    "value_formatted": "$24,817,697"
+  },
+  {
+    "hts_code": "05050000",
+    "chapter": "05",
+    "heading": "0505",
+    "subheading": "050500",
+    "description": "Feathers and down",
+    "display_name": "Feathers and down",
+    "value": 121468891,
+    "value_formatted": "$121,468,891"
+  },
+  {
+    "hts_code": "05040000",
+    "chapter": "05",
+    "heading": "0504",
+    "subheading": "050400",
+    "description": "Animal guts and bladders",
+    "display_name": "Animal guts and bladders",
+    "value": 88689857,
+    "value_formatted": "$88,689,857"
+  },
+  {
+    "hts_code": "05060000",
+    "chapter": "05",
+    "heading": "0506",
+    "subheading": "050600",
+    "description": "Bones and horn-cores",
+    "display_name": "Bones and horn-cores",
+    "value": 36391871,
+    "value_formatted": "$36,391,871"
+  },
+  {
+    "hts_code": "05080000",
+    "chapter": "05",
+    "heading": "0508",
+    "subheading": "050800",
+    "description": "Coral and shells",
+    "display_name": "Coral and shells",
+    "value": 11573158,
+    "value_formatted": "$11,573,158"
+  },
+  {
+    "hts_code": "05070000",
+    "chapter": "05",
+    "heading": "0507",
+    "subheading": "050700",
+    "description": "Ivory and tortoise-shell",
+    "display_name": "Ivory and tortoise-shell",
+    "value": 5829641,
+    "value_formatted": "$5,829,641"
+  },
+  {
+    "hts_code": "05020000",
+    "chapter": "05",
+    "heading": "0502",
+    "subheading": "050200",
+    "description": "Animal bristles and hair",
+    "display_name": "Animal bristles and hair",
+    "value": 2199026,
+    "value_formatted": "$2,199,026"
+  },
+  {
+    "hts_code": "05110000",
+    "chapter": "05",
+    "heading": "0511",
+    "subheading": "051100",
+    "description": "Sponges of animal origin",
+    "display_name": "Sponges of animal origin",
+    "value": 822068,
+    "value_formatted": "$822,068"
+  },
+  {
+    "hts_code": "05010000",
+    "chapter": "05",
+    "heading": "0501",
+    "subheading": "050100",
+    "description": "Human hair",
+    "display_name": "Human hair",
+    "value": 52524,
+    "value_formatted": "$52,524"
+  },
+  {
+    "hts_code": "06030000",
+    "chapter": "06",
+    "heading": "0603",
+    "subheading": "060300",
+    "description": "Cut flowers",
+    "display_name": "Cut flowers",
+    "value": 2701423132,
+    "value_formatted": "$2,701,423,132"
+  },
+  {
+    "hts_code": "06020000",
+    "chapter": "06",
+    "heading": "0602",
+    "subheading": "060200",
+    "description": "Live plants and cuttings",
+    "display_name": "Live plants and cuttings",
+    "value": 979935926,
+    "value_formatted": "$979,935,926"
+  },
+  {
+    "hts_code": "06040000",
+    "chapter": "06",
+    "heading": "0604",
+    "subheading": "060400",
+    "description": "Foliage and branches",
+    "display_name": "Foliage and branches",
+    "value": 262913536,
+    "value_formatted": "$262,913,536"
+  },
+  {
+    "hts_code": "06010000",
+    "chapter": "06",
+    "heading": "0601",
+    "subheading": "060100",
+    "description": "Bulbs and tubers",
+    "display_name": "Bulbs and tubers",
+    "value": 209489124,
+    "value_formatted": "$209,489,124"
+  },
+  {
+    "hts_code": "07090000",
+    "chapter": "07",
+    "heading": "0709",
+    "subheading": "070900",
+    "description": "Peppers (capsicum)",
+    "display_name": "Peppers (capsicum)",
+    "value": 6096466822,
+    "value_formatted": "$6,096,466,822"
+  },
+  {
+    "hts_code": "07020000",
+    "chapter": "07",
+    "heading": "0702",
+    "subheading": "070200",
+    "description": "Tomatoes",
+    "display_name": "Tomatoes",
+    "value": 3759308033,
+    "value_formatted": "$3,759,308,033"
+  },
+  {
+    "hts_code": "07070000",
+    "chapter": "07",
+    "heading": "0707",
+    "subheading": "070700",
+    "description": "Cucumbers and gherkins",
+    "display_name": "Cucumbers and gherkins",
+    "value": 1507651415,
+    "value_formatted": "$1,507,651,415"
+  },
+  {
+    "hts_code": "07100000",
+    "chapter": "07",
+    "heading": "0710",
+    "subheading": "071000",
+    "description": "Frozen vegetables",
+    "display_name": "Frozen vegetables",
+    "value": 1455668941,
+    "value_formatted": "$1,455,668,941"
+  },
+  {
+    "hts_code": "07030000",
+    "chapter": "07",
+    "heading": "0703",
+    "subheading": "070300",
+    "description": "Onions and shallots",
+    "display_name": "Onions and shallots",
+    "value": 1026984751,
+    "value_formatted": "$1,026,984,751"
+  },
+  {
+    "hts_code": "07040000",
+    "chapter": "07",
+    "heading": "0704",
+    "subheading": "070400",
+    "description": "Cabbage and cauliflower",
+    "display_name": "Cabbage and cauliflower",
+    "value": 838314056,
+    "value_formatted": "$838,314,056"
+  },
+  {
+    "hts_code": "07090000",
+    "chapter": "07",
+    "heading": "0709",
+    "subheading": "070900",
+    "description": "Asparagus",
+    "display_name": "Asparagus",
+    "value": 723225051,
+    "value_formatted": "$723,225,051"
+  },
+  {
+    "hts_code": "07050000",
+    "chapter": "07",
+    "heading": "0705",
+    "subheading": "070500",
+    "description": "Lettuce",
+    "display_name": "Lettuce",
+    "value": 589477758,
+    "value_formatted": "$589,477,758"
+  },
+  {
+    "hts_code": "07090000",
+    "chapter": "07",
+    "heading": "0709",
+    "subheading": "070900",
+    "description": "Mushrooms",
+    "display_name": "Mushrooms",
+    "value": 465970262,
+    "value_formatted": "$465,970,262"
+  },
+  {
+    "hts_code": "07010000",
+    "chapter": "07",
+    "heading": "0701",
+    "subheading": "070100",
+    "description": "Potatoes",
+    "display_name": "Potatoes",
+    "value": 389675147,
+    "value_formatted": "$389,675,147"
+  },
+  {
+    "hts_code": "07030000",
+    "chapter": "07",
+    "heading": "0703",
+    "subheading": "070300",
+    "description": "Garlic",
+    "display_name": "Garlic",
+    "value": 313712654,
+    "value_formatted": "$313,712,654"
+  },
+  {
+    "hts_code": "07130000",
+    "chapter": "07",
+    "heading": "0713",
+    "subheading": "071300",
+    "description": "Dried beans",
+    "display_name": "Dried beans",
+    "value": 305903976,
+    "value_formatted": "$305,903,976"
+  },
+  {
+    "hts_code": "07060000",
+    "chapter": "07",
+    "heading": "0706",
+    "subheading": "070600",
+    "description": "Carrots and turnips",
+    "display_name": "Carrots and turnips",
+    "value": 289757289,
+    "value_formatted": "$289,757,289"
+  },
+  {
+    "hts_code": "07080000",
+    "chapter": "07",
+    "heading": "0708",
+    "subheading": "070800",
+    "description": "Beans (fresh)",
+    "display_name": "Beans (fresh)",
+    "value": 278046889,
+    "value_formatted": "$278,046,889"
+  },
+  {
+    "hts_code": "07130000",
+    "chapter": "07",
+    "heading": "0713",
+    "subheading": "071300",
+    "description": "Dried peas",
+    "display_name": "Dried peas",
+    "value": 237735938,
+    "value_formatted": "$237,735,938"
+  },
+  {
+    "hts_code": "07080000",
+    "chapter": "07",
+    "heading": "0708",
+    "subheading": "070800",
+    "description": "Peas",
+    "display_name": "Peas",
+    "value": 140418972,
+    "value_formatted": "$140,418,972"
+  },
+  {
+    "hts_code": "07130000",
+    "chapter": "07",
+    "heading": "0713",
+    "subheading": "071300",
+    "description": "Chickpeas (garbanzos)",
+    "display_name": "Chickpeas (garbanzos)",
+    "value": 130345450,
+    "value_formatted": "$130,345,450"
+  },
+  {
+    "hts_code": "07090000",
+    "chapter": "07",
+    "heading": "0709",
+    "subheading": "070900",
+    "description": "Spinach",
+    "display_name": "Spinach",
+    "value": 97077722,
+    "value_formatted": "$97,077,722"
+  },
+  {
+    "hts_code": "07030000",
+    "chapter": "07",
+    "heading": "0703",
+    "subheading": "070300",
+    "description": "Leeks",
+    "display_name": "Leeks",
+    "value": 95392884,
+    "value_formatted": "$95,392,884"
+  },
+  {
+    "hts_code": "07090000",
+    "chapter": "07",
+    "heading": "0709",
+    "subheading": "070900",
+    "description": "Sweet corn",
+    "display_name": "Sweet corn",
+    "value": 94124309,
+    "value_formatted": "$94,124,309"
+  },
+  {
+    "hts_code": "07130000",
+    "chapter": "07",
+    "heading": "0713",
+    "subheading": "071300",
+    "description": "Lentils",
+    "display_name": "Lentils",
+    "value": 85847450,
+    "value_formatted": "$85,847,450"
+  },
+  {
+    "hts_code": "07090000",
+    "chapter": "07",
+    "heading": "0709",
+    "subheading": "070900",
+    "description": "Olives",
+    "display_name": "Olives",
+    "value": 4097996,
+    "value_formatted": "$4,097,996"
+  },
+  {
+    "hts_code": "07090000",
+    "chapter": "07",
+    "heading": "0709",
+    "subheading": "070900",
+    "description": "Artichokes",
+    "display_name": "Artichokes",
+    "value": 3190127,
+    "value_formatted": "$3,190,127"
+  },
+  {
+    "hts_code": "08040000",
+    "chapter": "08",
+    "heading": "0804",
+    "subheading": "080400",
+    "description": "Avocados",
+    "display_name": "Avocados",
+    "value": 3876473308,
+    "value_formatted": "$3,876,473,308"
+  },
+  {
+    "hts_code": "08030000",
+    "chapter": "08",
+    "heading": "0803",
+    "subheading": "080300",
+    "description": "Bananas",
+    "display_name": "Bananas",
+    "value": 3230493317,
+    "value_formatted": "$3,230,493,317"
+  },
+  {
+    "hts_code": "08060000",
+    "chapter": "08",
+    "heading": "0806",
+    "subheading": "080600",
+    "description": "Grapes",
+    "display_name": "Grapes",
+    "value": 2612693169,
+    "value_formatted": "$2,612,693,169"
+  },
+  {
+    "hts_code": "08100000",
+    "chapter": "08",
+    "heading": "0810",
+    "subheading": "081000",
+    "description": "Blueberries",
+    "display_name": "Blueberries",
+    "value": 2428591197,
+    "value_formatted": "$2,428,591,197"
+  },
+  {
+    "hts_code": "08100000",
+    "chapter": "08",
+    "heading": "0810",
+    "subheading": "081000",
+    "description": "Cranberries",
+    "display_name": "Cranberries",
+    "value": 2428591197,
+    "value_formatted": "$2,428,591,197"
+  },
+  {
+    "hts_code": "08040000",
+    "chapter": "08",
+    "heading": "0804",
+    "subheading": "080400",
+    "description": "Guavas and mangoes",
+    "display_name": "Guavas and mangoes",
+    "value": 2009348164,
+    "value_formatted": "$2,009,348,164"
+  },
+  {
+    "hts_code": "08100000",
+    "chapter": "08",
+    "heading": "0810",
+    "subheading": "081000",
+    "description": "Raspberries",
+    "display_name": "Raspberries",
+    "value": 1956775459,
+    "value_formatted": "$1,956,775,459"
+  },
+  {
+    "hts_code": "08050000",
+    "chapter": "08",
+    "heading": "0805",
+    "subheading": "080500",
+    "description": "Mandarins/tangerines",
+    "display_name": "Mandarins/tangerines",
+    "value": 1266390123,
+    "value_formatted": "$1,266,390,123"
+  },
+  {
+    "hts_code": "08100000",
+    "chapter": "08",
+    "heading": "0810",
+    "subheading": "081000",
+    "description": "Strawberries",
+    "display_name": "Strawberries",
+    "value": 1196209036,
+    "value_formatted": "$1,196,209,036"
+  },
+  {
+    "hts_code": "08050000",
+    "chapter": "08",
+    "heading": "0805",
+    "subheading": "080500",
+    "description": "Lemons and limes",
+    "display_name": "Lemons and limes",
+    "value": 1153413551,
+    "value_formatted": "$1,153,413,551"
+  },
+  {
+    "hts_code": "08010000",
+    "chapter": "08",
+    "heading": "0801",
+    "subheading": "080100",
+    "description": "Cashew nuts",
+    "display_name": "Cashew nuts",
+    "value": 1074172445,
+    "value_formatted": "$1,074,172,445"
+  },
+  {
+    "hts_code": "08040000",
+    "chapter": "08",
+    "heading": "0804",
+    "subheading": "080400",
+    "description": "Pineapples",
+    "display_name": "Pineapples",
+    "value": 1000965313,
+    "value_formatted": "$1,000,965,313"
+  },
+  {
+    "hts_code": "08020000",
+    "chapter": "08",
+    "heading": "0802",
+    "subheading": "080200",
+    "description": "Pecans",
+    "display_name": "Pecans",
+    "value": 493727371,
+    "value_formatted": "$493,727,371"
+  },
+  {
+    "hts_code": "08070000",
+    "chapter": "08",
+    "heading": "0807",
+    "subheading": "080700",
+    "description": "Watermelons",
+    "display_name": "Watermelons",
+    "value": 491688868,
+    "value_formatted": "$491,688,868"
+  },
+  {
+    "hts_code": "08130000",
+    "chapter": "08",
+    "heading": "0813",
+    "subheading": "081300",
+    "description": "Dried fruit",
+    "display_name": "Dried fruit",
+    "value": 382434410,
+    "value_formatted": "$382,434,410"
+  },
+  {
+    "hts_code": "08100000",
+    "chapter": "08",
+    "heading": "0810",
+    "subheading": "081000",
+    "description": "Kiwi fruit",
+    "display_name": "Kiwi fruit",
+    "value": 314252212,
+    "value_formatted": "$314,252,212"
+  },
+  {
+    "hts_code": "08050000",
+    "chapter": "08",
+    "heading": "0805",
+    "subheading": "080500",
+    "description": "Oranges",
+    "display_name": "Oranges",
+    "value": 303770679,
+    "value_formatted": "$303,770,679"
+  },
+  {
+    "hts_code": "08010000",
+    "chapter": "08",
+    "heading": "0801",
+    "subheading": "080100",
+    "description": "Coconuts",
+    "display_name": "Coconuts",
+    "value": 169593573,
+    "value_formatted": "$169,593,573"
+  },
+  {
+    "hts_code": "08070000",
+    "chapter": "08",
+    "heading": "0807",
+    "subheading": "080700",
+    "description": "Papayas",
+    "display_name": "Papayas",
+    "value": 163640079,
+    "value_formatted": "$163,640,079"
+  },
+  {
+    "hts_code": "08020000",
+    "chapter": "08",
+    "heading": "0802",
+    "subheading": "080200",
+    "description": "Pine nuts",
+    "display_name": "Pine nuts",
+    "value": 157867862,
+    "value_formatted": "$157,867,862"
+  },
+  {
+    "hts_code": "08080000",
+    "chapter": "08",
+    "heading": "0808",
+    "subheading": "080800",
+    "description": "Pears",
+    "display_name": "Pears",
+    "value": 147474762,
+    "value_formatted": "$147,474,762"
+  },
+  {
+    "hts_code": "08080000",
+    "chapter": "08",
+    "heading": "0808",
+    "subheading": "080800",
+    "description": "Apples",
+    "display_name": "Apples",
+    "value": 143169384,
+    "value_formatted": "$143,169,384"
+  },
+  {
+    "hts_code": "08090000",
+    "chapter": "08",
+    "heading": "0809",
+    "subheading": "080900",
+    "description": "Cherries",
+    "display_name": "Cherries",
+    "value": 140465728,
+    "value_formatted": "$140,465,728"
+  },
+  {
+    "hts_code": "08040000",
+    "chapter": "08",
+    "heading": "0804",
+    "subheading": "080400",
+    "description": "Dates",
+    "display_name": "Dates",
+    "value": 98800371,
+    "value_formatted": "$98,800,371"
+  },
+  {
+    "hts_code": "08020000",
+    "chapter": "08",
+    "heading": "0802",
+    "subheading": "080200",
+    "description": "Macadamia nuts",
+    "display_name": "Macadamia nuts",
+    "value": 98046751,
+    "value_formatted": "$98,046,751"
+  },
+  {
+    "hts_code": "08040000",
+    "chapter": "08",
+    "heading": "0804",
+    "subheading": "080400",
+    "description": "Figs",
+    "display_name": "Figs",
+    "value": 84214937,
+    "value_formatted": "$84,214,937"
+  },
+  {
+    "hts_code": "08090000",
+    "chapter": "08",
+    "heading": "0809",
+    "subheading": "080900",
+    "description": "Plums",
+    "display_name": "Plums",
+    "value": 77929201,
+    "value_formatted": "$77,929,201"
+  },
+  {
+    "hts_code": "08090000",
+    "chapter": "08",
+    "heading": "0809",
+    "subheading": "080900",
+    "description": "Peaches",
+    "display_name": "Peaches",
+    "value": 77901355,
+    "value_formatted": "$77,901,355"
+  },
+  {
+    "hts_code": "08090000",
+    "chapter": "08",
+    "heading": "0809",
+    "subheading": "080900",
+    "description": "Nectarines",
+    "display_name": "Nectarines",
+    "value": 77901355,
+    "value_formatted": "$77,901,355"
+  },
+  {
+    "hts_code": "08060000",
+    "chapter": "08",
+    "heading": "0806",
+    "subheading": "080600",
+    "description": "Raisins",
+    "display_name": "Raisins",
+    "value": 66374425,
+    "value_formatted": "$66,374,425"
+  },
+  {
+    "hts_code": "08010000",
+    "chapter": "08",
+    "heading": "0801",
+    "subheading": "080100",
+    "description": "Brazil nuts",
+    "display_name": "Brazil nuts",
+    "value": 64923745,
+    "value_formatted": "$64,923,745"
+  },
+  {
+    "hts_code": "08050000",
+    "chapter": "08",
+    "heading": "0805",
+    "subheading": "080500",
+    "description": "Grapefruit",
+    "display_name": "Grapefruit",
+    "value": 47046347,
+    "value_formatted": "$47,046,347"
+  },
+  {
+    "hts_code": "08020000",
+    "chapter": "08",
+    "heading": "0802",
+    "subheading": "080200",
+    "description": "Hazelnuts/filberts",
+    "display_name": "Hazelnuts/filberts",
+    "value": 37255104,
+    "value_formatted": "$37,255,104"
+  },
+  {
+    "hts_code": "08020000",
+    "chapter": "08",
+    "heading": "0802",
+    "subheading": "080200",
+    "description": "Chestnuts",
+    "display_name": "Chestnuts",
+    "value": 16680512,
+    "value_formatted": "$16,680,512"
+  },
+  {
+    "hts_code": "08020000",
+    "chapter": "08",
+    "heading": "0802",
+    "subheading": "080200",
+    "description": "Almonds",
+    "display_name": "Almonds",
+    "value": 14810938,
+    "value_formatted": "$14,810,938"
+  },
+  {
+    "hts_code": "08020000",
+    "chapter": "08",
+    "heading": "0802",
+    "subheading": "080200",
+    "description": "Pistachios",
+    "display_name": "Pistachios",
+    "value": 7918299,
+    "value_formatted": "$7,918,299"
+  },
+  {
+    "hts_code": "08020000",
+    "chapter": "08",
+    "heading": "0802",
+    "subheading": "080200",
+    "description": "Walnuts",
+    "display_name": "Walnuts",
+    "value": 4515588,
+    "value_formatted": "$4,515,588"
+  },
+  {
+    "hts_code": "08090000",
+    "chapter": "08",
+    "heading": "0809",
+    "subheading": "080900",
+    "description": "Apricots",
+    "display_name": "Apricots",
+    "value": 3183030,
+    "value_formatted": "$3,183,030"
+  },
+  {
+    "hts_code": "090100",
+    "chapter": "09",
+    "heading": "0901",
+    "subheading": "090100",
+    "description": "Coffee",
+    "display_name": "Coffee",
+    "value": 15748304992,
+    "value_formatted": "$15,748,304,992"
+  },
+  {
+    "hts_code": "09040000",
+    "chapter": "09",
+    "heading": "0904",
+    "subheading": "090400",
+    "description": "Pepper",
+    "display_name": "Pepper",
+    "value": 1153043219,
+    "value_formatted": "$1,153,043,219"
+  },
+  {
+    "hts_code": "090200",
+    "chapter": "09",
+    "heading": "0902",
+    "subheading": "090200",
+    "description": "Tea",
+    "display_name": "Tea",
+    "value": 939883733,
+    "value_formatted": "$939,883,733"
+  },
+  {
+    "hts_code": "09100000",
+    "chapter": "09",
+    "heading": "0910",
+    "subheading": "091000",
+    "description": "Ginger",
+    "display_name": "Ginger",
+    "value": 187481507,
+    "value_formatted": "$187,481,507"
+  },
+  {
+    "hts_code": "09060000",
+    "chapter": "09",
+    "heading": "0906",
+    "subheading": "090600",
+    "description": "Cinnamon",
+    "display_name": "Cinnamon",
+    "value": 158245665,
+    "value_formatted": "$158,245,665"
+  },
+  {
+    "hts_code": "09050000",
+    "chapter": "09",
+    "heading": "0905",
+    "subheading": "090500",
+    "description": "Vanilla",
+    "display_name": "Vanilla",
+    "value": 134817412,
+    "value_formatted": "$134,817,412"
+  },
+  {
+    "hts_code": "09100000",
+    "chapter": "09",
+    "heading": "0910",
+    "subheading": "091000",
+    "description": "Turmeric",
+    "display_name": "Turmeric",
+    "value": 112321222,
+    "value_formatted": "$112,321,222"
+  },
+  {
+    "hts_code": "09080000",
+    "chapter": "09",
+    "heading": "0908",
+    "subheading": "090800",
+    "description": "Nutmeg and mace",
+    "display_name": "Nutmeg",
+    "value": 49753975,
+    "value_formatted": "$49,753,975"
+  },
+  {
+    "hts_code": "09100000",
+    "chapter": "09",
+    "heading": "0910",
+    "subheading": "091000",
+    "description": "Thyme and bay leaves",
+    "display_name": "Thyme and bay leaves",
+    "value": 41127244,
+    "value_formatted": "$41,127,244"
+  },
+  {
+    "hts_code": "09070000",
+    "chapter": "09",
+    "heading": "0907",
+    "subheading": "090700",
+    "description": "Cloves",
+    "display_name": "Cloves",
+    "value": 29041764,
+    "value_formatted": "$29,041,764"
+  },
+  {
+    "hts_code": "09100000",
+    "chapter": "09",
+    "heading": "0910",
+    "subheading": "091000",
+    "description": "Saffron",
+    "display_name": "Saffron",
+    "value": 18210320,
+    "value_formatted": "$18,210,320"
+  },
+  {
+    "hts_code": "09100000",
+    "chapter": "09",
+    "heading": "0910",
+    "subheading": "091000",
+    "description": "Curry",
+    "display_name": "Curry",
+    "value": 7803507,
+    "value_formatted": "$7,803,507"
+  },
+  {
+    "hts_code": "09030000",
+    "chapter": "09",
+    "heading": "0903",
+    "subheading": "090300",
+    "description": "Mate",
+    "display_name": "Mate",
+    "value": 6772508,
+    "value_formatted": "$6,772,508"
+  },
+  {
+    "hts_code": "10060000",
+    "chapter": "10",
+    "heading": "1006",
+    "subheading": "100600",
+    "description": "Rice",
+    "display_name": "Rice",
+    "value": 1611099580,
+    "value_formatted": "$1,611,099,580"
+  },
+  {
+    "hts_code": "10010000",
+    "chapter": "10",
+    "heading": "1001",
+    "subheading": "100100",
+    "description": "Wheat",
+    "display_name": "Wheat",
+    "value": 778441154,
+    "value_formatted": "$778,441,154"
+  },
+  {
+    "hts_code": "10040000",
+    "chapter": "10",
+    "heading": "1004",
+    "subheading": "100400",
+    "description": "Oats",
+    "display_name": "Oats",
+    "value": 347597838,
+    "value_formatted": "$347,597,838"
+  },
+  {
+    "hts_code": "10050000",
+    "chapter": "10",
+    "heading": "1005",
+    "subheading": "100500",
+    "description": "Corn (maize)",
+    "display_name": "Corn (maize)",
+    "value": 281899653,
+    "value_formatted": "$281,899,653"
+  },
+  {
+    "hts_code": "10020000",
+    "chapter": "10",
+    "heading": "1002",
+    "subheading": "100200",
+    "description": "Rye",
+    "display_name": "Rye",
+    "value": 92337104,
+    "value_formatted": "$92,337,104"
+  },
+  {
+    "hts_code": "10030000",
+    "chapter": "10",
+    "heading": "1003",
+    "subheading": "100300",
+    "description": "Barley",
+    "display_name": "Barley",
+    "value": 62915377,
+    "value_formatted": "$62,915,377"
+  },
+  {
+    "hts_code": "10070000",
+    "chapter": "10",
+    "heading": "1007",
+    "subheading": "100700",
+    "description": "Grain sorghum",
+    "display_name": "Grain sorghum",
+    "value": 2170771,
+    "value_formatted": "$2,170,771"
+  },
+  {
+    "hts_code": "11080000",
+    "chapter": "11",
+    "heading": "1108",
+    "subheading": "110800",
+    "description": "Starches",
+    "display_name": "Starches",
+    "value": 508435684,
+    "value_formatted": "$508,435,684"
+  },
+  {
+    "hts_code": "11010000",
+    "chapter": "11",
+    "heading": "1101",
+    "subheading": "110100",
+    "description": "Wheat flour",
+    "display_name": "Wheat flour",
+    "value": 326127179,
+    "value_formatted": "$326,127,179"
+  },
+  {
+    "hts_code": "11070000",
+    "chapter": "11",
+    "heading": "1107",
+    "subheading": "110700",
+    "description": "Malt",
+    "display_name": "Malt",
+    "value": 307769997,
+    "value_formatted": "$307,769,997"
+  },
+  {
+    "hts_code": "11030000",
+    "chapter": "11",
+    "heading": "1103",
+    "subheading": "110300",
+    "description": "Cereal groats and meal",
+    "display_name": "Cereal groats and meal",
+    "value": 198688453,
+    "value_formatted": "$198,688,453"
+  },
+  {
+    "hts_code": "12010000",
+    "chapter": "12",
+    "heading": "1201",
+    "subheading": "120100",
+    "description": "Soybeans",
+    "display_name": "Soybeans",
+    "value": 404484721,
+    "value_formatted": "$404,484,721"
+  },
+  {
+    "hts_code": "12120000",
+    "chapter": "12",
+    "heading": "1212",
+    "subheading": "121200",
+    "description": "Seaweed and algae",
+    "display_name": "Seaweed and algae",
+    "value": 221030242,
+    "value_formatted": "$221,030,242"
+  },
+  {
+    "hts_code": "12050000",
+    "chapter": "12",
+    "heading": "1205",
+    "subheading": "120500",
+    "description": "Rapeseed/canola",
+    "display_name": "Rapeseed/canola",
+    "value": 198083538,
+    "value_formatted": "$198,083,538"
+  },
+  {
+    "hts_code": "12060000",
+    "chapter": "12",
+    "heading": "1206",
+    "subheading": "120600",
+    "description": "Sunflower seeds",
+    "display_name": "Sunflower seeds",
+    "value": 120667234,
+    "value_formatted": "$120,667,234"
+  },
+  {
+    "hts_code": "12040000",
+    "chapter": "12",
+    "heading": "1204",
+    "subheading": "120400",
+    "description": "Flaxseed (linseed)",
+    "display_name": "Flaxseed (linseed)",
+    "value": 103443778,
+    "value_formatted": "$103,443,778"
+  },
+  {
+    "hts_code": "12070000",
+    "chapter": "12",
+    "heading": "1207",
+    "subheading": "120700",
+    "description": "Sesame seeds",
+    "display_name": "Sesame seeds",
+    "value": 88970226,
+    "value_formatted": "$88,970,226"
+  },
+  {
+    "hts_code": "12100000",
+    "chapter": "12",
+    "heading": "1210",
+    "subheading": "121000",
+    "description": "Hops",
+    "display_name": "Hops",
+    "value": 52315689,
+    "value_formatted": "$52,315,689"
+  },
+  {
+    "hts_code": "12020000",
+    "chapter": "12",
+    "heading": "1202",
+    "subheading": "120200",
+    "description": "Peanuts (groundnuts)",
+    "display_name": "Peanuts (groundnuts)",
+    "value": 3790196,
+    "value_formatted": "$3,790,196"
+  },
+  {
+    "hts_code": "13010000",
+    "chapter": "13",
+    "heading": "1301",
+    "subheading": "130100",
+    "description": "Natural gums and resins",
+    "display_name": "Natural gums and resins",
+    "value": 135379229,
+    "value_formatted": "$135,379,229"
+  },
+  {
+    "hts_code": "15140000",
+    "chapter": "15",
+    "heading": "1514",
+    "subheading": "151400",
+    "description": "Rapeseed/canola oil",
+    "display_name": "Rapeseed/canola oil",
+    "value": 4273331124,
+    "value_formatted": "$4,273,331,124"
+  },
+  {
+    "hts_code": "15090000",
+    "chapter": "15",
+    "heading": "1509",
+    "subheading": "150900",
+    "description": "Olive oil",
+    "display_name": "Olive oil",
+    "value": 3332527652,
+    "value_formatted": "$3,332,527,652"
+  },
+  {
+    "hts_code": "15130000",
+    "chapter": "15",
+    "heading": "1513",
+    "subheading": "151300",
+    "description": "Coconut oil",
+    "display_name": "Coconut oil",
+    "value": 814455943,
+    "value_formatted": "$814,455,943"
+  },
+  {
+    "hts_code": "15120000",
+    "chapter": "15",
+    "heading": "1512",
+    "subheading": "151200",
+    "description": "Sunflower/safflower oil",
+    "display_name": "Sunflower/safflower oil",
+    "value": 327442019,
+    "value_formatted": "$327,442,019"
+  },
+  {
+    "hts_code": "15070000",
+    "chapter": "15",
+    "heading": "1507",
+    "subheading": "150700",
+    "description": "Soybean oil",
+    "display_name": "Soybean oil",
+    "value": 301591225,
+    "value_formatted": "$301,591,225"
+  },
+  {
+    "hts_code": "15150000",
+    "chapter": "15",
+    "heading": "1515",
+    "subheading": "151500",
+    "description": "Sesame oil",
+    "display_name": "Sesame oil",
+    "value": 138262263,
+    "value_formatted": "$138,262,263"
+  },
+  {
+    "hts_code": "15080000",
+    "chapter": "15",
+    "heading": "1508",
+    "subheading": "150800",
+    "description": "Peanut oil",
+    "display_name": "Peanut oil",
+    "value": 75834054,
+    "value_formatted": "$75,834,054"
+  },
+  {
+    "hts_code": "160400",
+    "chapter": "16",
+    "heading": "1604",
+    "subheading": "160400",
+    "description": "Canned fish",
+    "display_name": "Canned fish",
+    "value": 4102924324,
+    "value_formatted": "$4,102,924,324"
+  },
+  {
+    "hts_code": "16010000",
+    "chapter": "16",
+    "heading": "1601",
+    "subheading": "160100",
+    "description": "Sausages",
+    "display_name": "Sausages",
+    "value": 165637207,
+    "value_formatted": "$165,637,207"
+  },
+  {
+    "hts_code": "17040000",
+    "chapter": "17",
+    "heading": "1704",
+    "subheading": "170400",
+    "description": "Sugar confectionery",
+    "display_name": "Sugar confectionery",
+    "value": 3319247598,
+    "value_formatted": "$3,319,247,598"
+  },
+  {
+    "hts_code": "17010000",
+    "chapter": "17",
+    "heading": "1701",
+    "subheading": "170100",
+    "description": "Cane/beet sugar",
+    "display_name": "Cane/beet sugar",
+    "value": 2650762641,
+    "value_formatted": "$2,650,762,641"
+  },
+  {
+    "hts_code": "17020000",
+    "chapter": "17",
+    "heading": "1702",
+    "subheading": "170200",
+    "description": "Maple syrup",
+    "display_name": "Maple syrup",
+    "value": 337215106,
+    "value_formatted": "$337,215,106"
+  },
+  {
+    "hts_code": "18060000",
+    "chapter": "18",
+    "heading": "1806",
+    "subheading": "180600",
+    "description": "Chocolate and cocoa preparations",
+    "display_name": "Chocolate and cocoa preparations",
+    "value": 4918338855,
+    "value_formatted": "$4,918,338,855"
+  },
+  {
+    "hts_code": "180100",
+    "chapter": "18",
+    "heading": "1801",
+    "subheading": "180100",
+    "description": "Cocoa (beans, butter, powder)",
+    "display_name": "Cocoa",
+    "value": 2668489263,
+    "value_formatted": "$2,668,489,263"
+  },
+  {
+    "hts_code": "19050000",
+    "chapter": "19",
+    "heading": "1905",
+    "subheading": "190500",
+    "description": "Bread and bakery products",
+    "display_name": "Bread and bakery products",
+    "value": 11651073504,
+    "value_formatted": "$11,651,073,504"
+  },
+  {
+    "hts_code": "19020000",
+    "chapter": "19",
+    "heading": "1902",
+    "subheading": "190200",
+    "description": "Pasta",
+    "display_name": "Pasta",
+    "value": 1907915460,
+    "value_formatted": "$1,907,915,460"
+  },
+  {
+    "hts_code": "19010000",
+    "chapter": "19",
+    "heading": "1901",
+    "subheading": "190100",
+    "description": "Infant food preparations",
+    "display_name": "Infant food preparations",
+    "value": 297164785,
+    "value_formatted": "$297,164,785"
+  },
+  {
+    "hts_code": "20090000",
+    "chapter": "20",
+    "heading": "2009",
+    "subheading": "200900",
+    "description": "Fruit/vegetable juice",
+    "display_name": "Fruit/vegetable juice",
+    "value": 4287677036,
+    "value_formatted": "$4,287,677,036"
+  },
+  {
+    "hts_code": "20040000",
+    "chapter": "20",
+    "heading": "2004",
+    "subheading": "200400",
+    "description": "Frozen french fries",
+    "display_name": "Frozen french fries",
+    "value": 2331170852,
+    "value_formatted": "$2,331,170,852"
+  },
+  {
+    "hts_code": "20010000",
+    "chapter": "20",
+    "heading": "2001",
+    "subheading": "200100",
+    "description": "Pickles/preserved vegetables",
+    "display_name": "Pickles/preserved vegetables",
+    "value": 679575124,
+    "value_formatted": "$679,575,124"
+  },
+  {
+    "hts_code": "20050000",
+    "chapter": "20",
+    "heading": "2005",
+    "subheading": "200500",
+    "description": "Preserved olives",
+    "display_name": "Preserved olives",
+    "value": 663806849,
+    "value_formatted": "$663,806,849"
+  },
+  {
+    "hts_code": "20070000",
+    "chapter": "20",
+    "heading": "2007",
+    "subheading": "200700",
+    "description": "Jams and marmalades",
+    "display_name": "Jams and marmalades",
+    "value": 651984796,
+    "value_formatted": "$651,984,796"
+  },
+  {
+    "hts_code": "20050000",
+    "chapter": "20",
+    "heading": "2005",
+    "subheading": "200500",
+    "description": "Potato chips/preparations",
+    "display_name": "Potato chips/preparations",
+    "value": 432586442,
+    "value_formatted": "$432,586,442"
+  },
+  {
+    "hts_code": "20020000",
+    "chapter": "20",
+    "heading": "2002",
+    "subheading": "200200",
+    "description": "Tomato paste/sauce",
+    "display_name": "Tomato paste/sauce",
+    "value": 179340546,
+    "value_formatted": "$179,340,546"
+  },
+  {
+    "hts_code": "20080000",
+    "chapter": "20",
+    "heading": "2008",
+    "subheading": "200800",
+    "description": "Peanut butter",
+    "display_name": "Peanut butter",
+    "value": 160201143,
+    "value_formatted": "$160,201,143"
+  },
+  {
+    "hts_code": "20030000",
+    "chapter": "20",
+    "heading": "2003",
+    "subheading": "200300",
+    "description": "Canned mushrooms",
+    "display_name": "Canned mushrooms",
+    "value": 138823473,
+    "value_formatted": "$138,823,473"
+  },
+  {
+    "hts_code": "21040000",
+    "chapter": "21",
+    "heading": "2104",
+    "subheading": "210400",
+    "description": "Soups and broths",
+    "display_name": "Soups and broths",
+    "value": 683791802,
+    "value_formatted": "$683,791,802"
+  },
+  {
+    "hts_code": "21020000",
+    "chapter": "21",
+    "heading": "2102",
+    "subheading": "210200",
+    "description": "Yeast",
+    "display_name": "Yeast",
+    "value": 581168288,
+    "value_formatted": "$581,168,288"
+  },
+  {
+    "hts_code": "21030000",
+    "chapter": "21",
+    "heading": "2103",
+    "subheading": "210300",
+    "description": "Ketchup and tomato sauce",
+    "display_name": "Ketchup and tomato sauce",
+    "value": 543849852,
+    "value_formatted": "$543,849,852"
+  },
+  {
+    "hts_code": "21050000",
+    "chapter": "21",
+    "heading": "2105",
+    "subheading": "210500",
+    "description": "Ice cream",
+    "display_name": "Ice cream",
+    "value": 303905574,
+    "value_formatted": "$303,905,574"
+  },
+  {
+    "hts_code": "21030000",
+    "chapter": "21",
+    "heading": "2103",
+    "subheading": "210300",
+    "description": "Soy sauce",
+    "display_name": "Soy sauce",
+    "value": 142035642,
+    "value_formatted": "$142,035,642"
+  },
+  {
+    "hts_code": "21030000",
+    "chapter": "21",
+    "heading": "2103",
+    "subheading": "210300",
+    "description": "Mustard",
+    "display_name": "Mustard",
+    "value": 47986271,
+    "value_formatted": "$47,986,271"
+  },
+  {
+    "hts_code": "22030000",
+    "chapter": "22",
+    "heading": "2203",
+    "subheading": "220300",
+    "description": "Beer",
+    "display_name": "Beer",
+    "value": 7740253196,
+    "value_formatted": "$7,740,253,196"
+  },
+  {
+    "hts_code": "22040000",
+    "chapter": "22",
+    "heading": "2204",
+    "subheading": "220400",
+    "description": "Wine",
+    "display_name": "Wine",
+    "value": 7098235845,
+    "value_formatted": "$7,098,235,845"
+  },
+  {
+    "hts_code": "22080000",
+    "chapter": "22",
+    "heading": "2208",
+    "subheading": "220800",
+    "description": "Tequila",
+    "display_name": "Tequila",
+    "value": 5300227534,
+    "value_formatted": "$5,300,227,534"
+  },
+  {
+    "hts_code": "22080000",
+    "chapter": "22",
+    "heading": "2208",
+    "subheading": "220800",
+    "description": "Whiskey",
+    "display_name": "Whiskey",
+    "value": 1881303805,
+    "value_formatted": "$1,881,303,805"
+  },
+  {
+    "hts_code": "22080000",
+    "chapter": "22",
+    "heading": "2208",
+    "subheading": "220800",
+    "description": "Liqueurs",
+    "display_name": "Liqueurs",
+    "value": 1434497902,
+    "value_formatted": "$1,434,497,902"
+  },
+  {
+    "hts_code": "22080000",
+    "chapter": "22",
+    "heading": "2208",
+    "subheading": "220800",
+    "description": "Brandy",
+    "display_name": "Brandy",
+    "value": 1336239561,
+    "value_formatted": "$1,336,239,561"
+  },
+  {
+    "hts_code": "22080000",
+    "chapter": "22",
+    "heading": "2208",
+    "subheading": "220800",
+    "description": "Vodka",
+    "display_name": "Vodka",
+    "value": 1238435137,
+    "value_formatted": "$1,238,435,137"
+  },
+  {
+    "hts_code": "22010000",
+    "chapter": "22",
+    "heading": "2201",
+    "subheading": "220100",
+    "description": "Mineral/sparkling water",
+    "display_name": "Mineral/sparkling water",
+    "value": 1173117953,
+    "value_formatted": "$1,173,117,953"
+  },
+  {
+    "hts_code": "22080000",
+    "chapter": "22",
+    "heading": "2208",
+    "subheading": "220800",
+    "description": "Gin",
+    "display_name": "Gin",
+    "value": 405151780,
+    "value_formatted": "$405,151,780"
+  },
+  {
+    "hts_code": "22090000",
+    "chapter": "22",
+    "heading": "2209",
+    "subheading": "220900",
+    "description": "Vinegar",
+    "display_name": "Vinegar",
+    "value": 193781124,
+    "value_formatted": "$193,781,124"
+  },
+  {
+    "hts_code": "22050000",
+    "chapter": "22",
+    "heading": "2205",
+    "subheading": "220500",
+    "description": "Vermouth",
+    "display_name": "Vermouth",
+    "value": 180272650,
+    "value_formatted": "$180,272,650"
+  },
+  {
+    "hts_code": "22080000",
+    "chapter": "22",
+    "heading": "2208",
+    "subheading": "220800",
+    "description": "Rum",
+    "display_name": "Rum",
+    "value": 177819229,
+    "value_formatted": "$177,819,229"
+  },
+  {
+    "hts_code": "23090000",
+    "chapter": "23",
+    "heading": "2309",
+    "subheading": "230900",
+    "description": "Dog/cat food",
+    "display_name": "Dog/cat food",
+    "value": 4429991458,
+    "value_formatted": "$4,429,991,458"
+  },
+  {
+    "hts_code": "23090000",
+    "chapter": "23",
+    "heading": "2309",
+    "subheading": "230900",
+    "description": "Animal feed",
+    "display_name": "Animal feed",
+    "value": 3225973375,
+    "value_formatted": "$3,225,973,375"
+  },
+  {
+    "hts_code": "23040000",
+    "chapter": "23",
+    "heading": "2304",
+    "subheading": "230400",
+    "description": "Soybean meal/oilcake",
+    "display_name": "Soybean meal/oilcake",
+    "value": 393731255,
+    "value_formatted": "$393,731,255"
+  },
+  {
+    "hts_code": "24020000",
+    "chapter": "24",
+    "heading": "2402",
+    "subheading": "240200",
+    "description": "Cigars",
+    "display_name": "Cigars",
+    "value": 1756663905,
+    "value_formatted": "$1,756,663,905"
+  },
+  {
+    "hts_code": "24010000",
+    "chapter": "24",
+    "heading": "2401",
+    "subheading": "240100",
+    "description": "Unmanufactured tobacco",
+    "display_name": "Unmanufactured tobacco",
+    "value": 805775026,
+    "value_formatted": "$805,775,026"
+  },
+  {
+    "hts_code": "24020000",
+    "chapter": "24",
+    "heading": "2402",
+    "subheading": "240200",
+    "description": "Cigarettes",
+    "display_name": "Cigarettes",
+    "value": 261132709,
+    "value_formatted": "$261,132,709"
+  },
+  {
+    "hts_code": "24030000",
+    "chapter": "24",
+    "heading": "2403",
+    "subheading": "240300",
+    "description": "Smoking tobacco",
+    "display_name": "Smoking tobacco",
+    "value": 218727276,
+    "value_formatted": "$218,727,276"
+  },
+  {
+    "hts_code": "27090000",
+    "chapter": "27",
+    "heading": "2709",
+    "subheading": "270900",
+    "description": "Crude petroleum",
+    "display_name": "Crude petroleum",
+    "value": 174652432320,
+    "value_formatted": "$174,652,432,320"
+  },
+  {
+    "hts_code": "27100000",
+    "chapter": "27",
+    "heading": "2710",
+    "subheading": "271000",
+    "description": "Gasoline",
+    "display_name": "Gasoline",
+    "value": 46647111953,
+    "value_formatted": "$46,647,111,953"
+  },
+  {
+    "hts_code": "27100000",
+    "chapter": "27",
+    "heading": "2710",
+    "subheading": "271000",
+    "description": "Diesel/fuel oil",
+    "display_name": "Diesel/fuel oil",
+    "value": 22950117401,
+    "value_formatted": "$22,950,117,401"
+  },
+  {
+    "hts_code": "27110000",
+    "chapter": "27",
+    "heading": "2711",
+    "subheading": "271100",
+    "description": "Natural gas",
+    "display_name": "Natural gas",
+    "value": 9749141775,
+    "value_formatted": "$9,749,141,775"
+  },
+  {
+    "hts_code": "27100000",
+    "chapter": "27",
+    "heading": "2710",
+    "subheading": "271000",
+    "description": "Jet fuel/kerosene",
+    "display_name": "Jet fuel/kerosene",
+    "value": 6707270492,
+    "value_formatted": "$6,707,270,492"
+  },
+  {
+    "hts_code": "27100000",
+    "chapter": "27",
+    "heading": "2710",
+    "subheading": "271000",
+    "description": "Lubricating oil",
+    "display_name": "Lubricating oil",
+    "value": 3108089601,
+    "value_formatted": "$3,108,089,601"
+  },
+  {
+    "hts_code": "27130000",
+    "chapter": "27",
+    "heading": "2713",
+    "subheading": "271300",
+    "description": "Petroleum coke",
+    "display_name": "Petroleum coke",
+    "value": 2732839602,
+    "value_formatted": "$2,732,839,602"
+  },
+  {
+    "hts_code": "27010000",
+    "chapter": "27",
+    "heading": "2701",
+    "subheading": "270100",
+    "description": "Coal",
+    "display_name": "Coal",
+    "value": 367068877,
+    "value_formatted": "$367,068,877"
+  },
+  {
+    "hts_code": "39200000",
+    "chapter": "39",
+    "heading": "3920",
+    "subheading": "392000",
+    "description": "Plastic plates/sheets/film",
+    "display_name": "Plastic plates/sheets/film",
+    "value": 9917989916,
+    "value_formatted": "$9,917,989,916"
+  },
+  {
+    "hts_code": "39240000",
+    "chapter": "39",
+    "heading": "3924",
+    "subheading": "392400",
+    "description": "Plastic tableware/kitchenware",
+    "display_name": "Plastic tableware/kitchenware",
+    "value": 8652698775,
+    "value_formatted": "$8,652,698,775"
+  },
+  {
+    "hts_code": "39230000",
+    "chapter": "39",
+    "heading": "3923",
+    "subheading": "392300",
+    "description": "Plastic bags and sacks",
+    "display_name": "Plastic bags and sacks",
+    "value": 7521053502,
+    "value_formatted": "$7,521,053,502"
+  },
+  {
+    "hts_code": "39250000",
+    "chapter": "39",
+    "heading": "3925",
+    "subheading": "392500",
+    "description": "Plastic building materials",
+    "display_name": "Plastic building materials",
+    "value": 2951306488,
+    "value_formatted": "$2,951,306,488"
+  },
+  {
+    "hts_code": "39230000",
+    "chapter": "39",
+    "heading": "3923",
+    "subheading": "392300",
+    "description": "Plastic bottles",
+    "display_name": "Plastic bottles",
+    "value": 2577773482,
+    "value_formatted": "$2,577,773,482"
+  },
+  {
+    "hts_code": "40110000",
+    "chapter": "40",
+    "heading": "4011",
+    "subheading": "401100",
+    "description": "Rubber tires (new)",
+    "display_name": "Rubber tires (new)",
+    "value": 19971367566,
+    "value_formatted": "$19,971,367,566"
+  },
+  {
+    "hts_code": "40150000",
+    "chapter": "40",
+    "heading": "4015",
+    "subheading": "401500",
+    "description": "Rubber gloves",
+    "display_name": "Rubber gloves",
+    "value": 2770810098,
+    "value_formatted": "$2,770,810,098"
+  },
+  {
+    "hts_code": "40010000",
+    "chapter": "40",
+    "heading": "4001",
+    "subheading": "400100",
+    "description": "Natural rubber",
+    "display_name": "Natural rubber",
+    "value": 1822145797,
+    "value_formatted": "$1,822,145,797"
+  },
+  {
+    "hts_code": "40100000",
+    "chapter": "40",
+    "heading": "4010",
+    "subheading": "401000",
+    "description": "Rubber conveyor belts",
+    "display_name": "Rubber conveyor belts",
+    "value": 839686751,
+    "value_formatted": "$839,686,751"
+  },
+  {
+    "hts_code": "40120000",
+    "chapter": "40",
+    "heading": "4012",
+    "subheading": "401200",
+    "description": "Rubber tires (retreaded)",
+    "display_name": "Rubber tires (retreaded)",
+    "value": 492704682,
+    "value_formatted": "$492,704,682"
+  },
+  {
+    "hts_code": "40130000",
+    "chapter": "40",
+    "heading": "4013",
+    "subheading": "401300",
+    "description": "Rubber inner tubes",
+    "display_name": "Rubber inner tubes",
+    "value": 79664252,
+    "value_formatted": "$79,664,252"
+  },
+  {
+    "hts_code": "44070000",
+    "chapter": "44",
+    "heading": "4407",
+    "subheading": "440700",
+    "description": "Lumber (sawn)",
+    "display_name": "Lumber (sawn)",
+    "value": 7842629325,
+    "value_formatted": "$7,842,629,325"
+  },
+  {
+    "hts_code": "44120000",
+    "chapter": "44",
+    "heading": "4412",
+    "subheading": "441200",
+    "description": "Plywood",
+    "display_name": "Plywood",
+    "value": 3161843329,
+    "value_formatted": "$3,161,843,329"
+  },
+  {
+    "hts_code": "44090000",
+    "chapter": "44",
+    "heading": "4409",
+    "subheading": "440900",
+    "description": "Wood flooring",
+    "display_name": "Wood flooring",
+    "value": 1919722691,
+    "value_formatted": "$1,919,722,691"
+  },
+  {
+    "hts_code": "44210000",
+    "chapter": "44",
+    "heading": "4421",
+    "subheading": "442100",
+    "description": "Wooden furniture parts",
+    "display_name": "Wooden furniture parts",
+    "value": 1854536081,
+    "value_formatted": "$1,854,536,081"
+  },
+  {
+    "hts_code": "44180000",
+    "chapter": "44",
+    "heading": "4418",
+    "subheading": "441800",
+    "description": "Wooden doors and windows",
+    "display_name": "Wooden doors and windows",
+    "value": 1162208919,
+    "value_formatted": "$1,162,208,919"
+  },
+  {
+    "hts_code": "44160000",
+    "chapter": "44",
+    "heading": "4416",
+    "subheading": "441600",
+    "description": "Wooden barrels/casks",
+    "display_name": "Wooden barrels/casks",
+    "value": 296185320,
+    "value_formatted": "$296,185,320"
+  },
+  {
+    "hts_code": "44150000",
+    "chapter": "44",
+    "heading": "4415",
+    "subheading": "441500",
+    "description": "Wooden pallets",
+    "display_name": "Wooden pallets",
+    "value": 243608313,
+    "value_formatted": "$243,608,313"
+  },
+  {
+    "hts_code": "44030000",
+    "chapter": "44",
+    "heading": "4403",
+    "subheading": "440300",
+    "description": "Lumber (rough)",
+    "display_name": "Lumber (rough)",
+    "value": 180578668,
+    "value_formatted": "$180,578,668"
+  },
+  {
+    "hts_code": "44020000",
+    "chapter": "44",
+    "heading": "4402",
+    "subheading": "440200",
+    "description": "Wood charcoal",
+    "display_name": "Wood charcoal",
+    "value": 116276800,
+    "value_formatted": "$116,276,800"
+  },
+  {
+    "hts_code": "44010000",
+    "chapter": "44",
+    "heading": "4401",
+    "subheading": "440100",
+    "description": "Firewood",
+    "display_name": "Firewood",
+    "value": 28370196,
+    "value_formatted": "$28,370,196"
+  },
+  {
+    "hts_code": "45010000",
+    "chapter": "45",
+    "heading": "4501",
+    "subheading": "450100",
+    "description": "Cork and cork articles",
+    "display_name": "Cork and cork articles",
+    "value": 294705140,
+    "value_formatted": "$294,705,140"
+  },
+  {
+    "hts_code": "46020000",
+    "chapter": "46",
+    "heading": "4602",
+    "subheading": "460200",
+    "description": "Baskets and wickerwork",
+    "display_name": "Baskets and wickerwork",
+    "value": 649426029,
+    "value_formatted": "$649,426,029"
+  },
+  {
+    "hts_code": "49010000",
+    "chapter": "49",
+    "heading": "4901",
+    "subheading": "490100",
+    "description": "Books",
+    "display_name": "Books",
+    "value": 2272189322,
+    "value_formatted": "$2,272,189,322"
+  },
+  {
+    "hts_code": "49090000",
+    "chapter": "49",
+    "heading": "4909",
+    "subheading": "490900",
+    "description": "Greeting cards",
+    "display_name": "Greeting cards",
+    "value": 405201502,
+    "value_formatted": "$405,201,502"
+  },
+  {
+    "hts_code": "49020000",
+    "chapter": "49",
+    "heading": "4902",
+    "subheading": "490200",
+    "description": "Newspapers and periodicals",
+    "display_name": "Newspapers and periodicals",
+    "value": 146339197,
+    "value_formatted": "$146,339,197"
+  },
+  {
+    "hts_code": "49100000",
+    "chapter": "49",
+    "heading": "4910",
+    "subheading": "491000",
+    "description": "Calendars",
+    "display_name": "Calendars",
+    "value": 129064444,
+    "value_formatted": "$129,064,444"
+  },
+  {
+    "hts_code": "50020000",
+    "chapter": "50",
+    "heading": "5002",
+    "subheading": "500200",
+    "description": "Raw silk",
+    "display_name": "Raw silk",
+    "value": 5789931,
+    "value_formatted": "$5,789,931"
+  },
+  {
+    "hts_code": "51010000",
+    "chapter": "51",
+    "heading": "5101",
+    "subheading": "510100",
+    "description": "Wool (raw/greasy)",
+    "display_name": "Wool",
+    "value": 11150666,
+    "value_formatted": "$11,150,666"
+  },
+  {
+    "hts_code": "52080000",
+    "chapter": "52",
+    "heading": "5208",
+    "subheading": "520800",
+    "description": "Woven cotton fabric",
+    "display_name": "Woven cotton fabric",
+    "value": 638031500,
+    "value_formatted": "$638,031,500"
+  },
+  {
+    "hts_code": "52050000",
+    "chapter": "52",
+    "heading": "5205",
+    "subheading": "520500",
+    "description": "Cotton yarn",
+    "display_name": "Cotton yarn",
+    "value": 90661891,
+    "value_formatted": "$90,661,891"
+  },
+  {
+    "hts_code": "52010000",
+    "chapter": "52",
+    "heading": "5201",
+    "subheading": "520100",
+    "description": "Cotton (raw)",
+    "display_name": "Raw cotton",
+    "value": 2292188,
+    "value_formatted": "$2,292,188"
+  },
+  {
+    "hts_code": "54020000",
+    "chapter": "54",
+    "heading": "5402",
+    "subheading": "540200",
+    "description": "Synthetic yarn",
+    "display_name": "Synthetic yarn",
+    "value": 865535333,
+    "value_formatted": "$865,535,333"
+  },
+  {
+    "hts_code": "54070000",
+    "chapter": "54",
+    "heading": "5407",
+    "subheading": "540700",
+    "description": "Woven synthetic fabric",
+    "display_name": "Woven synthetic fabric",
+    "value": 770093080,
+    "value_formatted": "$770,093,080"
+  },
+  {
+    "hts_code": "55030000",
+    "chapter": "55",
+    "heading": "5503",
+    "subheading": "550300",
+    "description": "Synthetic staple fibers",
+    "display_name": "Synthetic staple fibers",
+    "value": 1081301104,
+    "value_formatted": "$1,081,301,104"
+  },
+  {
+    "hts_code": "56030000",
+    "chapter": "56",
+    "heading": "5603",
+    "subheading": "560300",
+    "description": "Nonwoven fabrics",
+    "display_name": "Nonwoven fabrics",
+    "value": 2065615843,
+    "value_formatted": "$2,065,615,843"
+  },
+  {
+    "hts_code": "56070000",
+    "chapter": "56",
+    "heading": "5607",
+    "subheading": "560700",
+    "description": "Twine and rope",
+    "display_name": "Twine and rope",
+    "value": 319976004,
+    "value_formatted": "$319,976,004"
+  },
+  {
+    "hts_code": "56080000",
+    "chapter": "56",
+    "heading": "5608",
+    "subheading": "560800",
+    "description": "Fishing nets",
+    "display_name": "Fishing nets",
+    "value": 55647633,
+    "value_formatted": "$55,647,633"
+  },
+  {
+    "hts_code": "57010000",
+    "chapter": "57",
+    "heading": "5701",
+    "subheading": "570100",
+    "description": "Carpet and rugs",
+    "display_name": "Carpet and rugs",
+    "value": 3628035834,
+    "value_formatted": "$3,628,035,834"
+  },
+  {
+    "hts_code": "61100000",
+    "chapter": "61",
+    "heading": "6110",
+    "subheading": "611000",
+    "description": "Sweaters/pullovers",
+    "display_name": "Sweaters/pullovers",
+    "value": 13414404004,
+    "value_formatted": "$13,414,404,004"
+  },
+  {
+    "hts_code": "61090000",
+    "chapter": "61",
+    "heading": "6109",
+    "subheading": "610900",
+    "description": "T-shirts and tank tops",
+    "display_name": "T-shirts and tank tops",
+    "value": 6901570241,
+    "value_formatted": "$6,901,570,241"
+  },
+  {
+    "hts_code": "61150000",
+    "chapter": "61",
+    "heading": "6115",
+    "subheading": "611500",
+    "description": "Socks and hosiery",
+    "display_name": "Socks and hosiery",
+    "value": 2539969984,
+    "value_formatted": "$2,539,969,984"
+  },
+  {
+    "hts_code": "61110000",
+    "chapter": "61",
+    "heading": "6111",
+    "subheading": "611100",
+    "description": "Baby clothes",
+    "display_name": "Baby clothes",
+    "value": 2044824920,
+    "value_formatted": "$2,044,824,920"
+  },
+  {
+    "hts_code": "61160000",
+    "chapter": "61",
+    "heading": "6116",
+    "subheading": "611600",
+    "description": "Gloves (textile)",
+    "display_name": "Gloves (textile)",
+    "value": 1416457549,
+    "value_formatted": "$1,416,457,549"
+  },
+  {
+    "hts_code": "61150000",
+    "chapter": "61",
+    "heading": "6115",
+    "subheading": "611500",
+    "description": "Panty hose/tights",
+    "display_name": "Panty hose/tights",
+    "value": 389937400,
+    "value_formatted": "$389,937,400"
+  },
+  {
+    "hts_code": "61120000",
+    "chapter": "61",
+    "heading": "6112",
+    "subheading": "611200",
+    "description": "Track suits",
+    "display_name": "Track suits",
+    "value": 28354980,
+    "value_formatted": "$28,354,980"
+  },
+  {
+    "hts_code": "61120000",
+    "chapter": "61",
+    "heading": "6112",
+    "subheading": "611200",
+    "description": "Ski suits",
+    "display_name": "Ski suits",
+    "value": 1098927,
+    "value_formatted": "$1,098,927"
+  },
+  {
+    "hts_code": "620000",
+    "chapter": "62",
+    "heading": "6200",
+    "subheading": "620000",
+    "description": "Pants/trousers",
+    "display_name": "Pants/trousers",
+    "value": 32925334037,
+    "value_formatted": "$32,925,334,037"
+  },
+  {
+    "hts_code": "620000",
+    "chapter": "62",
+    "heading": "6200",
+    "subheading": "620000",
+    "description": "Shirts",
+    "display_name": "Shirts",
+    "value": 8878215573,
+    "value_formatted": "$8,878,215,573"
+  },
+  {
+    "hts_code": "620000",
+    "chapter": "62",
+    "heading": "6200",
+    "subheading": "620000",
+    "description": "Underwear",
+    "display_name": "Underwear",
+    "value": 5783755842,
+    "value_formatted": "$5,783,755,842"
+  },
+  {
+    "hts_code": "620000",
+    "chapter": "62",
+    "heading": "6200",
+    "subheading": "620000",
+    "description": "Coats",
+    "display_name": "Coats",
+    "value": 5724106776,
+    "value_formatted": "$5,724,106,776"
+  },
+  {
+    "hts_code": "620000",
+    "chapter": "62",
+    "heading": "6200",
+    "subheading": "620000",
+    "description": "Dresses",
+    "display_name": "Dresses",
+    "value": 4622848542,
+    "value_formatted": "$4,622,848,542"
+  },
+  {
+    "hts_code": "620000",
+    "chapter": "62",
+    "heading": "6200",
+    "subheading": "620000",
+    "description": "Swimwear",
+    "display_name": "Swimwear",
+    "value": 2398723305,
+    "value_formatted": "$2,398,723,305"
+  },
+  {
+    "hts_code": "620000",
+    "chapter": "62",
+    "heading": "6200",
+    "subheading": "620000",
+    "description": "Suits",
+    "display_name": "Suits",
+    "value": 1864529265,
+    "value_formatted": "$1,864,529,265"
+  },
+  {
+    "hts_code": "620000",
+    "chapter": "62",
+    "heading": "6200",
+    "subheading": "620000",
+    "description": "Jackets/blazers",
+    "display_name": "Jackets/blazers",
+    "value": 1655328460,
+    "value_formatted": "$1,655,328,460"
+  },
+  {
+    "hts_code": "620000",
+    "chapter": "62",
+    "heading": "6200",
+    "subheading": "620000",
+    "description": "Skirts",
+    "display_name": "Skirts",
+    "value": 1088775246,
+    "value_formatted": "$1,088,775,246"
+  },
+  {
+    "hts_code": "62110000",
+    "chapter": "62",
+    "heading": "6211",
+    "subheading": "621100",
+    "description": "Bathrobes",
+    "display_name": "Bathrobes",
+    "value": 723788902,
+    "value_formatted": "$723,788,902"
+  },
+  {
+    "hts_code": "62140000",
+    "chapter": "62",
+    "heading": "6214",
+    "subheading": "621400",
+    "description": "Scarves and shawls",
+    "display_name": "Scarves and shawls",
+    "value": 646872834,
+    "value_formatted": "$646,872,834"
+  },
+  {
+    "hts_code": "62150000",
+    "chapter": "62",
+    "heading": "6215",
+    "subheading": "621500",
+    "description": "Ties and bow ties",
+    "display_name": "Ties and bow ties",
+    "value": 94688376,
+    "value_formatted": "$94,688,376"
+  },
+  {
+    "hts_code": "62130000",
+    "chapter": "62",
+    "heading": "6213",
+    "subheading": "621300",
+    "description": "Handkerchiefs",
+    "display_name": "Handkerchiefs",
+    "value": 26113353,
+    "value_formatted": "$26,113,353"
+  },
+  {
+    "hts_code": "63020000",
+    "chapter": "63",
+    "heading": "6302",
+    "subheading": "630200",
+    "description": "Towels",
+    "display_name": "Towels",
+    "value": 4738612090,
+    "value_formatted": "$4,738,612,090"
+  },
+  {
+    "hts_code": "63070000",
+    "chapter": "63",
+    "heading": "6307",
+    "subheading": "630700",
+    "description": "Flags and banners",
+    "display_name": "Flags and banners",
+    "value": 3531395469,
+    "value_formatted": "$3,531,395,469"
+  },
+  {
+    "hts_code": "63020000",
+    "chapter": "63",
+    "heading": "6302",
+    "subheading": "630200",
+    "description": "Bed linen (sheets, etc.)",
+    "display_name": "Bed linen (sheets, etc.)",
+    "value": 3328826089,
+    "value_formatted": "$3,328,826,089"
+  },
+  {
+    "hts_code": "63010000",
+    "chapter": "63",
+    "heading": "6301",
+    "subheading": "630100",
+    "description": "Blankets and throws",
+    "display_name": "Blankets and throws",
+    "value": 1864951019,
+    "value_formatted": "$1,864,951,019"
+  },
+  {
+    "hts_code": "63030000",
+    "chapter": "63",
+    "heading": "6303",
+    "subheading": "630300",
+    "description": "Curtains and drapes",
+    "display_name": "Curtains and drapes",
+    "value": 1289045217,
+    "value_formatted": "$1,289,045,217"
+  },
+  {
+    "hts_code": "63060000",
+    "chapter": "63",
+    "heading": "6306",
+    "subheading": "630600",
+    "description": "Tents",
+    "display_name": "Tents",
+    "value": 503277521,
+    "value_formatted": "$503,277,521"
+  },
+  {
+    "hts_code": "63020000",
+    "chapter": "63",
+    "heading": "6302",
+    "subheading": "630200",
+    "description": "Table linen",
+    "display_name": "Table linen",
+    "value": 437671940,
+    "value_formatted": "$437,671,940"
+  },
+  {
+    "hts_code": "63090000",
+    "chapter": "63",
+    "heading": "6309",
+    "subheading": "630900",
+    "description": "Used clothing",
+    "display_name": "Used clothing",
+    "value": 31008007,
+    "value_formatted": "$31,008,007"
+  },
+  {
+    "hts_code": "64030000",
+    "chapter": "64",
+    "heading": "6403",
+    "subheading": "640300",
+    "description": "Leather footwear",
+    "display_name": "Leather footwear",
+    "value": 11839482829,
+    "value_formatted": "$11,839,482,829"
+  },
+  {
+    "hts_code": "64040000",
+    "chapter": "64",
+    "heading": "6404",
+    "subheading": "640400",
+    "description": "Textile upper footwear",
+    "display_name": "Textile upper footwear",
+    "value": 8131122729,
+    "value_formatted": "$8,131,122,729"
+  },
+  {
+    "hts_code": "64020000",
+    "chapter": "64",
+    "heading": "6402",
+    "subheading": "640200",
+    "description": "Rubber/plastic sole footwear",
+    "display_name": "Rubber/plastic sole footwear",
+    "value": 6665169597,
+    "value_formatted": "$6,665,169,597"
+  },
+  {
+    "hts_code": "64060000",
+    "chapter": "64",
+    "heading": "6406",
+    "subheading": "640600",
+    "description": "Footwear parts",
+    "display_name": "Footwear parts",
+    "value": 322171475,
+    "value_formatted": "$322,171,475"
+  },
+  {
+    "hts_code": "64010000",
+    "chapter": "64",
+    "heading": "6401",
+    "subheading": "640100",
+    "description": "Waterproof footwear",
+    "display_name": "Waterproof footwear",
+    "value": 161888947,
+    "value_formatted": "$161,888,947"
+  },
+  {
+    "hts_code": "65050000",
+    "chapter": "65",
+    "heading": "6505",
+    "subheading": "650500",
+    "description": "Hats and headgear",
+    "display_name": "Hats and headgear",
+    "value": 2990811307,
+    "value_formatted": "$2,990,811,307"
+  },
+  {
+    "hts_code": "66010000",
+    "chapter": "66",
+    "heading": "6601",
+    "subheading": "660100",
+    "description": "Umbrellas",
+    "display_name": "Umbrellas",
+    "value": 549562779,
+    "value_formatted": "$549,562,779"
+  },
+  {
+    "hts_code": "66020000",
+    "chapter": "66",
+    "heading": "6602",
+    "subheading": "660200",
+    "description": "Walking sticks",
+    "display_name": "Walking sticks",
+    "value": 45404690,
+    "value_formatted": "$45,404,690"
+  },
+  {
+    "hts_code": "71080000",
+    "chapter": "71",
+    "heading": "7108",
+    "subheading": "710800",
+    "description": "Gold (unwrought)",
+    "display_name": "Gold (unwrought)",
+    "value": 15949416852,
+    "value_formatted": "$15,949,416,852"
+  },
+  {
+    "hts_code": "71020000",
+    "chapter": "71",
+    "heading": "7102",
+    "subheading": "710200",
+    "description": "Diamonds (unset)",
+    "display_name": "Diamonds (unset)",
+    "value": 15362686240,
+    "value_formatted": "$15,362,686,240"
+  },
+  {
+    "hts_code": "71130000",
+    "chapter": "71",
+    "heading": "7113",
+    "subheading": "711300",
+    "description": "Jewelry (gold)",
+    "display_name": "Jewelry (gold)",
+    "value": 12808529563,
+    "value_formatted": "$12,808,529,563"
+  },
+  {
+    "hts_code": "71130000",
+    "chapter": "71",
+    "heading": "7113",
+    "subheading": "711300",
+    "description": "Jewelry (silver)",
+    "display_name": "Jewelry (silver)",
+    "value": 11241706909,
+    "value_formatted": "$11,241,706,909"
+  },
+  {
+    "hts_code": "71100000",
+    "chapter": "71",
+    "heading": "7110",
+    "subheading": "711000",
+    "description": "Platinum",
+    "display_name": "Platinum",
+    "value": 6976037622,
+    "value_formatted": "$6,976,037,622"
+  },
+  {
+    "hts_code": "71060000",
+    "chapter": "71",
+    "heading": "7106",
+    "subheading": "710600",
+    "description": "Silver (unwrought)",
+    "display_name": "Silver (unwrought)",
+    "value": 5090231588,
+    "value_formatted": "$5,090,231,588"
+  },
+  {
+    "hts_code": "71180000",
+    "chapter": "71",
+    "heading": "7118",
+    "subheading": "711800",
+    "description": "Coins",
+    "display_name": "Coins",
+    "value": 2854637568,
+    "value_formatted": "$2,854,637,568"
+  },
+  {
+    "hts_code": "71030000",
+    "chapter": "71",
+    "heading": "7103",
+    "subheading": "710300",
+    "description": "Precious stones (rubies, sapphires, etc.)",
+    "display_name": "Precious stones (rubies, sapphires, etc.)",
+    "value": 2470493950,
+    "value_formatted": "$2,470,493,950"
+  },
+  {
+    "hts_code": "71170000",
+    "chapter": "71",
+    "heading": "7117",
+    "subheading": "711700",
+    "description": "Imitation jewelry",
+    "display_name": "Imitation jewelry",
+    "value": 982172198,
+    "value_formatted": "$982,172,198"
+  },
+  {
+    "hts_code": "71010000",
+    "chapter": "71",
+    "heading": "7101",
+    "subheading": "710100",
+    "description": "Natural pearls",
+    "display_name": "Natural pearls",
+    "value": 81019891,
+    "value_formatted": "$81,019,891"
+  },
+  {
+    "hts_code": "720000",
+    "chapter": "72",
+    "heading": "7200",
+    "subheading": "720000",
+    "description": "Steel products",
+    "display_name": "Steel products",
+    "value": 32346308590,
+    "value_formatted": "$32,346,308,590"
+  },
+  {
+    "hts_code": "74030000",
+    "chapter": "74",
+    "heading": "7403",
+    "subheading": "740300",
+    "description": "Copper (refined)",
+    "display_name": "Copper (refined)",
+    "value": 8671811976,
+    "value_formatted": "$8,671,811,976"
+  },
+  {
+    "hts_code": "74080000",
+    "chapter": "74",
+    "heading": "7408",
+    "subheading": "740800",
+    "description": "Copper wire",
+    "display_name": "Copper wire",
+    "value": 2563694574,
+    "value_formatted": "$2,563,694,574"
+  },
+  {
+    "hts_code": "74110000",
+    "chapter": "74",
+    "heading": "7411",
+    "subheading": "741100",
+    "description": "Copper pipe/tube",
+    "display_name": "Copper pipe/tube",
+    "value": 1231937765,
+    "value_formatted": "$1,231,937,765"
+  },
+  {
+    "hts_code": "75020000",
+    "chapter": "75",
+    "heading": "7502",
+    "subheading": "750200",
+    "description": "Nickel (unwrought)",
+    "display_name": "Nickel (unwrought)",
+    "value": 1560289470,
+    "value_formatted": "$1,560,289,470"
+  },
+  {
+    "hts_code": "76010000",
+    "chapter": "76",
+    "heading": "7601",
+    "subheading": "760100",
+    "description": "Aluminum (unwrought)",
+    "display_name": "Aluminum (unwrought)",
+    "value": 11118698922,
+    "value_formatted": "$11,118,698,922"
+  },
+  {
+    "hts_code": "760000",
+    "chapter": "76",
+    "heading": "7600",
+    "subheading": "760000",
+    "description": "Aluminum products",
+    "display_name": "Aluminum products",
+    "value": 9478799997,
+    "value_formatted": "$9,478,799,997"
+  },
+  {
+    "hts_code": "78010000",
+    "chapter": "78",
+    "heading": "7801",
+    "subheading": "780100",
+    "description": "Lead (unwrought)",
+    "display_name": "Lead (unwrought)",
+    "value": 931797764,
+    "value_formatted": "$931,797,764"
+  },
+  {
+    "hts_code": "79010000",
+    "chapter": "79",
+    "heading": "7901",
+    "subheading": "790100",
+    "description": "Zinc (unwrought)",
+    "display_name": "Zinc (unwrought)",
+    "value": 1770670779,
+    "value_formatted": "$1,770,670,779"
+  },
+  {
+    "hts_code": "80010000",
+    "chapter": "80",
+    "heading": "8001",
+    "subheading": "800100",
+    "description": "Tin (unwrought)",
+    "display_name": "Tin (unwrought)",
+    "value": 796727592,
+    "value_formatted": "$796,727,592"
+  },
+  {
+    "hts_code": "81080000",
+    "chapter": "81",
+    "heading": "8108",
+    "subheading": "810800",
+    "description": "Titanium",
+    "display_name": "Titanium",
+    "value": 1165170107,
+    "value_formatted": "$1,165,170,107"
+  },
+  {
+    "hts_code": "82070000",
+    "chapter": "82",
+    "heading": "8207",
+    "subheading": "820700",
+    "description": "Drill bits",
+    "display_name": "Drill bits",
+    "value": 999782708,
+    "value_formatted": "$999,782,708"
+  },
+  {
+    "hts_code": "82020000",
+    "chapter": "82",
+    "heading": "8202",
+    "subheading": "820200",
+    "description": "Saws (hand)",
+    "display_name": "Saws (hand)",
+    "value": 883921174,
+    "value_formatted": "$883,921,174"
+  },
+  {
+    "hts_code": "82040000",
+    "chapter": "82",
+    "heading": "8204",
+    "subheading": "820400",
+    "description": "Wrenches and spanners",
+    "display_name": "Wrenches and spanners",
+    "value": 870459747,
+    "value_formatted": "$870,459,747"
+  },
+  {
+    "hts_code": "82110000",
+    "chapter": "82",
+    "heading": "8211",
+    "subheading": "821100",
+    "description": "Knives",
+    "display_name": "Knives",
+    "value": 810553719,
+    "value_formatted": "$810,553,719"
+  },
+  {
+    "hts_code": "82120000",
+    "chapter": "82",
+    "heading": "8212",
+    "subheading": "821200",
+    "description": "Razors and razor blades",
+    "display_name": "Razors and razor blades",
+    "value": 690423144,
+    "value_formatted": "$690,423,144"
+  },
+  {
+    "hts_code": "82150000",
+    "chapter": "82",
+    "heading": "8215",
+    "subheading": "821500",
+    "description": "Spoons (table)",
+    "display_name": "Spoons (table)",
+    "value": 394630583,
+    "value_formatted": "$394,630,583"
+  },
+  {
+    "hts_code": "82150000",
+    "chapter": "82",
+    "heading": "8215",
+    "subheading": "821500",
+    "description": "Forks (table)",
+    "display_name": "Forks (table)",
+    "value": 370992181,
+    "value_formatted": "$370,992,181"
+  },
+  {
+    "hts_code": "82010000",
+    "chapter": "82",
+    "heading": "8201",
+    "subheading": "820100",
+    "description": "Shovels and spades",
+    "display_name": "Shovels and spades",
+    "value": 205067168,
+    "value_formatted": "$205,067,168"
+  },
+  {
+    "hts_code": "82050000",
+    "chapter": "82",
+    "heading": "8205",
+    "subheading": "820500",
+    "description": "Screwdrivers",
+    "display_name": "Screwdrivers",
+    "value": 193261960,
+    "value_formatted": "$193,261,960"
+  },
+  {
+    "hts_code": "82130000",
+    "chapter": "82",
+    "heading": "8213",
+    "subheading": "821300",
+    "description": "Scissors",
+    "display_name": "Scissors",
+    "value": 164491090,
+    "value_formatted": "$164,491,090"
+  },
+  {
+    "hts_code": "82050000",
+    "chapter": "82",
+    "heading": "8205",
+    "subheading": "820500",
+    "description": "Hammers",
+    "display_name": "Hammers",
+    "value": 116468853,
+    "value_formatted": "$116,468,853"
+  },
+  {
+    "hts_code": "82030000",
+    "chapter": "82",
+    "heading": "8203",
+    "subheading": "820300",
+    "description": "Files and rasps",
+    "display_name": "Files and rasps",
+    "value": 75649666,
+    "value_formatted": "$75,649,666"
+  },
+  {
+    "hts_code": "83010000",
+    "chapter": "83",
+    "heading": "8301",
+    "subheading": "830100",
+    "description": "Padlocks and locks",
+    "display_name": "Padlocks and locks",
+    "value": 2955017946,
+    "value_formatted": "$2,955,017,946"
+  },
+  {
+    "hts_code": "83060000",
+    "chapter": "83",
+    "heading": "8306",
+    "subheading": "830600",
+    "description": "Picture frames (metal)",
+    "display_name": "Picture frames (metal)",
+    "value": 82045014,
+    "value_formatted": "$82,045,014"
+  },
+  {
+    "hts_code": "83060000",
+    "chapter": "83",
+    "heading": "8306",
+    "subheading": "830600",
+    "description": "Bells",
+    "display_name": "Bells",
+    "value": 79546873,
+    "value_formatted": "$79,546,873"
+  },
+  {
+    "hts_code": "84710000",
+    "chapter": "84",
+    "heading": "8471",
+    "subheading": "847100",
+    "description": "Computers/ADP machines",
+    "display_name": "Computers/ADP machines",
+    "value": 141429223419,
+    "value_formatted": "$141,429,223,419"
+  },
+  {
+    "hts_code": "84730000",
+    "chapter": "84",
+    "heading": "8473",
+    "subheading": "847300",
+    "description": "Computer parts",
+    "display_name": "Computer parts",
+    "value": 54793223741,
+    "value_formatted": "$54,793,223,741"
+  },
+  {
+    "hts_code": "84110000",
+    "chapter": "84",
+    "heading": "8411",
+    "subheading": "841100",
+    "description": "Gas turbines",
+    "display_name": "Gas turbines",
+    "value": 30934728284,
+    "value_formatted": "$30,934,728,284"
+  },
+  {
+    "hts_code": "84110000",
+    "chapter": "84",
+    "heading": "8411",
+    "subheading": "841100",
+    "description": "Jet/turbo engines",
+    "display_name": "Jet/turbo engines",
+    "value": 30934728284,
+    "value_formatted": "$30,934,728,284"
+  },
+  {
+    "hts_code": "84140000",
+    "chapter": "84",
+    "heading": "8414",
+    "subheading": "841400",
+    "description": "Air/vacuum pumps",
+    "display_name": "Air/vacuum pumps",
+    "value": 16238874391,
+    "value_formatted": "$16,238,874,391"
+  },
+  {
+    "hts_code": "84150000",
+    "chapter": "84",
+    "heading": "8415",
+    "subheading": "841500",
+    "description": "Air conditioning machines",
+    "display_name": "Air conditioning machines",
+    "value": 15381146846,
+    "value_formatted": "$15,381,146,846"
+  },
+  {
+    "hts_code": "84430000",
+    "chapter": "84",
+    "heading": "8443",
+    "subheading": "844300",
+    "description": "Printing machinery",
+    "display_name": "Printing machinery",
+    "value": 14666418198,
+    "value_formatted": "$14,666,418,198"
+  },
+  {
+    "hts_code": "84180000",
+    "chapter": "84",
+    "heading": "8418",
+    "subheading": "841800",
+    "description": "Refrigerators",
+    "display_name": "Refrigerators",
+    "value": 14142684397,
+    "value_formatted": "$14,142,684,397"
+  },
+  {
+    "hts_code": "84130000",
+    "chapter": "84",
+    "heading": "8413",
+    "subheading": "841300",
+    "description": "Pumps (liquid)",
+    "display_name": "Pumps (liquid)",
+    "value": 13427911626,
+    "value_formatted": "$13,427,911,626"
+  },
+  {
+    "hts_code": "84070000",
+    "chapter": "84",
+    "heading": "8407",
+    "subheading": "840700",
+    "description": "Piston engines (gasoline)",
+    "display_name": "Piston engines (gasoline)",
+    "value": 11921655019,
+    "value_formatted": "$11,921,655,019"
+  },
+  {
+    "hts_code": "84290000",
+    "chapter": "84",
+    "heading": "8429",
+    "subheading": "842900",
+    "description": "Bulldozers",
+    "display_name": "Bulldozers",
+    "value": 10990276816,
+    "value_formatted": "$10,990,276,816"
+  },
+  {
+    "hts_code": "84270000",
+    "chapter": "84",
+    "heading": "8427",
+    "subheading": "842700",
+    "description": "Forklifts",
+    "display_name": "Forklifts",
+    "value": 8067923729,
+    "value_formatted": "$8,067,923,729"
+  },
+  {
+    "hts_code": "84320000",
+    "chapter": "84",
+    "heading": "8432",
+    "subheading": "843200",
+    "description": "Agricultural machinery",
+    "display_name": "Agricultural machinery",
+    "value": 6744082375,
+    "value_formatted": "$6,744,082,375"
+  },
+  {
+    "hts_code": "84080000",
+    "chapter": "84",
+    "heading": "8408",
+    "subheading": "840800",
+    "description": "Piston engines (diesel)",
+    "display_name": "Piston engines (diesel)",
+    "value": 6253504530,
+    "value_formatted": "$6,253,504,530"
+  },
+  {
+    "hts_code": "84500000",
+    "chapter": "84",
+    "heading": "8450",
+    "subheading": "845000",
+    "description": "Washing machines",
+    "display_name": "Washing machines",
+    "value": 2424609818,
+    "value_formatted": "$2,424,609,818"
+  },
+  {
+    "hts_code": "84330000",
+    "chapter": "84",
+    "heading": "8433",
+    "subheading": "843300",
+    "description": "Lawnmowers",
+    "display_name": "Lawnmowers",
+    "value": 2049029499,
+    "value_formatted": "$2,049,029,499"
+  },
+  {
+    "hts_code": "84260000",
+    "chapter": "84",
+    "heading": "8426",
+    "subheading": "842600",
+    "description": "Cranes",
+    "display_name": "Cranes",
+    "value": 2019739580,
+    "value_formatted": "$2,019,739,580"
+  },
+  {
+    "hts_code": "84300000",
+    "chapter": "84",
+    "heading": "8430",
+    "subheading": "843000",
+    "description": "Excavators",
+    "display_name": "Excavators",
+    "value": 1374593068,
+    "value_formatted": "$1,374,593,068"
+  },
+  {
+    "hts_code": "84220000",
+    "chapter": "84",
+    "heading": "8422",
+    "subheading": "842200",
+    "description": "Dishwashing machines",
+    "display_name": "Dishwashing machines",
+    "value": 994265974,
+    "value_formatted": "$994,265,974"
+  },
+  {
+    "hts_code": "84020000",
+    "chapter": "84",
+    "heading": "8402",
+    "subheading": "840200",
+    "description": "Boilers",
+    "display_name": "Boilers",
+    "value": 741737222,
+    "value_formatted": "$741,737,222"
+  },
+  {
+    "hts_code": "84520000",
+    "chapter": "84",
+    "heading": "8452",
+    "subheading": "845200",
+    "description": "Sewing machines",
+    "display_name": "Sewing machines",
+    "value": 417176385,
+    "value_formatted": "$417,176,385"
+  },
+  {
+    "hts_code": "84340000",
+    "chapter": "84",
+    "heading": "8434",
+    "subheading": "843400",
+    "description": "Milking machines",
+    "display_name": "Milking machines",
+    "value": 141282033,
+    "value_formatted": "$141,282,033"
+  },
+  {
+    "hts_code": "85170000",
+    "chapter": "85",
+    "heading": "8517",
+    "subheading": "851700",
+    "description": "Telephones/smartphones",
+    "display_name": "Telephones/smartphones",
+    "value": 114982500605,
+    "value_formatted": "$114,982,500,605"
+  },
+  {
+    "hts_code": "85410000",
+    "chapter": "85",
+    "heading": "8541",
+    "subheading": "854100",
+    "description": "Semiconductors/chips",
+    "display_name": "Semiconductors/chips",
+    "value": 63651436290,
+    "value_formatted": "$63,651,436,290"
+  },
+  {
+    "hts_code": "85070000",
+    "chapter": "85",
+    "heading": "8507",
+    "subheading": "850700",
+    "description": "Batteries (rechargeable)",
+    "display_name": "Batteries (rechargeable)",
+    "value": 32395414343,
+    "value_formatted": "$32,395,414,343"
+  },
+  {
+    "hts_code": "85440000",
+    "chapter": "85",
+    "heading": "8544",
+    "subheading": "854400",
+    "description": "Insulated wire/cable",
+    "display_name": "Insulated wire/cable",
+    "value": 31911728947,
+    "value_formatted": "$31,911,728,947"
+  },
+  {
+    "hts_code": "85280000",
+    "chapter": "85",
+    "heading": "8528",
+    "subheading": "852800",
+    "description": "Television sets",
+    "display_name": "Television sets",
+    "value": 21145186844,
+    "value_formatted": "$21,145,186,844"
+  },
+  {
+    "hts_code": "85410000",
+    "chapter": "85",
+    "heading": "8541",
+    "subheading": "854100",
+    "description": "Solar cells/panels",
+    "display_name": "Solar cells/panels",
+    "value": 17077299033,
+    "value_formatted": "$17,077,299,033"
+  },
+  {
+    "hts_code": "85250000",
+    "chapter": "85",
+    "heading": "8525",
+    "subheading": "852500",
+    "description": "Video cameras",
+    "display_name": "Video cameras",
+    "value": 15916363860,
+    "value_formatted": "$15,916,363,860"
+  },
+  {
+    "hts_code": "85010000",
+    "chapter": "85",
+    "heading": "8501",
+    "subheading": "850100",
+    "description": "Electric motors",
+    "display_name": "Electric motors",
+    "value": 13533462336,
+    "value_formatted": "$13,533,462,336"
+  },
+  {
+    "hts_code": "85180000",
+    "chapter": "85",
+    "heading": "8518",
+    "subheading": "851800",
+    "description": "Loudspeakers/headphones",
+    "display_name": "Loudspeakers/headphones",
+    "value": 13512020508,
+    "value_formatted": "$13,512,020,508"
+  },
+  {
+    "hts_code": "85180000",
+    "chapter": "85",
+    "heading": "8518",
+    "subheading": "851800",
+    "description": "Microphones",
+    "display_name": "Microphones",
+    "value": 8252650456,
+    "value_formatted": "$8,252,650,456"
+  },
+  {
+    "hts_code": "85260000",
+    "chapter": "85",
+    "heading": "8526",
+    "subheading": "852600",
+    "description": "Radar equipment",
+    "display_name": "Radar equipment",
+    "value": 4416403688,
+    "value_formatted": "$4,416,403,688"
+  },
+  {
+    "hts_code": "85390000",
+    "chapter": "85",
+    "heading": "8539",
+    "subheading": "853900",
+    "description": "LED lamps",
+    "display_name": "LED lamps",
+    "value": 4146715958,
+    "value_formatted": "$4,146,715,958"
+  },
+  {
+    "hts_code": "85160000",
+    "chapter": "85",
+    "heading": "8516",
+    "subheading": "851600",
+    "description": "Microwave ovens",
+    "display_name": "Microwave ovens",
+    "value": 3860274147,
+    "value_formatted": "$3,860,274,147"
+  },
+  {
+    "hts_code": "85080000",
+    "chapter": "85",
+    "heading": "8508",
+    "subheading": "850800",
+    "description": "Vacuum cleaners",
+    "display_name": "Vacuum cleaners",
+    "value": 3186425358,
+    "value_formatted": "$3,186,425,358"
+  },
+  {
+    "hts_code": "85020000",
+    "chapter": "85",
+    "heading": "8502",
+    "subheading": "850200",
+    "description": "Electric generators",
+    "display_name": "Electric generators",
+    "value": 1772810546,
+    "value_formatted": "$1,772,810,546"
+  },
+  {
+    "hts_code": "85060000",
+    "chapter": "85",
+    "heading": "8506",
+    "subheading": "850600",
+    "description": "Batteries (primary)",
+    "display_name": "Batteries (primary)",
+    "value": 1231352687,
+    "value_formatted": "$1,231,352,687"
+  },
+  {
+    "hts_code": "85100000",
+    "chapter": "85",
+    "heading": "8510",
+    "subheading": "851000",
+    "description": "Electric shavers/hair clippers",
+    "display_name": "Electric shavers/hair clippers",
+    "value": 686954122,
+    "value_formatted": "$686,954,122"
+  },
+  {
+    "hts_code": "85160000",
+    "chapter": "85",
+    "heading": "8516",
+    "subheading": "851600",
+    "description": "Electric toasters/grills",
+    "display_name": "Electric toasters/grills",
+    "value": 437548552,
+    "value_formatted": "$437,548,552"
+  },
+  {
+    "hts_code": "86010000",
+    "chapter": "86",
+    "heading": "8601",
+    "subheading": "860100",
+    "description": "Railway locomotives",
+    "display_name": "Railway locomotives",
+    "value": 1726171242,
+    "value_formatted": "$1,726,171,242"
+  },
+  {
+    "hts_code": "87030000",
+    "chapter": "87",
+    "heading": "8703",
+    "subheading": "870300",
+    "description": "Passenger cars",
+    "display_name": "Passenger cars",
+    "value": 219733637653,
+    "value_formatted": "$219,733,637,653"
+  },
+  {
+    "hts_code": "87080000",
+    "chapter": "87",
+    "heading": "8708",
+    "subheading": "870800",
+    "description": "Auto parts and accessories",
+    "display_name": "Auto parts and accessories",
+    "value": 89716687793,
+    "value_formatted": "$89,716,687,793"
+  },
+  {
+    "hts_code": "87040000",
+    "chapter": "87",
+    "heading": "8704",
+    "subheading": "870400",
+    "description": "Trucks (goods transport)",
+    "display_name": "Trucks (goods transport)",
+    "value": 47718767059,
+    "value_formatted": "$47,718,767,059"
+  },
+  {
+    "hts_code": "87010000",
+    "chapter": "87",
+    "heading": "8701",
+    "subheading": "870100",
+    "description": "Tractors",
+    "display_name": "Tractors",
+    "value": 15719443737,
+    "value_formatted": "$15,719,443,737"
+  },
+  {
+    "hts_code": "87160000",
+    "chapter": "87",
+    "heading": "8716",
+    "subheading": "871600",
+    "description": "Trailers",
+    "display_name": "Trailers",
+    "value": 5814896441,
+    "value_formatted": "$5,814,896,441"
+  },
+  {
+    "hts_code": "87110000",
+    "chapter": "87",
+    "heading": "8711",
+    "subheading": "871100",
+    "description": "Motorcycles",
+    "display_name": "Motorcycles",
+    "value": 4013107295,
+    "value_formatted": "$4,013,107,295"
+  },
+  {
+    "hts_code": "87050000",
+    "chapter": "87",
+    "heading": "8705",
+    "subheading": "870500",
+    "description": "Special purpose vehicles",
+    "display_name": "Special purpose vehicles",
+    "value": 1736326271,
+    "value_formatted": "$1,736,326,271"
+  },
+  {
+    "hts_code": "87140000",
+    "chapter": "87",
+    "heading": "8714",
+    "subheading": "871400",
+    "description": "Bicycle parts",
+    "display_name": "Bicycle parts",
+    "value": 1667774241,
+    "value_formatted": "$1,667,774,241"
+  },
+  {
+    "hts_code": "87020000",
+    "chapter": "87",
+    "heading": "8702",
+    "subheading": "870200",
+    "description": "Buses",
+    "display_name": "Buses",
+    "value": 1420143689,
+    "value_formatted": "$1,420,143,689"
+  },
+  {
+    "hts_code": "87120000",
+    "chapter": "87",
+    "heading": "8712",
+    "subheading": "871200",
+    "description": "Bicycles",
+    "display_name": "Bicycles",
+    "value": 1082635213,
+    "value_formatted": "$1,082,635,213"
+  },
+  {
+    "hts_code": "87150000",
+    "chapter": "87",
+    "heading": "8715",
+    "subheading": "871500",
+    "description": "Baby carriages/strollers",
+    "display_name": "Baby carriages/strollers",
+    "value": 415457218,
+    "value_formatted": "$415,457,218"
+  },
+  {
+    "hts_code": "88020000",
+    "chapter": "88",
+    "heading": "8802",
+    "subheading": "880200",
+    "description": "Airplanes",
+    "display_name": "Airplanes",
+    "value": 16932964695,
+    "value_formatted": "$16,932,964,695"
+  },
+  {
+    "hts_code": "88020000",
+    "chapter": "88",
+    "heading": "8802",
+    "subheading": "880200",
+    "description": "Helicopters",
+    "display_name": "Helicopters",
+    "value": 841358058,
+    "value_formatted": "$841,358,058"
+  },
+  {
+    "hts_code": "88060000",
+    "chapter": "88",
+    "heading": "8806",
+    "subheading": "880600",
+    "description": "Drones (unmanned aircraft)",
+    "display_name": "Drones (unmanned aircraft)",
+    "value": 479807621,
+    "value_formatted": "$479,807,621"
+  },
+  {
+    "hts_code": "88040000",
+    "chapter": "88",
+    "heading": "8804",
+    "subheading": "880400",
+    "description": "Parachutes",
+    "display_name": "Parachutes",
+    "value": 69850053,
+    "value_formatted": "$69,850,053"
+  },
+  {
+    "hts_code": "88020000",
+    "chapter": "88",
+    "heading": "8802",
+    "subheading": "880200",
+    "description": "Spacecraft",
+    "display_name": "Spacecraft",
+    "value": 1343887,
+    "value_formatted": "$1,343,887"
+  },
+  {
+    "hts_code": "89030000",
+    "chapter": "89",
+    "heading": "8903",
+    "subheading": "890300",
+    "description": "Yachts and sailboats",
+    "display_name": "Yachts and sailboats",
+    "value": 3469552605,
+    "value_formatted": "$3,469,552,605"
+  },
+  {
+    "hts_code": "89010000",
+    "chapter": "89",
+    "heading": "8901",
+    "subheading": "890100",
+    "description": "Cruise ships and ferries",
+    "display_name": "Cruise ships and ferries",
+    "value": 4950348,
+    "value_formatted": "$4,950,348"
+  },
+  {
+    "hts_code": "89010000",
+    "chapter": "89",
+    "heading": "8901",
+    "subheading": "890100",
+    "description": "Cargo ships/tankers",
+    "display_name": "Cargo ships/tankers",
+    "value": 2339405,
+    "value_formatted": "$2,339,405"
+  },
+  {
+    "hts_code": "89020000",
+    "chapter": "89",
+    "heading": "8902",
+    "subheading": "890200",
+    "description": "Fishing vessels",
+    "display_name": "Fishing vessels",
+    "value": 1393789,
+    "value_formatted": "$1,393,789"
+  },
+  {
+    "hts_code": "90180000",
+    "chapter": "90",
+    "heading": "9018",
+    "subheading": "901800",
+    "description": "Medical instruments",
+    "display_name": "Medical instruments",
+    "value": 41385379572,
+    "value_formatted": "$41,385,379,572"
+  },
+  {
+    "hts_code": "90220000",
+    "chapter": "90",
+    "heading": "9022",
+    "subheading": "902200",
+    "description": "X-ray equipment",
+    "display_name": "X-ray equipment",
+    "value": 4776997336,
+    "value_formatted": "$4,776,997,336"
+  },
+  {
+    "hts_code": "90010000",
+    "chapter": "90",
+    "heading": "9001",
+    "subheading": "900100",
+    "description": "Optical lenses",
+    "display_name": "Optical lenses",
+    "value": 4610474093,
+    "value_formatted": "$4,610,474,093"
+  },
+  {
+    "hts_code": "90030000",
+    "chapter": "90",
+    "heading": "9003",
+    "subheading": "900300",
+    "description": "Eyeglasses/spectacles",
+    "display_name": "Eyeglasses/spectacles",
+    "value": 3910476946,
+    "value_formatted": "$3,910,476,946"
+  },
+  {
+    "hts_code": "90290000",
+    "chapter": "90",
+    "heading": "9029",
+    "subheading": "902900",
+    "description": "Speedometers/tachometers",
+    "display_name": "Speedometers/tachometers",
+    "value": 1637308286,
+    "value_formatted": "$1,637,308,286"
+  },
+  {
+    "hts_code": "90250000",
+    "chapter": "90",
+    "heading": "9025",
+    "subheading": "902500",
+    "description": "Thermometers",
+    "display_name": "Thermometers",
+    "value": 1215895046,
+    "value_formatted": "$1,215,895,046"
+  },
+  {
+    "hts_code": "90110000",
+    "chapter": "90",
+    "heading": "9011",
+    "subheading": "901100",
+    "description": "Microscopes",
+    "display_name": "Microscopes",
+    "value": 1080943024,
+    "value_formatted": "$1,080,943,024"
+  },
+  {
+    "hts_code": "90060000",
+    "chapter": "90",
+    "heading": "9006",
+    "subheading": "900600",
+    "description": "Cameras (photographic)",
+    "display_name": "Cameras (photographic)",
+    "value": 481703973,
+    "value_formatted": "$481,703,973"
+  },
+  {
+    "hts_code": "90050000",
+    "chapter": "90",
+    "heading": "9005",
+    "subheading": "900500",
+    "description": "Binoculars/telescopes",
+    "display_name": "Binoculars/telescopes",
+    "value": 405578439,
+    "value_formatted": "$405,578,439"
+  },
+  {
+    "hts_code": "91010000",
+    "chapter": "91",
+    "heading": "9101",
+    "subheading": "910100",
+    "description": "Wrist watches",
+    "display_name": "Wrist watches",
+    "value": 7148424168,
+    "value_formatted": "$7,148,424,168"
+  },
+  {
+    "hts_code": "91080000",
+    "chapter": "91",
+    "heading": "9108",
+    "subheading": "910800",
+    "description": "Watch/clock parts",
+    "display_name": "Watch/clock parts",
+    "value": 332554519,
+    "value_formatted": "$332,554,519"
+  },
+  {
+    "hts_code": "91030000",
+    "chapter": "91",
+    "heading": "9103",
+    "subheading": "910300",
+    "description": "Clocks",
+    "display_name": "Clocks",
+    "value": 162278385,
+    "value_formatted": "$162,278,385"
+  },
+  {
+    "hts_code": "92070000",
+    "chapter": "92",
+    "heading": "9207",
+    "subheading": "920700",
+    "description": "Electronic musical instruments",
+    "display_name": "Electronic musical instruments",
+    "value": 595866287,
+    "value_formatted": "$595,866,287"
+  },
+  {
+    "hts_code": "92050000",
+    "chapter": "92",
+    "heading": "9205",
+    "subheading": "920500",
+    "description": "Wind instruments",
+    "display_name": "Wind instruments",
+    "value": 301418231,
+    "value_formatted": "$301,418,231"
+  },
+  {
+    "hts_code": "92020000",
+    "chapter": "92",
+    "heading": "9202",
+    "subheading": "920200",
+    "description": "Guitars",
+    "display_name": "Guitars",
+    "value": 168624399,
+    "value_formatted": "$168,624,399"
+  },
+  {
+    "hts_code": "92060000",
+    "chapter": "92",
+    "heading": "9206",
+    "subheading": "920600",
+    "description": "Drums/percussion",
+    "display_name": "Drums/percussion",
+    "value": 124758817,
+    "value_formatted": "$124,758,817"
+  },
+  {
+    "hts_code": "92010000",
+    "chapter": "92",
+    "heading": "9201",
+    "subheading": "920100",
+    "description": "Pianos",
+    "display_name": "Pianos",
+    "value": 112146234,
+    "value_formatted": "$112,146,234"
+  },
+  {
+    "hts_code": "93060000",
+    "chapter": "93",
+    "heading": "9306",
+    "subheading": "930600",
+    "description": "Ammunition",
+    "display_name": "Ammunition",
+    "value": 1637671441,
+    "value_formatted": "$1,637,671,441"
+  },
+  {
+    "hts_code": "93020000",
+    "chapter": "93",
+    "heading": "9302",
+    "subheading": "930200",
+    "description": "Pistols/revolvers",
+    "display_name": "Pistols/revolvers",
+    "value": 809785704,
+    "value_formatted": "$809,785,704"
+  },
+  {
+    "hts_code": "93030000",
+    "chapter": "93",
+    "heading": "9303",
+    "subheading": "930300",
+    "description": "Rifles",
+    "display_name": "Rifles",
+    "value": 688375708,
+    "value_formatted": "$688,375,708"
+  },
+  {
+    "hts_code": "93030000",
+    "chapter": "93",
+    "heading": "9303",
+    "subheading": "930300",
+    "description": "Shotguns",
+    "display_name": "Shotguns",
+    "value": 401663896,
+    "value_formatted": "$401,663,896"
+  },
+  {
+    "hts_code": "93070000",
+    "chapter": "93",
+    "heading": "9307",
+    "subheading": "930700",
+    "description": "Swords and bayonets",
+    "display_name": "Swords and bayonets",
+    "value": 23970631,
+    "value_formatted": "$23,970,631"
+  },
+  {
+    "hts_code": "94010000",
+    "chapter": "94",
+    "heading": "9401",
+    "subheading": "940100",
+    "description": "Seats/chairs (wood)",
+    "display_name": "Seats/chairs (wood)",
+    "value": 21791159762,
+    "value_formatted": "$21,791,159,762"
+  },
+  {
+    "hts_code": "94050000",
+    "chapter": "94",
+    "heading": "9405",
+    "subheading": "940500",
+    "description": "Lamps and lighting",
+    "display_name": "Lamps and lighting",
+    "value": 9699125023,
+    "value_formatted": "$9,699,125,023"
+  },
+  {
+    "hts_code": "94030000",
+    "chapter": "94",
+    "heading": "9403",
+    "subheading": "940300",
+    "description": "Office furniture",
+    "display_name": "Office furniture",
+    "value": 8831028356,
+    "value_formatted": "$8,831,028,356"
+  },
+  {
+    "hts_code": "94010000",
+    "chapter": "94",
+    "heading": "9401",
+    "subheading": "940100",
+    "description": "Seats/chairs (metal)",
+    "display_name": "Seats/chairs (metal)",
+    "value": 5302279662,
+    "value_formatted": "$5,302,279,662"
+  },
+  {
+    "hts_code": "94040000",
+    "chapter": "94",
+    "heading": "9404",
+    "subheading": "940400",
+    "description": "Mattresses",
+    "display_name": "Mattresses",
+    "value": 4459841277,
+    "value_formatted": "$4,459,841,277"
+  },
+  {
+    "hts_code": "94030000",
+    "chapter": "94",
+    "heading": "9403",
+    "subheading": "940300",
+    "description": "Bedroom furniture",
+    "display_name": "Bedroom furniture",
+    "value": 3973114456,
+    "value_formatted": "$3,973,114,456"
+  },
+  {
+    "hts_code": "94030000",
+    "chapter": "94",
+    "heading": "9403",
+    "subheading": "940300",
+    "description": "Kitchen furniture",
+    "display_name": "Kitchen furniture",
+    "value": 2839257518,
+    "value_formatted": "$2,839,257,518"
+  },
+  {
+    "hts_code": "94060000",
+    "chapter": "94",
+    "heading": "9406",
+    "subheading": "940600",
+    "description": "Prefabricated buildings",
+    "display_name": "Prefabricated buildings",
+    "value": 845515470,
+    "value_formatted": "$845,515,470"
+  },
+  {
+    "hts_code": "95030000",
+    "chapter": "95",
+    "heading": "9501",
+    "subheading": "950300",
+    "description": "Tricycles/scooters/pedal cars",
+    "display_name": "Tricycles/scooters/pedal cars",
+    "value": 18894421242,
+    "value_formatted": "$18,894,421,242"
+  },
+  {
+    "hts_code": "95030000",
+    "chapter": "95",
+    "heading": "9503",
+    "subheading": "950300",
+    "description": "Puzzles",
+    "display_name": "Puzzles",
+    "value": 18894421242,
+    "value_formatted": "$18,894,421,242"
+  },
+  {
+    "hts_code": "95040000",
+    "chapter": "95",
+    "heading": "9504",
+    "subheading": "950400",
+    "description": "Video game consoles",
+    "display_name": "Video game consoles",
+    "value": 6705992696,
+    "value_formatted": "$6,705,992,696"
+  },
+  {
+    "hts_code": "95050000",
+    "chapter": "95",
+    "heading": "9505",
+    "subheading": "950500",
+    "description": "Christmas ornaments",
+    "display_name": "Christmas ornaments",
+    "value": 5747992150,
+    "value_formatted": "$5,747,992,150"
+  },
+  {
+    "hts_code": "95040000",
+    "chapter": "95",
+    "heading": "9504",
+    "subheading": "950400",
+    "description": "Board/card games",
+    "display_name": "Board/card games",
+    "value": 3650152906,
+    "value_formatted": "$3,650,152,906"
+  },
+  {
+    "hts_code": "95060000",
+    "chapter": "95",
+    "heading": "9506",
+    "subheading": "950600",
+    "description": "Exercise equipment",
+    "display_name": "Exercise equipment",
+    "value": 2637968706,
+    "value_formatted": "$2,637,968,706"
+  },
+  {
+    "hts_code": "95060000",
+    "chapter": "95",
+    "heading": "9506",
+    "subheading": "950600",
+    "description": "Golf clubs",
+    "display_name": "Golf clubs",
+    "value": 1709856657,
+    "value_formatted": "$1,709,856,657"
+  },
+  {
+    "hts_code": "95060000",
+    "chapter": "95",
+    "heading": "9506",
+    "subheading": "950600",
+    "description": "Swimming pools",
+    "display_name": "Swimming pools",
+    "value": 1126644094,
+    "value_formatted": "$1,126,644,094"
+  },
+  {
+    "hts_code": "95070000",
+    "chapter": "95",
+    "heading": "9507",
+    "subheading": "950700",
+    "description": "Fishing rods and tackle",
+    "display_name": "Fishing rods and tackle",
+    "value": 905161817,
+    "value_formatted": "$905,161,817"
+  },
+  {
+    "hts_code": "95060000",
+    "chapter": "95",
+    "heading": "9506",
+    "subheading": "950600",
+    "description": "Skis and snowboards",
+    "display_name": "Skis and snowboards",
+    "value": 650612648,
+    "value_formatted": "$650,612,648"
+  },
+  {
+    "hts_code": "95070000",
+    "chapter": "95",
+    "heading": "9507",
+    "subheading": "950700",
+    "description": "Fishing reels",
+    "display_name": "Fishing reels",
+    "value": 295461983,
+    "value_formatted": "$295,461,983"
+  },
+  {
+    "hts_code": "95060000",
+    "chapter": "95",
+    "heading": "9506",
+    "subheading": "950600",
+    "description": "Tennis rackets",
+    "display_name": "Tennis rackets",
+    "value": 237551252,
+    "value_formatted": "$237,551,252"
+  },
+  {
+    "hts_code": "96030000",
+    "chapter": "96",
+    "heading": "9603",
+    "subheading": "960300",
+    "description": "Brooms and brushes",
+    "display_name": "Brooms and brushes",
+    "value": 2061673416,
+    "value_formatted": "$2,061,673,416"
+  },
+  {
+    "hts_code": "96080000",
+    "chapter": "96",
+    "heading": "9608",
+    "subheading": "960800",
+    "description": "Ballpoint pens",
+    "display_name": "Ballpoint pens",
+    "value": 521391320,
+    "value_formatted": "$521,391,320"
+  },
+  {
+    "hts_code": "96030000",
+    "chapter": "96",
+    "heading": "9603",
+    "subheading": "960300",
+    "description": "Toothbrushes",
+    "display_name": "Toothbrushes",
+    "value": 519841243,
+    "value_formatted": "$519,841,243"
+  },
+  {
+    "hts_code": "96150000",
+    "chapter": "96",
+    "heading": "9615",
+    "subheading": "961500",
+    "description": "Combs",
+    "display_name": "Combs",
+    "value": 439603574,
+    "value_formatted": "$439,603,574"
+  },
+  {
+    "hts_code": "96090000",
+    "chapter": "96",
+    "heading": "9609",
+    "subheading": "960900",
+    "description": "Pencils",
+    "display_name": "Pencils",
+    "value": 330641562,
+    "value_formatted": "$330,641,562"
+  },
+  {
+    "hts_code": "96130000",
+    "chapter": "96",
+    "heading": "9613",
+    "subheading": "961300",
+    "description": "Lighters",
+    "display_name": "Lighters",
+    "value": 243311468,
+    "value_formatted": "$243,311,468"
+  },
+  {
+    "hts_code": "96030000",
+    "chapter": "96",
+    "heading": "9603",
+    "subheading": "960300",
+    "description": "Paint brushes",
+    "display_name": "Paint brushes",
+    "value": 150335676,
+    "value_formatted": "$150,335,676"
+  },
+  {
+    "hts_code": "96070000",
+    "chapter": "96",
+    "heading": "9607",
+    "subheading": "960700",
+    "description": "Zippers",
+    "display_name": "Zippers",
+    "value": 31197678,
+    "value_formatted": "$31,197,678"
+  },
+  {
+    "hts_code": "96140000",
+    "chapter": "96",
+    "heading": "9614",
+    "subheading": "961400",
+    "description": "Smoking pipes",
+    "display_name": "Smoking pipes",
+    "value": 28179160,
+    "value_formatted": "$28,179,160"
+  },
+  {
+    "hts_code": "96060000",
+    "chapter": "96",
+    "heading": "9606",
+    "subheading": "960600",
+    "description": "Buttons",
+    "display_name": "Buttons",
+    "value": 27459608,
+    "value_formatted": "$27,459,608"
+  },
+  {
+    "hts_code": "97010000",
+    "chapter": "97",
+    "heading": "9701",
+    "subheading": "970100",
+    "description": "Paintings and drawings",
+    "display_name": "Paintings and drawings",
+    "value": 6069222146,
+    "value_formatted": "$6,069,222,146"
+  },
+  {
+    "hts_code": "97030000",
+    "chapter": "97",
+    "heading": "9703",
+    "subheading": "970300",
+    "description": "Original sculptures",
+    "display_name": "Original sculptures",
+    "value": 1400847265,
+    "value_formatted": "$1,400,847,265"
+  },
+  {
+    "hts_code": "97060000",
+    "chapter": "97",
+    "heading": "9706",
+    "subheading": "970600",
+    "description": "Antiques (over 100 years)",
+    "display_name": "Antiques (over 100 years)",
+    "value": 813888265,
+    "value_formatted": "$813,888,265"
+  },
+  {
+    "hts_code": "97040000",
+    "chapter": "97",
+    "heading": "9704",
+    "subheading": "970400",
+    "description": "Stamps (collectible)",
+    "display_name": "Stamps (collectible)",
+    "value": 19831639,
+    "value_formatted": "$19,831,639"
+  }
+]

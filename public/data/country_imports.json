@@ -1,0 +1,1184 @@
+[
+  {
+    "name":            "Mexico",
+    "display_name":    "Mexico",
+    "value":           505523170000,
+    "value_formatted": "$506B"
+  },
+  {
+    "name":            "China",
+    "display_name":    "China",
+    "value":           438742000000,
+    "value_formatted": "$439B"
+  },
+  {
+    "name":            "Canada",
+    "display_name":    "Canada",
+    "value":           411886680000,
+    "value_formatted": "$412B"
+  },
+  {
+    "name":            "Germany",
+    "display_name":    "Germany",
+    "value":           160380000000,
+    "value_formatted": "$160B"
+  },
+  {
+    "name":            "Japan",
+    "display_name":    "Japan",
+    "value":           148370520000,
+    "value_formatted": "$148B"
+  },
+  {
+    "name":            "Vietnam",
+    "display_name":    "Vietnam",
+    "value":           136501150000,
+    "value_formatted": "$137B"
+  },
+  {
+    "name":            "Korea, South",
+    "display_name":    "South Korea",
+    "value":           131553160000,
+    "value_formatted": "$132B"
+  },
+  {
+    "name":            "Taiwan",
+    "display_name":    "Taiwan",
+    "value":           116255000000,
+    "value_formatted": "$116B"
+  },
+  {
+    "name":            "Ireland",
+    "display_name":    "Ireland",
+    "value":           103281110000,
+    "value_formatted": "$103B"
+  },
+  {
+    "name":            "India",
+    "display_name":    "India",
+    "value":           87338080000,
+    "value_formatted": "$87B"
+  },
+  {
+    "name":            "Italy",
+    "display_name":    "Italy",
+    "value":           76344270000,
+    "value_formatted": "$76B"
+  },
+  {
+    "name":            "United Kingdom",
+    "display_name":    "UK",
+    "value":           68167510000,
+    "value_formatted": "$68B"
+  },
+  {
+    "name":            "Thailand",
+    "display_name":    "Thailand",
+    "value":           63349650000,
+    "value_formatted": "$63B"
+  },
+  {
+    "name":            "Switzerland",
+    "display_name":    "Switzerland",
+    "value":           63325520000,
+    "value_formatted": "$63B"
+  },
+  {
+    "name":            "France",
+    "display_name":    "France",
+    "value":           59783330000,
+    "value_formatted": "$60B"
+  },
+  {
+    "name":            "Malaysia",
+    "display_name":    "Malaysia",
+    "value":           52488420000,
+    "value_formatted": "$52B"
+  },
+  {
+    "name":            "Singapore",
+    "display_name":    "Singapore",
+    "value":           43184340000,
+    "value_formatted": "$43B"
+  },
+  {
+    "name":            "Brazil",
+    "display_name":    "Brazil",
+    "value":           42348410000,
+    "value_formatted": "$42B"
+  },
+  {
+    "name":            "Netherlands",
+    "display_name":    "Netherlands",
+    "value":           34055220000,
+    "value_formatted": "$34B"
+  },
+  {
+    "name":            "Indonesia",
+    "display_name":    "Indonesia",
+    "value":           28052100000,
+    "value_formatted": "$28B"
+  },
+  {
+    "name":            "Belgium",
+    "display_name":    "Belgium",
+    "value":           27786940000,
+    "value_formatted": "$28B"
+  },
+  {
+    "name":            "Israel",
+    "display_name":    "Israel",
+    "value":           22206230000,
+    "value_formatted": "$22B"
+  },
+  {
+    "name":            "Spain",
+    "display_name":    "Spain",
+    "value":           21250510000,
+    "value_formatted": "$21B"
+  },
+  {
+    "name":            "Sweden",
+    "display_name":    "Sweden",
+    "value":           17984520000,
+    "value_formatted": "$18B"
+  },
+  {
+    "name":            "Colombia",
+    "display_name":    "Colombia",
+    "value":           17864620000,
+    "value_formatted": "$18B"
+  },
+  {
+    "name":            "Austria",
+    "display_name":    "Austria",
+    "value":           17573290000,
+    "value_formatted": "$18B"
+  },
+  {
+    "name":            "Turkey",
+    "display_name":    "Turkey",
+    "value":           16749960000,
+    "value_formatted": "$17B"
+  },
+  {
+    "name":            "Australia",
+    "display_name":    "Australia",
+    "value":           16668880000,
+    "value_formatted": "$17B"
+  },
+  {
+    "name":            "Chile",
+    "display_name":    "Chile",
+    "value":           16422610000,
+    "value_formatted": "$16B"
+  },
+  {
+    "name":            "South Africa",
+    "display_name":    "South Africa",
+    "value":           14688460000,
+    "value_formatted": "$15B"
+  },
+  {
+    "name":            "Philippines",
+    "display_name":    "Philippines",
+    "value":           14161850000,
+    "value_formatted": "$14B"
+  },
+  {
+    "name":            "Poland",
+    "display_name":    "Poland",
+    "value":           13695580000,
+    "value_formatted": "$14B"
+  },
+  {
+    "name":            "Saudi Arabia",
+    "display_name":    "Saudi Arabia",
+    "value":           12855820000,
+    "value_formatted": "$13B"
+  },
+  {
+    "name":            "Hungary",
+    "display_name":    "Hungary",
+    "value":           12694200000,
+    "value_formatted": "$13B"
+  },
+  {
+    "name":            "Cambodia",
+    "display_name":    "Cambodia",
+    "value":           12645680000,
+    "value_formatted": "$13B"
+  },
+  {
+    "name":            "Costa Rica",
+    "display_name":    "Costa Rica",
+    "value":           11625460000,
+    "value_formatted": "$12B"
+  },
+  {
+    "name":            "Denmark",
+    "display_name":    "Denmark",
+    "value":           10035960000,
+    "value_formatted": "$10B"
+  },
+  {
+    "name":            "Peru",
+    "display_name":    "Peru",
+    "value":           9362260000,
+    "value_formatted": "$9.4B"
+  },
+  {
+    "name":            "Ecuador",
+    "display_name":    "Ecuador",
+    "value":           8542660000,
+    "value_formatted": "$8.5B"
+  },
+  {
+    "name":            "Bangladesh",
+    "display_name":    "Bangladesh",
+    "value":           8358700000,
+    "value_formatted": "$8.4B"
+  },
+  {
+    "name":            "Slovakia",
+    "display_name":    "Slovakia",
+    "value":           8181380000,
+    "value_formatted": "$8.2B"
+  },
+  {
+    "name":            "Finland",
+    "display_name":    "Finland",
+    "value":           8123670000,
+    "value_formatted": "$8.1B"
+  },
+  {
+    "name":            "Czech Republic",
+    "display_name":    "Czech Republic",
+    "value":           8072730000,
+    "value_formatted": "$8.1B"
+  },
+  {
+    "name":            "Iraq",
+    "display_name":    "Iraq",
+    "value":           7540760000,
+    "value_formatted": "$7.5B"
+  },
+  {
+    "name":            "Dominican Republic",
+    "display_name":    "Dominican Republic",
+    "value":           7501520000,
+    "value_formatted": "$7.5B"
+  },
+  {
+    "name":            "United Arab Emirates",
+    "display_name":    "UAE",
+    "value":           7411020000,
+    "value_formatted": "$7.4B"
+  },
+  {
+    "name":            "Argentina",
+    "display_name":    "Argentina",
+    "value":           7096580000,
+    "value_formatted": "$7.1B"
+  },
+  {
+    "name":            "Portugal",
+    "display_name":    "Portugal",
+    "value":           6783870000,
+    "value_formatted": "$6.8B"
+  },
+  {
+    "name":            "Norway",
+    "display_name":    "Norway",
+    "value":           6600850000,
+    "value_formatted": "$6.6B"
+  },
+  {
+    "name":            "Slovenia",
+    "display_name":    "Slovenia",
+    "value":           6291800000,
+    "value_formatted": "$6.3B"
+  },
+  {
+    "name":            "Venezuela",
+    "display_name":    "Venezuela",
+    "value":           6021470000,
+    "value_formatted": "$6.0B"
+  },
+  {
+    "name":            "Hong Kong",
+    "display_name":    "Hong Kong",
+    "value":           5948050000,
+    "value_formatted": "$5.9B"
+  },
+  {
+    "name":            "Nigeria",
+    "display_name":    "Nigeria",
+    "value":           5743850000,
+    "value_formatted": "$5.7B"
+  },
+  {
+    "name":            "New Zealand",
+    "display_name":    "New Zealand",
+    "value":           5612250000,
+    "value_formatted": "$5.6B"
+  },
+  {
+    "name":            "Honduras",
+    "display_name":    "Honduras",
+    "value":           5531310000,
+    "value_formatted": "$5.5B"
+  },
+  {
+    "name":            "Guyana",
+    "display_name":    "Guyana",
+    "value":           5375410000,
+    "value_formatted": "$5.4B"
+  },
+  {
+    "name":            "Pakistan",
+    "display_name":    "Pakistan",
+    "value":           5118660000,
+    "value_formatted": "$5.1B"
+  },
+  {
+    "name":            "Guatemala",
+    "display_name":    "Guatemala",
+    "value":           5017520000,
+    "value_formatted": "$5.0B"
+  },
+  {
+    "name":            "Nicaragua",
+    "display_name":    "Nicaragua",
+    "value":           4620600000,
+    "value_formatted": "$4.6B"
+  },
+  {
+    "name":            "Romania",
+    "display_name":    "Romania",
+    "value":           3910350000,
+    "value_formatted": "$3.9B"
+  },
+  {
+    "name":            "Trinidad and Tobago",
+    "display_name":    "Trinidad & Tobago",
+    "value":           3369960000,
+    "value_formatted": "$3.4B"
+  },
+  {
+    "name":            "Jordan",
+    "display_name":    "Jordan",
+    "value":           3355420000,
+    "value_formatted": "$3.4B"
+  },
+  {
+    "name":            "Sri Lanka",
+    "display_name":    "Sri Lanka",
+    "value":           3013840000,
+    "value_formatted": "$3.0B"
+  },
+  {
+    "name":            "Russia",
+    "display_name":    "Russia",
+    "value":           3007310000,
+    "value_formatted": "$3.0B"
+  },
+  {
+    "name":            "Egypt",
+    "display_name":    "Egypt",
+    "value":           2545080000,
+    "value_formatted": "$2.5B"
+  },
+  {
+    "name":            "Algeria",
+    "display_name":    "Algeria",
+    "value":           2461610000,
+    "value_formatted": "$2.5B"
+  },
+  {
+    "name":            "Kazakhstan",
+    "display_name":    "Kazakhstan",
+    "value":           2348970000,
+    "value_formatted": "$2.3B"
+  },
+  {
+    "name":            "El Salvador",
+    "display_name":    "El Salvador",
+    "value":           2310590000,
+    "value_formatted": "$2.3B"
+  },
+  {
+    "name":            "Greece",
+    "display_name":    "Greece",
+    "value":           2242730000,
+    "value_formatted": "$2.2B"
+  },
+  {
+    "name":            "Lithuania",
+    "display_name":    "Lithuania",
+    "value":           2029350000,
+    "value_formatted": "$2.0B"
+  },
+  {
+    "name":            "Morocco",
+    "display_name":    "Morocco",
+    "value":           1903170000,
+    "value_formatted": "$1.9B"
+  },
+  {
+    "name":            "Angola",
+    "display_name":    "Angola",
+    "value":           1869240000,
+    "value_formatted": "$1.9B"
+  },
+  {
+    "name":            "Qatar",
+    "display_name":    "Qatar",
+    "value":           1835760000,
+    "value_formatted": "$1.8B"
+  },
+  {
+    "name":            "Bahamas",
+    "display_name":    "Bahamas",
+    "value":           1792370000,
+    "value_formatted": "$1.8B"
+  },
+  {
+    "name":            "Kuwait",
+    "display_name":    "Kuwait",
+    "value":           1669390000,
+    "value_formatted": "$1.7B"
+  },
+  {
+    "name":            "Bulgaria",
+    "display_name":    "Bulgaria",
+    "value":           1489080000,
+    "value_formatted": "$1.5B"
+  },
+  {
+    "name":            "Libya",
+    "display_name":    "Libya",
+    "value":           1465240000,
+    "value_formatted": "$1.5B"
+  },
+  {
+    "name":            "Oman",
+    "display_name":    "Oman",
+    "value":           1324180000,
+    "value_formatted": "$1.3B"
+  },
+  {
+    "name":            "Bahrain",
+    "display_name":    "Bahrain",
+    "value":           1238910000,
+    "value_formatted": "$1.2B"
+  },
+  {
+    "name":            "Uruguay",
+    "display_name":    "Uruguay",
+    "value":           1232550000,
+    "value_formatted": "$1.2B"
+  },
+  {
+    "name":            "Ukraine",
+    "display_name":    "Ukraine",
+    "value":           1179120000,
+    "value_formatted": "$1.2B"
+  },
+  {
+    "name":            "Ghana",
+    "display_name":    "Ghana",
+    "value":           1173910000,
+    "value_formatted": "$1.2B"
+  },
+  {
+    "name":            "Tunisia",
+    "display_name":    "Tunisia",
+    "value":           1122720000,
+    "value_formatted": "$1.1B"
+  },
+  {
+    "name":            "Iceland",
+    "display_name":    "Iceland",
+    "value":           1072510000,
+    "value_formatted": "$1.1B"
+  },
+  {
+    "name":            "Estonia",
+    "display_name":    "Estonia",
+    "value":           1065180000,
+    "value_formatted": "$1.1B"
+  },
+  {
+    "name":            "Cote d'Ivoire",
+    "display_name":    "Ivory Coast",
+    "value":           1014710000,
+    "value_formatted": "$1.0B"
+  },
+  {
+    "name":            "Croatia",
+    "display_name":    "Croatia",
+    "value":           1000110000,
+    "value_formatted": "$1.0B"
+  },
+  {
+    "name":            "Serbia",
+    "display_name":    "Serbia",
+    "value":           814220000,
+    "value_formatted": "$814M"
+  },
+  {
+    "name":            "Laos",
+    "display_name":    "Laos",
+    "value":           802840000,
+    "value_formatted": "$803M"
+  },
+  {
+    "name":            "Kenya",
+    "display_name":    "Kenya",
+    "value":           737080000,
+    "value_formatted": "$737M"
+  },
+  {
+    "name":            "Madagascar",
+    "display_name":    "Madagascar",
+    "value":           731740000,
+    "value_formatted": "$732M"
+  },
+  {
+    "name":            "Luxembourg",
+    "display_name":    "Luxembourg",
+    "value":           698270000,
+    "value_formatted": "$698M"
+  },
+  {
+    "name":            "Burma",
+    "display_name":    "Myanmar",
+    "value":           652370000,
+    "value_formatted": "$652M"
+  },
+  {
+    "name":            "Latvia",
+    "display_name":    "Latvia",
+    "value":           630810000,
+    "value_formatted": "$631M"
+  },
+  {
+    "name":            "Haiti",
+    "display_name":    "Haiti",
+    "value":           615560000,
+    "value_formatted": "$616M"
+  },
+  {
+    "name":            "Panama",
+    "display_name":    "Panama",
+    "value":           554910000,
+    "value_formatted": "$555M"
+  },
+  {
+    "name":            "Bolivia",
+    "display_name":    "Bolivia",
+    "value":           502850000,
+    "value_formatted": "$503M"
+  },
+  {
+    "name":            "Ethiopia",
+    "display_name":    "Ethiopia",
+    "value":           465530000,
+    "value_formatted": "$466M"
+  },
+  {
+    "name":            "Botswana",
+    "display_name":    "Botswana",
+    "value":           405120000,
+    "value_formatted": "$405M"
+  },
+  {
+    "name":            "Jamaica",
+    "display_name":    "Jamaica",
+    "value":           362800000,
+    "value_formatted": "$363M"
+  },
+  {
+    "name":            "Paraguay",
+    "display_name":    "Paraguay",
+    "value":           355570000,
+    "value_formatted": "$356M"
+  },
+  {
+    "name":            "Democratic Republic of Congo",
+    "display_name":    "DR Congo",
+    "value":           323180000,
+    "value_formatted": "$323M"
+  },
+  {
+    "name":            "Namibia",
+    "display_name":    "Namibia",
+    "value":           274590000,
+    "value_formatted": "$275M"
+  },
+  {
+    "name":            "Fiji",
+    "display_name":    "Fiji",
+    "value":           258460000,
+    "value_formatted": "$258M"
+  },
+  {
+    "name":            "Lebanon",
+    "display_name":    "Lebanon",
+    "value":           256570000,
+    "value_formatted": "$257M"
+  },
+  {
+    "name":            "Cameroon",
+    "display_name":    "Cameroon",
+    "value":           247110000,
+    "value_formatted": "$247M"
+  },
+  {
+    "name":            "Liechtenstein",
+    "display_name":    "Liechtenstein",
+    "value":           243320000,
+    "value_formatted": "$243M"
+  },
+  {
+    "name":            "Brunei",
+    "display_name":    "Brunei",
+    "value":           238620000,
+    "value_formatted": "$239M"
+  },
+  {
+    "name":            "Lesotho",
+    "display_name":    "Lesotho",
+    "value":           237210000,
+    "value_formatted": "$237M"
+  },
+  {
+    "name":            "Senegal",
+    "display_name":    "Senegal",
+    "value":           235090000,
+    "value_formatted": "$235M"
+  },
+  {
+    "name":            "Mauritius",
+    "display_name":    "Mauritius",
+    "value":           234450000,
+    "value_formatted": "$234M"
+  },
+  {
+    "name":            "Malta",
+    "display_name":    "Malta",
+    "value":           220280000,
+    "value_formatted": "$220M"
+  },
+  {
+    "name":            "Mozambique",
+    "display_name":    "Mozambique",
+    "value":           215990000,
+    "value_formatted": "$216M"
+  },
+  {
+    "name":            "Tanzania",
+    "display_name":    "Tanzania",
+    "value":           204770000,
+    "value_formatted": "$205M"
+  },
+  {
+    "name":            "Bosnia and Herzegovina",
+    "display_name":    "Bosnia & Herzegovina",
+    "value":           178940000,
+    "value_formatted": "$179M"
+  },
+  {
+    "name":            "Macedonia",
+    "display_name":    "North Macedonia",
+    "value":           173450000,
+    "value_formatted": "$173M"
+  },
+  {
+    "name":            "Gabon",
+    "display_name":    "Gabon",
+    "value":           171640000,
+    "value_formatted": "$172M"
+  },
+  {
+    "name":            "Zambia",
+    "display_name":    "Zambia",
+    "value":           168540000,
+    "value_formatted": "$169M"
+  },
+  {
+    "name":            "Georgia",
+    "display_name":    "Georgia",
+    "value":           165400000,
+    "value_formatted": "$165M"
+  },
+  {
+    "name":            "Azerbaijan",
+    "display_name":    "Azerbaijan",
+    "value":           157810000,
+    "value_formatted": "$158M"
+  },
+  {
+    "name":            "Moldova",
+    "display_name":    "Moldova",
+    "value":           136230000,
+    "value_formatted": "$136M"
+  },
+  {
+    "name":            "Uganda",
+    "display_name":    "Uganda",
+    "value":           132080000,
+    "value_formatted": "$132M"
+  },
+  {
+    "name":            "Albania",
+    "display_name":    "Albania",
+    "value":           128270000,
+    "value_formatted": "$128M"
+  },
+  {
+    "name":            "Equatorial Guinea",
+    "display_name":    "Equatorial Guinea",
+    "value":           127640000,
+    "value_formatted": "$128M"
+  },
+  {
+    "name":            "Monaco",
+    "display_name":    "Monaco",
+    "value":           121430000,
+    "value_formatted": "$121M"
+  },
+  {
+    "name":            "Armenia",
+    "display_name":    "Armenia",
+    "value":           121300000,
+    "value_formatted": "$121M"
+  },
+  {
+    "name":            "Nepal",
+    "display_name":    "Nepal",
+    "value":           120440000,
+    "value_formatted": "$120M"
+  },
+  {
+    "name":            "Macau",
+    "display_name":    "Macau",
+    "value":           108660000,
+    "value_formatted": "$109M"
+  },
+  {
+    "name":            "Suriname",
+    "display_name":    "Suriname",
+    "value":           90800000,
+    "value_formatted": "$91M"
+  },
+  {
+    "name":            "Togo",
+    "display_name":    "Togo",
+    "value":           89970000,
+    "value_formatted": "$90M"
+  },
+  {
+    "name":            "Belize",
+    "display_name":    "Belize",
+    "value":           81130000,
+    "value_formatted": "$81M"
+  },
+  {
+    "name":            "Chad",
+    "display_name":    "Chad",
+    "value":           80810000,
+    "value_formatted": "$81M"
+  },
+  {
+    "name":            "Papua New Guinea",
+    "display_name":    "Papua New Guinea",
+    "value":           79130000,
+    "value_formatted": "$79M"
+  },
+  {
+    "name":            "Liberia",
+    "display_name":    "Liberia",
+    "value":           72490000,
+    "value_formatted": "$72M"
+  },
+  {
+    "name":            "Zimbabwe",
+    "display_name":    "Zimbabwe",
+    "value":           66860000,
+    "value_formatted": "$67M"
+  },
+  {
+    "name":            "Cyprus",
+    "display_name":    "Cyprus",
+    "value":           58700000,
+    "value_formatted": "$59M"
+  },
+  {
+    "name":            "Benin",
+    "display_name":    "Benin",
+    "value":           48620000,
+    "value_formatted": "$49M"
+  },
+  {
+    "name":            "Barbados",
+    "display_name":    "Barbados",
+    "value":           48590000,
+    "value_formatted": "$49M"
+  },
+  {
+    "name":            "Uzbekistan",
+    "display_name":    "Uzbekistan",
+    "value":           42440000,
+    "value_formatted": "$42M"
+  },
+  {
+    "name":            "Congo",
+    "display_name":    "Congo (Republic)",
+    "value":           40150000,
+    "value_formatted": "$40M"
+  },
+  {
+    "name":            "Djibouti",
+    "display_name":    "Djibouti",
+    "value":           40100000,
+    "value_formatted": "$40M"
+  },
+  {
+    "name":            "Malawi",
+    "display_name":    "Malawi",
+    "value":           39740000,
+    "value_formatted": "$40M"
+  },
+  {
+    "name":            "Kosovo",
+    "display_name":    "Kosovo",
+    "value":           34170000,
+    "value_formatted": "$34M"
+  },
+  {
+    "name":            "Rwanda",
+    "display_name":    "Rwanda",
+    "value":           30240000,
+    "value_formatted": "$30M"
+  },
+  {
+    "name":            "Sierra Leone",
+    "display_name":    "Sierra Leone",
+    "value":           28750000,
+    "value_formatted": "$29M"
+  },
+  {
+    "name":            "Mongolia",
+    "display_name":    "Mongolia",
+    "value":           27300000,
+    "value_formatted": "$27M"
+  },
+  {
+    "name":            "San Marino",
+    "display_name":    "San Marino",
+    "value":           25220000,
+    "value_formatted": "$25M"
+  },
+  {
+    "name":            "Antigua and Barbuda",
+    "display_name":    "Antigua & Barbuda",
+    "value":           23740000,
+    "value_formatted": "$24M"
+  },
+  {
+    "name":            "Afghanistan",
+    "display_name":    "Afghanistan",
+    "value":           22600000,
+    "value_formatted": "$23M"
+  },
+  {
+    "name":            "Eswatini",
+    "display_name":    "Eswatini",
+    "value":           22560000,
+    "value_formatted": "$23M"
+  },
+  {
+    "name":            "Marshall Islands",
+    "display_name":    "Marshall Islands",
+    "value":           20450000,
+    "value_formatted": "$20M"
+  },
+  {
+    "name":            "Belarus",
+    "display_name":    "Belarus",
+    "value":           20060000,
+    "value_formatted": "$20M"
+  },
+  {
+    "name":            "St Kitts and Nevis",
+    "display_name":    "St Kitts & Nevis",
+    "value":           19480000,
+    "value_formatted": "$19M"
+  },
+  {
+    "name":            "Kyrgyzstan",
+    "display_name":    "Kyrgyzstan",
+    "value":           16580000,
+    "value_formatted": "$17M"
+  },
+  {
+    "name":            "Montenegro",
+    "display_name":    "Montenegro",
+    "value":           15520000,
+    "value_formatted": "$16M"
+  },
+  {
+    "name":            "Turkmenistan",
+    "display_name":    "Turkmenistan",
+    "value":           14660000,
+    "value_formatted": "$15M"
+  },
+  {
+    "name":            "Grenada",
+    "display_name":    "Grenada",
+    "value":           14070000,
+    "value_formatted": "$14M"
+  },
+  {
+    "name":            "Vanuatu",
+    "display_name":    "Vanuatu",
+    "value":           13670000,
+    "value_formatted": "$14M"
+  },
+  {
+    "name":            "Sudan",
+    "display_name":    "Sudan",
+    "value":           13130000,
+    "value_formatted": "$13M"
+  },
+  {
+    "name":            "Syria",
+    "display_name":    "Syria",
+    "value":           10680000,
+    "value_formatted": "$11M"
+  },
+  {
+    "name":            "Republic of Yemen",
+    "display_name":    "Yemen",
+    "value":           8920000,
+    "value_formatted": "$8.9M"
+  },
+  {
+    "name":            "St Vincent and the Grenadines",
+    "display_name":    "St Vincent",
+    "value":           8260000,
+    "value_formatted": "$8.3M"
+  },
+  {
+    "name":            "Niger",
+    "display_name":    "Niger",
+    "value":           8020000,
+    "value_formatted": "$8.0M"
+  },
+  {
+    "name":            "Seychelles",
+    "display_name":    "Seychelles",
+    "value":           7110000,
+    "value_formatted": "$7.1M"
+  },
+  {
+    "name":            "St Lucia",
+    "display_name":    "St Lucia",
+    "value":           6940000,
+    "value_formatted": "$6.9M"
+  },
+  {
+    "name":            "Iran",
+    "display_name":    "Iran",
+    "value":           6200000,
+    "value_formatted": "$6.2M"
+  },
+  {
+    "name":            "Guinea",
+    "display_name":    "Guinea",
+    "value":           6180000,
+    "value_formatted": "$6.2M"
+  },
+  {
+    "name":            "East Timor",
+    "display_name":    "East Timor",
+    "value":           5910000,
+    "value_formatted": "$5.9M"
+  },
+  {
+    "name":            "Samoa",
+    "display_name":    "Samoa",
+    "value":           5720000,
+    "value_formatted": "$5.7M"
+  },
+  {
+    "name":            "Mali",
+    "display_name":    "Mali",
+    "value":           5470000,
+    "value_formatted": "$5.5M"
+  },
+  {
+    "name":            "Cuba",
+    "display_name":    "Cuba",
+    "value":           4870000,
+    "value_formatted": "$4.9M"
+  },
+  {
+    "name":            "Maldives",
+    "display_name":    "Maldives",
+    "value":           4770000,
+    "value_formatted": "$4.8M"
+  },
+  {
+    "name":            "Tajikistan",
+    "display_name":    "Tajikistan",
+    "value":           4630000,
+    "value_formatted": "$4.6M"
+  },
+  {
+    "name":            "Burkina Faso",
+    "display_name":    "Burkina Faso",
+    "value":           4520000,
+    "value_formatted": "$4.5M"
+  },
+  {
+    "name":            "Cabo Verde",
+    "display_name":    "Cape Verde",
+    "value":           4060000,
+    "value_formatted": "$4.1M"
+  },
+  {
+    "name":            "Burundi",
+    "display_name":    "Burundi",
+    "value":           3740000,
+    "value_formatted": "$3.7M"
+  },
+  {
+    "name":            "Andorra",
+    "display_name":    "Andorra",
+    "value":           3400000,
+    "value_formatted": "$3.4M"
+  },
+  {
+    "name":            "Bhutan",
+    "display_name":    "Bhutan",
+    "value":           3320000,
+    "value_formatted": "$3.3M"
+  },
+  {
+    "name":            "Mauritania",
+    "display_name":    "Mauritania",
+    "value":           2850000,
+    "value_formatted": "$2.9M"
+  },
+  {
+    "name":            "Tonga",
+    "display_name":    "Tonga",
+    "value":           2780000,
+    "value_formatted": "$2.8M"
+  },
+  {
+    "name":            "Somalia",
+    "display_name":    "Somalia",
+    "value":           2480000,
+    "value_formatted": "$2.5M"
+  },
+  {
+    "name":            "Micronesia",
+    "display_name":    "Micronesia",
+    "value":           2440000,
+    "value_formatted": "$2.4M"
+  },
+  {
+    "name":            "Dominica",
+    "display_name":    "Dominica",
+    "value":           2260000,
+    "value_formatted": "$2.3M"
+  },
+  {
+    "name":            "Nauru",
+    "display_name":    "Nauru",
+    "value":           2240000,
+    "value_formatted": "$2.2M"
+  },
+  {
+    "name":            "Palau",
+    "display_name":    "Palau",
+    "value":           2230000,
+    "value_formatted": "$2.2M"
+  },
+  {
+    "name":            "Gambia",
+    "display_name":    "Gambia",
+    "value":           1970000,
+    "value_formatted": "$2.0M"
+  },
+  {
+    "name":            "Comoros",
+    "display_name":    "Comoros",
+    "value":           1850000,
+    "value_formatted": "$1.9M"
+  },
+  {
+    "name":            "Central African Republic",
+    "display_name":    "Central African Republic",
+    "value":           1420000,
+    "value_formatted": "$1.4M"
+  },
+  {
+    "name":            "Solomon Islands",
+    "display_name":    "Solomon Islands",
+    "value":           1350000,
+    "value_formatted": "$1.4M"
+  },
+  {
+    "name":            "Eritrea",
+    "display_name":    "Eritrea",
+    "value":           850000,
+    "value_formatted": "$850k"
+  },
+  {
+    "name":            "Kiribati",
+    "display_name":    "Kiribati",
+    "value":           810000,
+    "value_formatted": "$810k"
+  },
+  {
+    "name":            "South Sudan",
+    "display_name":    "South Sudan",
+    "value":           810000,
+    "value_formatted": "$810k"
+  },
+  {
+    "name":            "Sao Tome and Principe",
+    "display_name":    "São Tomé & Príncipe",
+    "value":           570000,
+    "value_formatted": "$570k"
+  },
+  {
+    "name":            "Tuvalu",
+    "display_name":    "Tuvalu",
+    "value":           220000,
+    "value_formatted": "$220k"
+  },
+  {
+    "name":            "Vatican City",
+    "display_name":    "Vatican City",
+    "value":           170000,
+    "value_formatted": "$170k"
+  },
+  {
+    "name":            "Guinea-Bissau",
+    "display_name":    "Guinea-Bissau",
+    "value":           120000,
+    "value_formatted": "$120k"
+  },
+  {
+    "name":            "Korea, North",
+    "display_name":    "North Korea",
+    "value":           60000,
+    "value_formatted": "$60k"
+  }
+]

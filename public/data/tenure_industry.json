@@ -1,0 +1,219 @@
+[
+  {
+    "serial":           "1",
+    "name":             "Agriculture and related industries",
+    "display_name":     "Agriculture",
+    "value":            4.4,
+    "tenure_formatted": "4.4 yrs"
+  },
+  {
+    "serial":           "2",
+    "name":             "Mining, quarrying, and oil and gas extraction",
+    "display_name":     "Mining & oil/gas extraction",
+    "value":            5.7,
+    "tenure_formatted": "5.7 yrs"
+  },
+  {
+    "serial":           "3",
+    "name":             "Construction",
+    "display_name":     "Construction",
+    "value":            4.2,
+    "tenure_formatted": "4.2 yrs"
+  },
+  {
+    "serial":           "4",
+    "name":             "Wholesale trade",
+    "display_name":     "Wholesale trade",
+    "value":            4.6,
+    "tenure_formatted": "4.6 yrs"
+  },
+  {
+    "serial":           "5",
+    "name":             "Retail trade",
+    "display_name":     "Retail trade",
+    "value":            2.9,
+    "tenure_formatted": "2.9 yrs"
+  },
+  {
+    "serial":           "6",
+    "name":             "Transportation and warehousing",
+    "display_name":     "Transportation & warehousing",
+    "value":            3.4,
+    "tenure_formatted": "3.4 yrs"
+  },
+  {
+    "serial":           "7",
+    "name":             "Utilities",
+    "display_name":     "Utilities",
+    "value":            4.9,
+    "tenure_formatted": "4.9 yrs"
+  },
+  {
+    "serial":           "8",
+    "name":             "Publishing, except Internet",
+    "display_name":     "Publishing",
+    "value":            4.5,
+    "tenure_formatted": "4.5 yrs"
+  },
+  {
+    "serial":           "9",
+    "name":             "Motion pictures and sound recording industries",
+    "display_name":     "Film & music production",
+    "value":            3.1,
+    "tenure_formatted": "3.1 yrs"
+  },
+  {
+    "serial":           "10",
+    "name":             "Radio and television broadcasting and cable subscriptions programming",
+    "display_name":     "TV & radio broadcasting",
+    "value":            3.8,
+    "tenure_formatted": "3.8 yrs"
+  },
+  {
+    "serial":           "11",
+    "name":             "Telecommunications",
+    "display_name":     "Telecommunications",
+    "value":            6.3,
+    "tenure_formatted": "6.3 yrs"
+  },
+  {
+    "serial":           "12",
+    "name":             "Finance",
+    "display_name":     "Finance",
+    "value":            4.9,
+    "tenure_formatted": "4.9 yrs"
+  },
+  {
+    "serial":           "13",
+    "name":             "Insurance",
+    "display_name":     "Insurance",
+    "value":            4.9,
+    "tenure_formatted": "4.9 yrs"
+  },
+  {
+    "serial":           "14",
+    "name":             "Real estate",
+    "display_name":     "Real estate",
+    "value":            4.4,
+    "tenure_formatted": "4.4 yrs"
+  },
+  {
+    "serial":           "15",
+    "name":             "Rental and leasing services",
+    "display_name":     "Rental & leasing",
+    "value":            3.4,
+    "tenure_formatted": "3.4 yrs"
+  },
+  {
+    "serial":           "16",
+    "name":             "Professional and technical services",
+    "display_name":     "Professional & technical services",
+    "value":            3.7,
+    "tenure_formatted": "3.7 yrs"
+  },
+  {
+    "serial":           "17",
+    "name":             "Administrative and support services",
+    "display_name":     "Admin & support services",
+    "value":            3.2,
+    "tenure_formatted": "3.2 yrs"
+  },
+  {
+    "serial":           "18",
+    "name":             "Waste management and remediation services",
+    "display_name":     "Waste management",
+    "value":            4.9,
+    "tenure_formatted": "4.9 yrs"
+  },
+  {
+    "serial":           "19",
+    "name":             "Educational services",
+    "display_name":     "Education",
+    "value":            4.0,
+    "tenure_formatted": "4.0 yrs"
+  },
+  {
+    "serial":           "20",
+    "name":             "Hospitals",
+    "display_name":     "Hospitals",
+    "value":            4.7,
+    "tenure_formatted": "4.7 yrs"
+  },
+  {
+    "serial":           "21",
+    "name":             "Health services, except hospitals",
+    "display_name":     "Health services (non-hospital)",
+    "value":            3.2,
+    "tenure_formatted": "3.2 yrs"
+  },
+  {
+    "serial":           "22",
+    "name":             "Social assistance",
+    "display_name":     "Social assistance",
+    "value":            2.7,
+    "tenure_formatted": "2.7 yrs"
+  },
+  {
+    "serial":           "23",
+    "name":             "Arts, entertainment, and recreation",
+    "display_name":     "Arts & entertainment",
+    "value":            2.7,
+    "tenure_formatted": "2.7 yrs"
+  },
+  {
+    "serial":           "24",
+    "name":             "Accommodation",
+    "display_name":     "Hotels & lodging",
+    "value":            2.4,
+    "tenure_formatted": "2.4 yrs"
+  },
+  {
+    "serial":           "25",
+    "name":             "Food services and drinking places",
+    "display_name":     "Restaurants & bars",
+    "value":            2.0,
+    "tenure_formatted": "2.0 yrs"
+  },
+  {
+    "serial":           "26",
+    "name":             "Repair and maintenance",
+    "display_name":     "Repair & maintenance",
+    "value":            3.3,
+    "tenure_formatted": "3.3 yrs"
+  },
+  {
+    "serial":           "27",
+    "name":             "Personal and laundry services",
+    "display_name":     "Personal & laundry services",
+    "value":            3.4,
+    "tenure_formatted": "3.4 yrs"
+  },
+  {
+    "serial":           "28",
+    "name":             "Membership associations and organizations",
+    "display_name":     "Membership organizations",
+    "value":            4.8,
+    "tenure_formatted": "4.8 yrs"
+  },
+  {
+    "serial":           "29",
+    "name":             "Federal government",
+    "display_name":     "Federal government",
+    "value":            6.5,
+    "tenure_formatted": "6.5 yrs"
+  },
+  {
+    "serial":           "30",
+    "name":             "State government",
+    "display_name":     "State government",
+    "value":            5.7,
+    "tenure_formatted": "5.7 yrs"
+  },
+  {
+    "serial":           "31",
+    "name":             "Local government",
+    "display_name":     "Local government",
+    "value":            6.4,
+    "tenure_formatted": "6.4 yrs"
+  }
+]

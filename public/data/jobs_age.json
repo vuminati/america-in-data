@@ -1,0 +1,2490 @@
+[
+  {
+    "occ":           "10",
+    "name":          "Chief executives",
+    "display_name":  "CEO",
+    "median_age":    52.2,
+    "age_formatted": "52.2 yrs",
+    "occ_group":     "g0"
+  },
+  {
+    "occ":           "20",
+    "name":          "General and operations managers",
+    "display_name":  "General managers",
+    "median_age":    44.2,
+    "age_formatted": "44.2 yrs",
+    "occ_group":     "g0"
+  },
+  {
+    "occ":           "40",
+    "name":          "Advertising and promotions managers",
+    "display_name":  "Advertising managers",
+    "median_age":    39.4,
+    "age_formatted": "39.4 yrs",
+    "occ_group":     "g0"
+  },
+  {
+    "occ":           "51",
+    "name":          "Marketing managers",
+    "display_name":  "Marketing managers",
+    "median_age":    39.5,
+    "age_formatted": "39.5 yrs",
+    "occ_group":     "g0"
+  },
+  {
+    "occ":           "52",
+    "name":          "Sales managers",
+    "display_name":  "Sales managers",
+    "median_age":    45.8,
+    "age_formatted": "45.8 yrs",
+    "occ_group":     "g0"
+  },
+  {
+    "occ":           "60",
+    "name":          "Public relations and fundraising managers",
+    "display_name":  "PR & fundraising managers",
+    "median_age":    40.7,
+    "age_formatted": "40.7 yrs",
+    "occ_group":     "g0"
+  },
+  {
+    "occ":           "101",
+    "name":          "Administrative services managers",
+    "display_name":  "Admin services managers",
+    "median_age":    47.2,
+    "age_formatted": "47.2 yrs",
+    "occ_group":     "g1"
+  },
+  {
+    "occ":           "102",
+    "name":          "Facilities managers",
+    "display_name":  "Facilities managers",
+    "median_age":    50.7,
+    "age_formatted": "50.7 yrs",
+    "occ_group":     "g1"
+  },
+  {
+    "occ":           "110",
+    "name":          "Computer and information systems managers",
+    "display_name":  "IT managers",
+    "median_age":    47.0,
+    "age_formatted": "47.0 yrs",
+    "occ_group":     "g1"
+  },
+  {
+    "occ":           "120",
+    "name":          "Financial managers",
+    "display_name":  "Financial managers",
+    "median_age":    44.9,
+    "age_formatted": "44.9 yrs",
+    "occ_group":     "g1"
+  },
+  {
+    "occ":           "136",
+    "name":          "Human resources managers",
+    "display_name":  "Human resources managers",
+    "median_age":    44.6,
+    "age_formatted": "44.6 yrs",
+    "occ_group":     "g1"
+  },
+  {
+    "occ":           "137",
+    "name":          "Training and development managers",
+    "display_name":  "Training and development managers",
+    "median_age":    43.1,
+    "age_formatted": "43.1 yrs",
+    "occ_group":     "g1"
+  },
+  {
+    "occ":           "140",
+    "name":          "Industrial production managers",
+    "display_name":  "Industrial production managers",
+    "median_age":    47.0,
+    "age_formatted": "47.0 yrs",
+    "occ_group":     "g1"
+  },
+  {
+    "occ":           "150",
+    "name":          "Purchasing managers",
+    "display_name":  "Purchasing managers",
+    "median_age":    45.5,
+    "age_formatted": "45.5 yrs",
+    "occ_group":     "g1"
+  },
+  {
+    "occ":           "160",
+    "name":          "Transportation, storage, and distribution managers",
+    "display_name":  "Distribution managers",
+    "median_age":    43.7,
+    "age_formatted": "43.7 yrs",
+    "occ_group":     "g1"
+  },
+  {
+    "occ":           "220",
+    "name":          "Construction managers",
+    "display_name":  "Construction managers",
+    "median_age":    44.5,
+    "age_formatted": "44.5 yrs",
+    "occ_group":     "g2"
+  },
+  {
+    "occ":           "230",
+    "name":          "Education and childcare administrators",
+    "display_name":  "Education administrators",
+    "median_age":    46.2,
+    "age_formatted": "46.2 yrs",
+    "occ_group":     "g2"
+  },
+  {
+    "occ":           "300",
+    "name":          "Architectural and engineering managers",
+    "display_name":  "Engineering managers",
+    "median_age":    47.0,
+    "age_formatted": "47.0 yrs",
+    "occ_group":     "g3"
+  },
+  {
+    "occ":           "310",
+    "name":          "Food service managers",
+    "display_name":  "Food service managers",
+    "median_age":    40.8,
+    "age_formatted": "40.8 yrs",
+    "occ_group":     "g3"
+  },
+  {
+    "occ":           "335",
+    "name":          "Entertainment and recreation managers",
+    "display_name":  "Entertainment and recreation managers",
+    "median_age":    43.8,
+    "age_formatted": "43.8 yrs",
+    "occ_group":     "g3"
+  },
+  {
+    "occ":           "340",
+    "name":          "Lodging managers",
+    "display_name":  "Lodging managers",
+    "median_age":    46.8,
+    "age_formatted": "46.8 yrs",
+    "occ_group":     "g3"
+  },
+  {
+    "occ":           "350",
+    "name":          "Medical and health services managers",
+    "display_name":  "Health services managers",
+    "median_age":    46.7,
+    "age_formatted": "46.7 yrs",
+    "occ_group":     "g3"
+  },
+  {
+    "occ":           "360",
+    "name":          "Natural sciences managers",
+    "display_name":  "Natural sciences managers",
+    "median_age":    36.2,
+    "age_formatted": "36.2 yrs",
+    "occ_group":     "g3"
+  },
+  {
+    "occ":           "410",
+    "name":          "Property, real estate, and community association managers",
+    "display_name":  "Property managers",
+    "median_age":    49.2,
+    "age_formatted": "49.2 yrs",
+    "occ_group":     "g4"
+  },
+  {
+    "occ":           "420",
+    "name":          "Social and community service managers",
+    "display_name":  "Social service managers",
+    "median_age":    46.7,
+    "age_formatted": "46.7 yrs",
+    "occ_group":     "g4"
+  },
+  {
+    "occ":           "520",
+    "name":          "Wholesale and retail buyers, except farm products",
+    "display_name":  "Wholesale/retail buyers",
+    "median_age":    45.6,
+    "age_formatted": "45.6 yrs",
+    "occ_group":     "g5"
+  },
+  {
+    "occ":           "530",
+    "name":          "Purchasing agents, except wholesale, retail, and farm products",
+    "display_name":  "Purchasing agents",
+    "median_age":    46.0,
+    "age_formatted": "46.0 yrs",
+    "occ_group":     "g5"
+  },
+  {
+    "occ":           "540",
+    "name":          "Claims adjusters, appraisers, examiners, and investigators",
+    "display_name":  "Claims adjusters",
+    "median_age":    43.8,
+    "age_formatted": "43.8 yrs",
+    "occ_group":     "g5"
+  },
+  {
+    "occ":           "565",
+    "name":          "Compliance officers",
+    "display_name":  "Compliance officers",
+    "median_age":    46.1,
+    "age_formatted": "46.1 yrs",
+    "occ_group":     "g5"
+  },
+  {
+    "occ":           "600",
+    "name":          "Cost estimators",
+    "display_name":  "Cost estimators",
+    "median_age":    42.4,
+    "age_formatted": "42.4 yrs",
+    "occ_group":     "g6"
+  },
+  {
+    "occ":           "630",
+    "name":          "Human resources workers",
+    "display_name":  "Human resources workers",
+    "median_age":    41.1,
+    "age_formatted": "41.1 yrs",
+    "occ_group":     "g6"
+  },
+  {
+    "occ":           "650",
+    "name":          "Training and development specialists",
+    "display_name":  "Training specialists",
+    "median_age":    43.1,
+    "age_formatted": "43.1 yrs",
+    "occ_group":     "g6"
+  },
+  {
+    "occ":           "700",
+    "name":          "Logisticians",
+    "display_name":  "Logisticians",
+    "median_age":    40.6,
+    "age_formatted": "40.6 yrs",
+    "occ_group":     "g7"
+  },
+  {
+    "occ":           "705",
+    "name":          "Project management specialists",
+    "display_name":  "Project managers",
+    "median_age":    43.0,
+    "age_formatted": "43.0 yrs",
+    "occ_group":     "g7"
+  },
+  {
+    "occ":           "710",
+    "name":          "Management analysts",
+    "display_name":  "Management analysts",
+    "median_age":    45.5,
+    "age_formatted": "45.5 yrs",
+    "occ_group":     "g7"
+  },
+  {
+    "occ":           "725",
+    "name":          "Meeting, convention, and event planners",
+    "display_name":  "Event planners",
+    "median_age":    39.2,
+    "age_formatted": "39.2 yrs",
+    "occ_group":     "g7"
+  },
+  {
+    "occ":           "726",
+    "name":          "Fundraisers",
+    "display_name":  "Fundraisers",
+    "median_age":    44.7,
+    "age_formatted": "44.7 yrs",
+    "occ_group":     "g7"
+  },
+  {
+    "occ":           "735",
+    "name":          "Market research analysts and marketing specialists",
+    "display_name":  "Market researchers",
+    "median_age":    36.4,
+    "age_formatted": "36.4 yrs",
+    "occ_group":     "g7"
+  },
+  {
+    "occ":           "800",
+    "name":          "Accountants and auditors",
+    "display_name":  "Accountants",
+    "median_age":    44.4,
+    "age_formatted": "44.4 yrs",
+    "occ_group":     "g8"
+  },
+  {
+    "occ":           "810",
+    "name":          "Property appraisers and assessors",
+    "display_name":  "Property appraisers and assessors",
+    "median_age":    52.4,
+    "age_formatted": "52.4 yrs",
+    "occ_group":     "g8"
+  },
+  {
+    "occ":           "845",
+    "name":          "Financial and investment analysts",
+    "display_name":  "Financial analysts",
+    "median_age":    39.1,
+    "age_formatted": "39.1 yrs",
+    "occ_group":     "g8"
+  },
+  {
+    "occ":           "850",
+    "name":          "Personal financial advisors",
+    "display_name":  "Financial advisors",
+    "median_age":    44.6,
+    "age_formatted": "44.6 yrs",
+    "occ_group":     "g8"
+  },
+  {
+    "occ":           "860",
+    "name":          "Insurance underwriters",
+    "display_name":  "Insurance underwriters",
+    "median_age":    46.0,
+    "age_formatted": "46.0 yrs",
+    "occ_group":     "g8"
+  },
+  {
+    "occ":           "910",
+    "name":          "Credit counselors and loan officers",
+    "display_name":  "Loan officers",
+    "median_age":    44.4,
+    "age_formatted": "44.4 yrs",
+    "occ_group":     "g9"
+  },
+  {
+    "occ":           "940",
+    "name":          "Tax preparers",
+    "display_name":  "Tax preparers",
+    "median_age":    46.9,
+    "age_formatted": "46.9 yrs",
+    "occ_group":     "g9"
+  },
+  {
+    "occ":           "1006",
+    "name":          "Computer systems analysts",
+    "display_name":  "Systems analysts",
+    "median_age":    41.0,
+    "age_formatted": "41.0 yrs",
+    "occ_group":     "g10"
+  },
+  {
+    "occ":           "1007",
+    "name":          "Information security analysts",
+    "display_name":  "Security analysts",
+    "median_age":    40.5,
+    "age_formatted": "40.5 yrs",
+    "occ_group":     "g10"
+  },
+  {
+    "occ":           "1010",
+    "name":          "Computer programmers",
+    "display_name":  "Computer programmers",
+    "median_age":    43.0,
+    "age_formatted": "43.0 yrs",
+    "occ_group":     "g10"
+  },
+  {
+    "occ":           "1021",
+    "name":          "Software developers",
+    "display_name":  "Software developers",
+    "median_age":    38.8,
+    "age_formatted": "38.8 yrs",
+    "occ_group":     "g10"
+  },
+  {
+    "occ":           "1022",
+    "name":          "Software quality assurance analysts and testers",
+    "display_name":  "QA testers",
+    "median_age":    40.6,
+    "age_formatted": "40.6 yrs",
+    "occ_group":     "g10"
+  },
+  {
+    "occ":           "1031",
+    "name":          "Web developers",
+    "display_name":  "Web developers",
+    "median_age":    40.5,
+    "age_formatted": "40.5 yrs",
+    "occ_group":     "g10"
+  },
+  {
+    "occ":           "1032",
+    "name":          "Web and digital interface designers",
+    "display_name":  "Web designers",
+    "median_age":    39.3,
+    "age_formatted": "39.3 yrs",
+    "occ_group":     "g10"
+  },
+  {
+    "occ":           "1050",
+    "name":          "Computer support specialists",
+    "display_name":  "Computer support specialists",
+    "median_age":    41.7,
+    "age_formatted": "41.7 yrs",
+    "occ_group":     "g10"
+  },
+  {
+    "occ":           "1065",
+    "name":          "Database administrators and architects",
+    "display_name":  "Database admins",
+    "median_age":    40.8,
+    "age_formatted": "40.8 yrs",
+    "occ_group":     "g10"
+  },
+  {
+    "occ":           "1105",
+    "name":          "Network and computer systems administrators",
+    "display_name":  "Network admins",
+    "median_age":    45.4,
+    "age_formatted": "45.4 yrs",
+    "occ_group":     "g11"
+  },
+  {
+    "occ":           "1106",
+    "name":          "Computer network architects",
+    "display_name":  "Network architects",
+    "median_age":    45.1,
+    "age_formatted": "45.1 yrs",
+    "occ_group":     "g11"
+  },
+  {
+    "occ":           "1220",
+    "name":          "Operations research analysts",
+    "display_name":  "Operations researchers",
+    "median_age":    42.9,
+    "age_formatted": "42.9 yrs",
+    "occ_group":     "g12"
+  },
+  {
+    "occ":           "1230",
+    "name":          "Statisticians",
+    "display_name":  "Statisticians",
+    "median_age":    40.7,
+    "age_formatted": "40.7 yrs",
+    "occ_group":     "g12"
+  },
+  {
+    "occ":           "300",
+    "name":          "Architecture and engineering occupations",
+    "display_name":  "Architecture & engineering",
+    "median_age":    42.2,
+    "age_formatted": "42.2 yrs",
+    "occ_group":     "g3"
+  },
+  {
+    "occ":           "1305",
+    "name":          "Architects, except landscape and naval",
+    "display_name":  "Architects",
+    "median_age":    45.6,
+    "age_formatted": "45.6 yrs",
+    "occ_group":     "g13"
+  },
+  {
+    "occ":           "1320",
+    "name":          "Aerospace engineers",
+    "display_name":  "Aerospace engineers",
+    "median_age":    41.5,
+    "age_formatted": "41.5 yrs",
+    "occ_group":     "g13"
+  },
+  {
+    "occ":           "1350",
+    "name":          "Chemical engineers",
+    "display_name":  "Chemical engineers",
+    "median_age":    39.8,
+    "age_formatted": "39.8 yrs",
+    "occ_group":     "g13"
+  },
+  {
+    "occ":           "1360",
+    "name":          "Civil engineers",
+    "display_name":  "Civil engineers",
+    "median_age":    41.5,
+    "age_formatted": "41.5 yrs",
+    "occ_group":     "g13"
+  },
+  {
+    "occ":           "1400",
+    "name":          "Computer hardware engineers",
+    "display_name":  "Computer hardware engineers",
+    "median_age":    42.7,
+    "age_formatted": "42.7 yrs",
+    "occ_group":     "g14"
+  },
+  {
+    "occ":           "1410",
+    "name":          "Electrical and electronics engineers",
+    "display_name":  "Electrical engineers",
+    "median_age":    42.9,
+    "age_formatted": "42.9 yrs",
+    "occ_group":     "g14"
+  },
+  {
+    "occ":           "1430",
+    "name":          "Industrial engineers, including health and safety",
+    "display_name":  "Industrial engineers",
+    "median_age":    40.3,
+    "age_formatted": "40.3 yrs",
+    "occ_group":     "g14"
+  },
+  {
+    "occ":           "1460",
+    "name":          "Mechanical engineers",
+    "display_name":  "Mechanical engineers",
+    "median_age":    40.4,
+    "age_formatted": "40.4 yrs",
+    "occ_group":     "g14"
+  },
+  {
+    "occ":           "1551",
+    "name":          "Electrical and electronic engineering technologists and technicians",
+    "display_name":  "Electrical",
+    "median_age":    43.9,
+    "age_formatted": "43.9 yrs",
+    "occ_group":     "g15"
+  },
+  {
+    "occ":           "1560",
+    "name":          "Surveying and mapping technicians",
+    "display_name":  "Surveying and mapping technicians",
+    "median_age":    37.4,
+    "age_formatted": "37.4 yrs",
+    "occ_group":     "g15"
+  },
+  {
+    "occ":           "1610",
+    "name":          "Biological scientists",
+    "display_name":  "Biological scientists",
+    "median_age":    39.0,
+    "age_formatted": "39.0 yrs",
+    "occ_group":     "g16"
+  },
+  {
+    "occ":           "1650",
+    "name":          "Medical scientists",
+    "display_name":  "Medical scientists",
+    "median_age":    41.5,
+    "age_formatted": "41.5 yrs",
+    "occ_group":     "g16"
+  },
+  {
+    "occ":           "1720",
+    "name":          "Chemists and materials scientists",
+    "display_name":  "Chemists",
+    "median_age":    43.6,
+    "age_formatted": "43.6 yrs",
+    "occ_group":     "g17"
+  },
+  {
+    "occ":           "1745",
+    "name":          "Environmental scientists and specialists, including health",
+    "display_name":  "Environmental scientists",
+    "median_age":    38.5,
+    "age_formatted": "38.5 yrs",
+    "occ_group":     "g17"
+  },
+  {
+    "occ":           "1822",
+    "name":          "School psychologists",
+    "display_name":  "School psychologists",
+    "median_age":    45.8,
+    "age_formatted": "45.8 yrs",
+    "occ_group":     "g18"
+  },
+  {
+    "occ":           "1600",
+    "name":          "Agricultural and food science technicians",
+    "display_name":  "Agricultural",
+    "median_age":    37.7,
+    "age_formatted": "37.7 yrs",
+    "occ_group":     "g16"
+  },
+  {
+    "occ":           "1920",
+    "name":          "Chemical technicians",
+    "display_name":  "Chemical technicians",
+    "median_age":    42.5,
+    "age_formatted": "42.5 yrs",
+    "occ_group":     "g19"
+  },
+  {
+    "occ":           "1980",
+    "name":          "Occupational health and safety specialists and technicians",
+    "display_name":  "Safety specialists",
+    "median_age":    46.9,
+    "age_formatted": "46.9 yrs",
+    "occ_group":     "g19"
+  },
+  {
+    "occ":           "2001",
+    "name":          "Substance abuse and behavioral disorder counselors",
+    "display_name":  "Substance abuse counselors",
+    "median_age":    36.0,
+    "age_formatted": "36.0 yrs",
+    "occ_group":     "g20"
+  },
+  {
+    "occ":           "2002",
+    "name":          "Educational, guidance, and career counselors and advisors",
+    "display_name":  "School counselors",
+    "median_age":    40.9,
+    "age_formatted": "40.9 yrs",
+    "occ_group":     "g20"
+  },
+  {
+    "occ":           "2004",
+    "name":          "Mental health counselors",
+    "display_name":  "Mental health counselors",
+    "median_age":    42.4,
+    "age_formatted": "42.4 yrs",
+    "occ_group":     "g20"
+  },
+  {
+    "occ":           "2011",
+    "name":          "Child, family, and school social workers",
+    "display_name":  "School social workers",
+    "median_age":    43.7,
+    "age_formatted": "43.7 yrs",
+    "occ_group":     "g20"
+  },
+  {
+    "occ":           "2012",
+    "name":          "Healthcare social workers",
+    "display_name":  "Healthcare social workers",
+    "median_age":    41.3,
+    "age_formatted": "41.3 yrs",
+    "occ_group":     "g20"
+  },
+  {
+    "occ":           "2015",
+    "name":          "Probation officers and correctional treatment specialists",
+    "display_name":  "Probation officers",
+    "median_age":    40.4,
+    "age_formatted": "40.4 yrs",
+    "occ_group":     "g20"
+  },
+  {
+    "occ":           "2016",
+    "name":          "Social and human service assistants",
+    "display_name":  "Human service assistants",
+    "median_age":    41.6,
+    "age_formatted": "41.6 yrs",
+    "occ_group":     "g20"
+  },
+  {
+    "occ":           "2040",
+    "name":          "Clergy",
+    "display_name":  "Clergy",
+    "median_age":    51.2,
+    "age_formatted": "51.2 yrs",
+    "occ_group":     "g20"
+  },
+  {
+    "occ":           "2050",
+    "name":          "Directors, religious activities and education",
+    "display_name":  "Religious directors",
+    "median_age":    43.2,
+    "age_formatted": "43.2 yrs",
+    "occ_group":     "g20"
+  },
+  {
+    "occ":           "2100",
+    "name":          "Lawyers",
+    "display_name":  "Lawyers",
+    "median_age":    46.3,
+    "age_formatted": "46.3 yrs",
+    "occ_group":     "g21"
+  },
+  {
+    "occ":           "2145",
+    "name":          "Paralegals and legal assistants",
+    "display_name":  "Paralegals",
+    "median_age":    43.9,
+    "age_formatted": "43.9 yrs",
+    "occ_group":     "g21"
+  },
+  {
+    "occ":           "2170",
+    "name":          "Title examiners, abstractors, and searchers",
+    "display_name":  "Title examiners, abstractors",
+    "median_age":    47.0,
+    "age_formatted": "47.0 yrs",
+    "occ_group":     "g21"
+  },
+  {
+    "occ":           "2205",
+    "name":          "Postsecondary teachers",
+    "display_name":  "College professors",
+    "median_age":    49.0,
+    "age_formatted": "49.0 yrs",
+    "occ_group":     "g22"
+  },
+  {
+    "occ":           "2300",
+    "name":          "Preschool and kindergarten teachers",
+    "display_name":  "Preschool teachers",
+    "median_age":    40.3,
+    "age_formatted": "40.3 yrs",
+    "occ_group":     "g23"
+  },
+  {
+    "occ":           "2310",
+    "name":          "Elementary and middle school teachers",
+    "display_name":  "Elementary teachers",
+    "median_age":    43.1,
+    "age_formatted": "43.1 yrs",
+    "occ_group":     "g23"
+  },
+  {
+    "occ":           "2320",
+    "name":          "Secondary school teachers",
+    "display_name":  "High school teachers",
+    "median_age":    43.3,
+    "age_formatted": "43.3 yrs",
+    "occ_group":     "g23"
+  },
+  {
+    "occ":           "2330",
+    "name":          "Special education teachers",
+    "display_name":  "Special ed teachers",
+    "median_age":    45.4,
+    "age_formatted": "45.4 yrs",
+    "occ_group":     "g23"
+  },
+  {
+    "occ":           "2350",
+    "name":          "Tutors",
+    "display_name":  "Tutors",
+    "median_age":    27.8,
+    "age_formatted": "27.8 yrs",
+    "occ_group":     "g23"
+  },
+  {
+    "occ":           "2400",
+    "name":          "Archivists, curators, and museum technicians",
+    "display_name":  "Museum curators",
+    "median_age":    43.2,
+    "age_formatted": "43.2 yrs",
+    "occ_group":     "g24"
+  },
+  {
+    "occ":           "2435",
+    "name":          "Librarians and media collections specialists",
+    "display_name":  "Librarians",
+    "median_age":    47.3,
+    "age_formatted": "47.3 yrs",
+    "occ_group":     "g24"
+  },
+  {
+    "occ":           "2545",
+    "name":          "Teaching assistants",
+    "display_name":  "Teaching assistants",
+    "median_age":    37.7,
+    "age_formatted": "37.7 yrs",
+    "occ_group":     "g25"
+  },
+  {
+    "occ":           "2600",
+    "name":          "Artists and related workers",
+    "display_name":  "Artists and related workers",
+    "median_age":    42.6,
+    "age_formatted": "42.6 yrs",
+    "occ_group":     "g26"
+  },
+  {
+    "occ":           "2634",
+    "name":          "Graphic designers",
+    "display_name":  "Graphic designers",
+    "median_age":    41.0,
+    "age_formatted": "41.0 yrs",
+    "occ_group":     "g26"
+  },
+  {
+    "occ":           "2635",
+    "name":          "Interior designers",
+    "display_name":  "Interior designers",
+    "median_age":    42.2,
+    "age_formatted": "42.2 yrs",
+    "occ_group":     "g26"
+  },
+  {
+    "occ":           "2700",
+    "name":          "Actors",
+    "display_name":  "Actors",
+    "median_age":    38.3,
+    "age_formatted": "38.3 yrs",
+    "occ_group":     "g27"
+  },
+  {
+    "occ":           "2710",
+    "name":          "Producers and directors",
+    "display_name":  "Producers and directors",
+    "median_age":    41.8,
+    "age_formatted": "41.8 yrs",
+    "occ_group":     "g27"
+  },
+  {
+    "occ":           "2722",
+    "name":          "Coaches and scouts",
+    "display_name":  "Coaches and scouts",
+    "median_age":    34.5,
+    "age_formatted": "34.5 yrs",
+    "occ_group":     "g27"
+  },
+  {
+    "occ":           "2752",
+    "name":          "Musicians and singers",
+    "display_name":  "Musicians",
+    "median_age":    46.3,
+    "age_formatted": "46.3 yrs",
+    "occ_group":     "g27"
+  },
+  {
+    "occ":           "2810",
+    "name":          "News analysts, reporters, and journalists",
+    "display_name":  "Journalists",
+    "median_age":    41.4,
+    "age_formatted": "41.4 yrs",
+    "occ_group":     "g28"
+  },
+  {
+    "occ":           "2825",
+    "name":          "Public relations specialists",
+    "display_name":  "PR specialists",
+    "median_age":    37.5,
+    "age_formatted": "37.5 yrs",
+    "occ_group":     "g28"
+  },
+  {
+    "occ":           "2830",
+    "name":          "Editors",
+    "display_name":  "Editors",
+    "median_age":    46.7,
+    "age_formatted": "46.7 yrs",
+    "occ_group":     "g28"
+  },
+  {
+    "occ":           "2840",
+    "name":          "Technical writers",
+    "display_name":  "Technical writers",
+    "median_age":    48.3,
+    "age_formatted": "48.3 yrs",
+    "occ_group":     "g28"
+  },
+  {
+    "occ":           "2850",
+    "name":          "Writers and authors",
+    "display_name":  "Writers and authors",
+    "median_age":    44.8,
+    "age_formatted": "44.8 yrs",
+    "occ_group":     "g28"
+  },
+  {
+    "occ":           "2861",
+    "name":          "Interpreters and translators",
+    "display_name":  "Interpreters",
+    "median_age":    46.9,
+    "age_formatted": "46.9 yrs",
+    "occ_group":     "g28"
+  },
+  {
+    "occ":           "2905",
+    "name":          "Broadcast, sound, and lighting technicians",
+    "display_name":  "Broadcast technicians",
+    "median_age":    40.0,
+    "age_formatted": "40.0 yrs",
+    "occ_group":     "g29"
+  },
+  {
+    "occ":           "2910",
+    "name":          "Photographers",
+    "display_name":  "Photographers",
+    "median_age":    41.4,
+    "age_formatted": "41.4 yrs",
+    "occ_group":     "g29"
+  },
+  {
+    "occ":           "2920",
+    "name":          "Television, video, and film camera operators and editors",
+    "display_name":  "Camera operators",
+    "median_age":    36.5,
+    "age_formatted": "36.5 yrs",
+    "occ_group":     "g29"
+  },
+  {
+    "occ":           "3000",
+    "name":          "Chiropractors",
+    "display_name":  "Chiropractors",
+    "median_age":    49.1,
+    "age_formatted": "49.1 yrs",
+    "occ_group":     "g30"
+  },
+  {
+    "occ":           "3010",
+    "name":          "Dentists",
+    "display_name":  "Dentists",
+    "median_age":    47.2,
+    "age_formatted": "47.2 yrs",
+    "occ_group":     "g30"
+  },
+  {
+    "occ":           "3030",
+    "name":          "Dietitians and nutritionists",
+    "display_name":  "Dietitians",
+    "median_age":    44.5,
+    "age_formatted": "44.5 yrs",
+    "occ_group":     "g30"
+  },
+  {
+    "occ":           "3050",
+    "name":          "Pharmacists",
+    "display_name":  "Pharmacists",
+    "median_age":    41.3,
+    "age_formatted": "41.3 yrs",
+    "occ_group":     "g30"
+  },
+  {
+    "occ":           "3110",
+    "name":          "Physician assistants",
+    "display_name":  "Physician assistants",
+    "median_age":    38.4,
+    "age_formatted": "38.4 yrs",
+    "occ_group":     "g31"
+  },
+  {
+    "occ":           "3150",
+    "name":          "Occupational therapists",
+    "display_name":  "Occupational therapists",
+    "median_age":    42.1,
+    "age_formatted": "42.1 yrs",
+    "occ_group":     "g31"
+  },
+  {
+    "occ":           "3160",
+    "name":          "Physical therapists",
+    "display_name":  "Physical therapists",
+    "median_age":    42.0,
+    "age_formatted": "42.0 yrs",
+    "occ_group":     "g31"
+  },
+  {
+    "occ":           "3220",
+    "name":          "Respiratory therapists",
+    "display_name":  "Respiratory therapists",
+    "median_age":    42.0,
+    "age_formatted": "42.0 yrs",
+    "occ_group":     "g32"
+  },
+  {
+    "occ":           "3230",
+    "name":          "Speech-language pathologists",
+    "display_name":  "Speech pathologists",
+    "median_age":    39.9,
+    "age_formatted": "39.9 yrs",
+    "occ_group":     "g32"
+  },
+  {
+    "occ":           "3250",
+    "name":          "Veterinarians",
+    "display_name":  "Veterinarians",
+    "median_age":    42.8,
+    "age_formatted": "42.8 yrs",
+    "occ_group":     "g32"
+  },
+  {
+    "occ":           "3255",
+    "name":          "Registered nurses",
+    "display_name":  "Registered nurses",
+    "median_age":    42.3,
+    "age_formatted": "42.3 yrs",
+    "occ_group":     "g32"
+  },
+  {
+    "occ":           "3258",
+    "name":          "Nurse practitioners",
+    "display_name":  "Nurse practitioners",
+    "median_age":    43.1,
+    "age_formatted": "43.1 yrs",
+    "occ_group":     "g32"
+  },
+  {
+    "occ":           "3300",
+    "name":          "Clinical laboratory technologists and technicians",
+    "display_name":  "Lab technicians",
+    "median_age":    40.0,
+    "age_formatted": "40.0 yrs",
+    "occ_group":     "g33"
+  },
+  {
+    "occ":           "3310",
+    "name":          "Dental hygienists",
+    "display_name":  "Dental hygienists",
+    "median_age":    42.6,
+    "age_formatted": "42.6 yrs",
+    "occ_group":     "g33"
+  },
+  {
+    "occ":           "3321",
+    "name":          "Cardiovascular technologists and technicians",
+    "display_name":  "Cardiovascular techs",
+    "median_age":    41.9,
+    "age_formatted": "41.9 yrs",
+    "occ_group":     "g33"
+  },
+  {
+    "occ":           "3322",
+    "name":          "Diagnostic medical sonographers",
+    "display_name":  "Sonographers",
+    "median_age":    41.3,
+    "age_formatted": "41.3 yrs",
+    "occ_group":     "g33"
+  },
+  {
+    "occ":           "3323",
+    "name":          "Radiologic technologists and technicians",
+    "display_name":  "Radiologic techs",
+    "median_age":    40.2,
+    "age_formatted": "40.2 yrs",
+    "occ_group":     "g33"
+  },
+  {
+    "occ":           "3324",
+    "name":          "Magnetic resonance imaging technologists",
+    "display_name":  "Magnetic resonance imaging technologists",
+    "median_age":    45.6,
+    "age_formatted": "45.6 yrs",
+    "occ_group":     "g33"
+  },
+  {
+    "occ":           "3401",
+    "name":          "Emergency medical technicians",
+    "display_name":  "EMTs",
+    "median_age":    30.8,
+    "age_formatted": "30.8 yrs",
+    "occ_group":     "g34"
+  },
+  {
+    "occ":           "3402",
+    "name":          "Paramedics",
+    "display_name":  "Paramedics",
+    "median_age":    42.6,
+    "age_formatted": "42.6 yrs",
+    "occ_group":     "g34"
+  },
+  {
+    "occ":           "3421",
+    "name":          "Pharmacy technicians",
+    "display_name":  "Pharmacy techs",
+    "median_age":    35.7,
+    "age_formatted": "35.7 yrs",
+    "occ_group":     "g34"
+  },
+  {
+    "occ":           "3422",
+    "name":          "Psychiatric technicians",
+    "display_name":  "Psychiatric technicians",
+    "median_age":    33.6,
+    "age_formatted": "33.6 yrs",
+    "occ_group":     "g34"
+  },
+  {
+    "occ":           "3423",
+    "name":          "Surgical technologists",
+    "display_name":  "Surgical technologists",
+    "median_age":    41.3,
+    "age_formatted": "41.3 yrs",
+    "occ_group":     "g34"
+  },
+  {
+    "occ":           "3424",
+    "name":          "Veterinary technologists and technicians",
+    "display_name":  "Vet techs",
+    "median_age":    30.2,
+    "age_formatted": "30.2 yrs",
+    "occ_group":     "g34"
+  },
+  {
+    "occ":           "3430",
+    "name":          "Dietetic technicians and ophthalmic medical technicians",
+    "display_name":  "Dietetic technicians",
+    "median_age":    29.6,
+    "age_formatted": "29.6 yrs",
+    "occ_group":     "g34"
+  },
+  {
+    "occ":           "3500",
+    "name":          "Licensed practical and licensed vocational nurses",
+    "display_name":  "LPNs/LVNs",
+    "median_age":    42.4,
+    "age_formatted": "42.4 yrs",
+    "occ_group":     "g35"
+  },
+  {
+    "occ":           "3515",
+    "name":          "Medical records specialists",
+    "display_name":  "Medical records",
+    "median_age":    49.7,
+    "age_formatted": "49.7 yrs",
+    "occ_group":     "g35"
+  },
+  {
+    "occ":           "3601",
+    "name":          "Home health aides",
+    "display_name":  "Home health aides",
+    "median_age":    47.8,
+    "age_formatted": "47.8 yrs",
+    "occ_group":     "g36"
+  },
+  {
+    "occ":           "3602",
+    "name":          "Personal care aides",
+    "display_name":  "Personal care aides",
+    "median_age":    46.1,
+    "age_formatted": "46.1 yrs",
+    "occ_group":     "g36"
+  },
+  {
+    "occ":           "3603",
+    "name":          "Nursing assistants",
+    "display_name":  "Nursing assistants",
+    "median_age":    39.7,
+    "age_formatted": "39.7 yrs",
+    "occ_group":     "g36"
+  },
+  {
+    "occ":           "3605",
+    "name":          "Orderlies and psychiatric aides",
+    "display_name":  "Orderlies and psychiatric aides",
+    "median_age":    37.1,
+    "age_formatted": "37.1 yrs",
+    "occ_group":     "g36"
+  },
+  {
+    "occ":           "3620",
+    "name":          "Physical therapist assistants and aides",
+    "display_name":  "PT assistants",
+    "median_age":    31.6,
+    "age_formatted": "31.6 yrs",
+    "occ_group":     "g36"
+  },
+  {
+    "occ":           "3630",
+    "name":          "Massage therapists",
+    "display_name":  "Massage therapists",
+    "median_age":    46.5,
+    "age_formatted": "46.5 yrs",
+    "occ_group":     "g36"
+  },
+  {
+    "occ":           "3640",
+    "name":          "Dental assistants",
+    "display_name":  "Dental assistants",
+    "median_age":    32.6,
+    "age_formatted": "32.6 yrs",
+    "occ_group":     "g36"
+  },
+  {
+    "occ":           "3645",
+    "name":          "Medical assistants",
+    "display_name":  "Medical assistants",
+    "median_age":    35.4,
+    "age_formatted": "35.4 yrs",
+    "occ_group":     "g36"
+  },
+  {
+    "occ":           "3648",
+    "name":          "Veterinary assistants and laboratory animal caretakers",
+    "display_name":  "Veterinary assistants",
+    "median_age":    28.8,
+    "age_formatted": "28.8 yrs",
+    "occ_group":     "g36"
+  },
+  {
+    "occ":           "3649",
+    "name":          "Phlebotomists",
+    "display_name":  "Phlebotomists",
+    "median_age":    37.0,
+    "age_formatted": "37.0 yrs",
+    "occ_group":     "g36"
+  },
+  {
+    "occ":           "3710",
+    "name":          "First-line supervisors of police and detectives",
+    "display_name":  "Police supervisors",
+    "median_age":    46.7,
+    "age_formatted": "46.7 yrs",
+    "occ_group":     "g37"
+  },
+  {
+    "occ":           "3720",
+    "name":          "First-line supervisors of firefighting and prevention workers",
+    "display_name":  "Fire supervisors",
+    "median_age":    51.6,
+    "age_formatted": "51.6 yrs",
+    "occ_group":     "g37"
+  },
+  {
+    "occ":           "3725",
+    "name":          "First-line supervisors of security workers",
+    "display_name":  "Security supervisors",
+    "median_age":    44.6,
+    "age_formatted": "44.6 yrs",
+    "occ_group":     "g37"
+  },
+  {
+    "occ":           "3740",
+    "name":          "Firefighters",
+    "display_name":  "Firefighters",
+    "median_age":    37.4,
+    "age_formatted": "37.4 yrs",
+    "occ_group":     "g37"
+  },
+  {
+    "occ":           "3802",
+    "name":          "Correctional officers and jailers",
+    "display_name":  "Corrections officers",
+    "median_age":    39.5,
+    "age_formatted": "39.5 yrs",
+    "occ_group":     "g38"
+  },
+  {
+    "occ":           "3820",
+    "name":          "Detectives and criminal investigators",
+    "display_name":  "Detectives",
+    "median_age":    43.0,
+    "age_formatted": "43.0 yrs",
+    "occ_group":     "g38"
+  },
+  {
+    "occ":           "3870",
+    "name":          "Police officers",
+    "display_name":  "Police officers",
+    "median_age":    40.6,
+    "age_formatted": "40.6 yrs",
+    "occ_group":     "g38"
+  },
+  {
+    "occ":           "3910",
+    "name":          "Private detectives and investigators",
+    "display_name":  "Private detectives and investigators",
+    "median_age":    45.6,
+    "age_formatted": "45.6 yrs",
+    "occ_group":     "g39"
+  },
+  {
+    "occ":           "3930",
+    "name":          "Security guards and gambling surveillance officers",
+    "display_name":  "Security guards",
+    "median_age":    41.3,
+    "age_formatted": "41.3 yrs",
+    "occ_group":     "g39"
+  },
+  {
+    "occ":           "3940",
+    "name":          "Crossing guards and flaggers",
+    "display_name":  "Crossing guards",
+    "median_age":    53.7,
+    "age_formatted": "53.7 yrs",
+    "occ_group":     "g39"
+  },
+  {
+    "occ":           "4000",
+    "name":          "Chefs and head cooks",
+    "display_name":  "Chefs",
+    "median_age":    40.4,
+    "age_formatted": "40.4 yrs",
+    "occ_group":     "g40"
+  },
+  {
+    "occ":           "4010",
+    "name":          "First-line supervisors of food preparation and serving workers",
+    "display_name":  "Food service supervisors",
+    "median_age":    36.1,
+    "age_formatted": "36.1 yrs",
+    "occ_group":     "g40"
+  },
+  {
+    "occ":           "4020",
+    "name":          "Cooks",
+    "display_name":  "Cooks",
+    "median_age":    35.6,
+    "age_formatted": "35.6 yrs",
+    "occ_group":     "g40"
+  },
+  {
+    "occ":           "4030",
+    "name":          "Food preparation workers",
+    "display_name":  "Food prep workers",
+    "median_age":    32.0,
+    "age_formatted": "32.0 yrs",
+    "occ_group":     "g40"
+  },
+  {
+    "occ":           "4040",
+    "name":          "Bartenders",
+    "display_name":  "Bartenders",
+    "median_age":    32.5,
+    "age_formatted": "32.5 yrs",
+    "occ_group":     "g40"
+  },
+  {
+    "occ":           "4055",
+    "name":          "Fast food and counter workers",
+    "display_name":  "Fast food workers",
+    "median_age":    22.2,
+    "age_formatted": "22.2 yrs",
+    "occ_group":     "g40"
+  },
+  {
+    "occ":           "4110",
+    "name":          "Waiters and waitresses",
+    "display_name":  "Waiters/waitresses",
+    "median_age":    25.9,
+    "age_formatted": "25.9 yrs",
+    "occ_group":     "g41"
+  },
+  {
+    "occ":           "4120",
+    "name":          "Food servers, nonrestaurant",
+    "display_name":  "Food servers",
+    "median_age":    28.5,
+    "age_formatted": "28.5 yrs",
+    "occ_group":     "g41"
+  },
+  {
+    "occ":           "4130",
+    "name":          "Dining room and cafeteria attendants and bartender helpers",
+    "display_name":  "Dining attendants",
+    "median_age":    29.0,
+    "age_formatted": "29.0 yrs",
+    "occ_group":     "g41"
+  },
+  {
+    "occ":           "4140",
+    "name":          "Dishwashers",
+    "display_name":  "Dishwashers",
+    "median_age":    32.9,
+    "age_formatted": "32.9 yrs",
+    "occ_group":     "g41"
+  },
+  {
+    "occ":           "4150",
+    "name":          "Hosts and hostesses, restaurant, lounge, and coffee shop",
+    "display_name":  "Hosts/hostesses",
+    "median_age":    21.0,
+    "age_formatted": "21.0 yrs",
+    "occ_group":     "g41"
+  },
+  {
+    "occ":           "4200",
+    "name":          "First-line supervisors of housekeeping and janitorial workers",
+    "display_name":  "Housekeeping supervisors",
+    "median_age":    47.1,
+    "age_formatted": "47.1 yrs",
+    "occ_group":     "g42"
+  },
+  {
+    "occ":           "4210",
+    "name":          "First-line supervisors of landscaping, lawn service, and groundskeeping workers",
+    "display_name":  "Landscaping supervisors",
+    "median_age":    45.8,
+    "age_formatted": "45.8 yrs",
+    "occ_group":     "g42"
+  },
+  {
+    "occ":           "4220",
+    "name":          "Janitors and building cleaners",
+    "display_name":  "Janitors",
+    "median_age":    46.8,
+    "age_formatted": "46.8 yrs",
+    "occ_group":     "g42"
+  },
+  {
+    "occ":           "4230",
+    "name":          "Maids and housekeeping cleaners",
+    "display_name":  "Housekeepers",
+    "median_age":    45.3,
+    "age_formatted": "45.3 yrs",
+    "occ_group":     "g42"
+  },
+  {
+    "occ":           "4240",
+    "name":          "Pest control workers",
+    "display_name":  "Pest control",
+    "median_age":    37.5,
+    "age_formatted": "37.5 yrs",
+    "occ_group":     "g42"
+  },
+  {
+    "occ":           "4251",
+    "name":          "Landscaping and groundskeeping workers",
+    "display_name":  "Landscapers",
+    "median_age":    40.9,
+    "age_formatted": "40.9 yrs",
+    "occ_group":     "g42"
+  },
+  {
+    "occ":           "4252",
+    "name":          "Tree trimmers and pruners",
+    "display_name":  "Tree trimmers and pruners",
+    "median_age":    39.9,
+    "age_formatted": "39.9 yrs",
+    "occ_group":     "g42"
+  },
+  {
+    "occ":           "4330",
+    "name":          "Supervisors of personal care and service workers",
+    "display_name":  "Supervisors of personal care",
+    "median_age":    44.9,
+    "age_formatted": "44.9 yrs",
+    "occ_group":     "g43"
+  },
+  {
+    "occ":           "4340",
+    "name":          "Animal trainers",
+    "display_name":  "Animal trainers",
+    "median_age":    36.7,
+    "age_formatted": "36.7 yrs",
+    "occ_group":     "g43"
+  },
+  {
+    "occ":           "4350",
+    "name":          "Animal caretakers",
+    "display_name":  "Animal caretakers",
+    "median_age":    30.6,
+    "age_formatted": "30.6 yrs",
+    "occ_group":     "g43"
+  },
+  {
+    "occ":           "4400",
+    "name":          "Gambling services workers",
+    "display_name":  "Gambling services workers",
+    "median_age":    42.7,
+    "age_formatted": "42.7 yrs",
+    "occ_group":     "g44"
+  },
+  {
+    "occ":           "4500",
+    "name":          "Barbers",
+    "display_name":  "Barbers",
+    "median_age":    38.8,
+    "age_formatted": "38.8 yrs",
+    "occ_group":     "g45"
+  },
+  {
+    "occ":           "4510",
+    "name":          "Hairdressers, hairstylists, and cosmetologists",
+    "display_name":  "Hairstylists",
+    "median_age":    42.2,
+    "age_formatted": "42.2 yrs",
+    "occ_group":     "g45"
+  },
+  {
+    "occ":           "4521",
+    "name":          "Manicurists and pedicurists",
+    "display_name":  "Manicurists",
+    "median_age":    43.2,
+    "age_formatted": "43.2 yrs",
+    "occ_group":     "g45"
+  },
+  {
+    "occ":           "4522",
+    "name":          "Skincare specialists",
+    "display_name":  "Skincare specialists",
+    "median_age":    36.1,
+    "age_formatted": "36.1 yrs",
+    "occ_group":     "g45"
+  },
+  {
+    "occ":           "4530",
+    "name":          "Baggage porters, bellhops, and concierges",
+    "display_name":  "Bellhops/concierges",
+    "median_age":    40.1,
+    "age_formatted": "40.1 yrs",
+    "occ_group":     "g45"
+  },
+  {
+    "occ":           "4540",
+    "name":          "Tour and travel guides",
+    "display_name":  "Tour guides",
+    "median_age":    40.2,
+    "age_formatted": "40.2 yrs",
+    "occ_group":     "g45"
+  },
+  {
+    "occ":           "4600",
+    "name":          "Childcare workers",
+    "display_name":  "Childcare workers",
+    "median_age":    37.1,
+    "age_formatted": "37.1 yrs",
+    "occ_group":     "g46"
+  },
+  {
+    "occ":           "4621",
+    "name":          "Exercise trainers and group fitness instructors",
+    "display_name":  "Fitness trainers",
+    "median_age":    40.1,
+    "age_formatted": "40.1 yrs",
+    "occ_group":     "g46"
+  },
+  {
+    "occ":           "4622",
+    "name":          "Recreation workers",
+    "display_name":  "Recreation workers",
+    "median_age":    24.8,
+    "age_formatted": "24.8 yrs",
+    "occ_group":     "g46"
+  },
+  {
+    "occ":           "4700",
+    "name":          "First-line supervisors of retail sales workers",
+    "display_name":  "Retail supervisors",
+    "median_age":    43.7,
+    "age_formatted": "43.7 yrs",
+    "occ_group":     "g47"
+  },
+  {
+    "occ":           "4710",
+    "name":          "First-line supervisors of non-retail sales workers",
+    "display_name":  "Sales supervisors",
+    "median_age":    46.5,
+    "age_formatted": "46.5 yrs",
+    "occ_group":     "g47"
+  },
+  {
+    "occ":           "4720",
+    "name":          "Cashiers",
+    "display_name":  "Cashiers",
+    "median_age":    25.8,
+    "age_formatted": "25.8 yrs",
+    "occ_group":     "g47"
+  },
+  {
+    "occ":           "4740",
+    "name":          "Counter and rental clerks",
+    "display_name":  "Counter clerks",
+    "median_age":    38.0,
+    "age_formatted": "38.0 yrs",
+    "occ_group":     "g47"
+  },
+  {
+    "occ":           "4750",
+    "name":          "Parts salespersons",
+    "display_name":  "Parts salespersons",
+    "median_age":    42.6,
+    "age_formatted": "42.6 yrs",
+    "occ_group":     "g47"
+  },
+  {
+    "occ":           "4760",
+    "name":          "Retail salespersons",
+    "display_name":  "Retail sales",
+    "median_age":    36.8,
+    "age_formatted": "36.8 yrs",
+    "occ_group":     "g47"
+  },
+  {
+    "occ":           "4800",
+    "name":          "Advertising sales agents",
+    "display_name":  "Ad sales agents",
+    "median_age":    41.3,
+    "age_formatted": "41.3 yrs",
+    "occ_group":     "g48"
+  },
+  {
+    "occ":           "4810",
+    "name":          "Insurance sales agents",
+    "display_name":  "Insurance agents",
+    "median_age":    44.4,
+    "age_formatted": "44.4 yrs",
+    "occ_group":     "g48"
+  },
+  {
+    "occ":           "4820",
+    "name":          "Securities, commodities, and financial services sales agents",
+    "display_name":  "Financial sales agents",
+    "median_age":    44.0,
+    "age_formatted": "44.0 yrs",
+    "occ_group":     "g48"
+  },
+  {
+    "occ":           "4830",
+    "name":          "Travel agents",
+    "display_name":  "Travel agents",
+    "median_age":    48.8,
+    "age_formatted": "48.8 yrs",
+    "occ_group":     "g48"
+  },
+  {
+    "occ":           "4840",
+    "name":          "Sales representatives of services, except advertising, insurance, financial services, and travel",
+    "display_name":  "Service sales reps",
+    "median_age":    41.0,
+    "age_formatted": "41.0 yrs",
+    "occ_group":     "g48"
+  },
+  {
+    "occ":           "4850",
+    "name":          "Sales representatives, wholesale and manufacturing",
+    "display_name":  "Wholesale sales reps",
+    "median_age":    46.2,
+    "age_formatted": "46.2 yrs",
+    "occ_group":     "g48"
+  },
+  {
+    "occ":           "4900",
+    "name":          "Models, demonstrators, and product promoters",
+    "display_name":  "Models, demonstrators",
+    "median_age":    31.8,
+    "age_formatted": "31.8 yrs",
+    "occ_group":     "g49"
+  },
+  {
+    "occ":           "4920",
+    "name":          "Real estate brokers and sales agents",
+    "display_name":  "Real estate agents",
+    "median_age":    49.6,
+    "age_formatted": "49.6 yrs",
+    "occ_group":     "g49"
+  },
+  {
+    "occ":           "4950",
+    "name":          "Door-to-door sales workers, news and street vendors, and related workers",
+    "display_name":  "Door-to-door sales workers",
+    "median_age":    46.4,
+    "age_formatted": "46.4 yrs",
+    "occ_group":     "g49"
+  },
+  {
+    "occ":           "5000",
+    "name":          "First-line supervisors of office and administrative support workers",
+    "display_name":  "Office supervisors",
+    "median_age":    45.8,
+    "age_formatted": "45.8 yrs",
+    "occ_group":     "g50"
+  },
+  {
+    "occ":           "5100",
+    "name":          "Bill and account collectors",
+    "display_name":  "Bill collectors",
+    "median_age":    43.9,
+    "age_formatted": "43.9 yrs",
+    "occ_group":     "g51"
+  },
+  {
+    "occ":           "5110",
+    "name":          "Billing and posting clerks",
+    "display_name":  "Billing clerks",
+    "median_age":    43.7,
+    "age_formatted": "43.7 yrs",
+    "occ_group":     "g51"
+  },
+  {
+    "occ":           "5120",
+    "name":          "Bookkeeping, accounting, and auditing clerks",
+    "display_name":  "Bookkeepers",
+    "median_age":    50.1,
+    "age_formatted": "50.1 yrs",
+    "occ_group":     "g51"
+  },
+  {
+    "occ":           "5140",
+    "name":          "Payroll and timekeeping clerks",
+    "display_name":  "Payroll clerks",
+    "median_age":    47.9,
+    "age_formatted": "47.9 yrs",
+    "occ_group":     "g51"
+  },
+  {
+    "occ":           "5160",
+    "name":          "Tellers",
+    "display_name":  "Tellers",
+    "median_age":    30.9,
+    "age_formatted": "30.9 yrs",
+    "occ_group":     "g51"
+  },
+  {
+    "occ":           "5220",
+    "name":          "Court, municipal, and license clerks",
+    "display_name":  "Court, municipal, and license clerks",
+    "median_age":    45.3,
+    "age_formatted": "45.3 yrs",
+    "occ_group":     "g52"
+  },
+  {
+    "occ":           "5240",
+    "name":          "Customer service representatives",
+    "display_name":  "Customer service reps",
+    "median_age":    37.2,
+    "age_formatted": "37.2 yrs",
+    "occ_group":     "g52"
+  },
+  {
+    "occ":           "5250",
+    "name":          "Eligibility interviewers, government programs",
+    "display_name":  "Eligibility interviewers",
+    "median_age":    44.7,
+    "age_formatted": "44.7 yrs",
+    "occ_group":     "g52"
+  },
+  {
+    "occ":           "5260",
+    "name":          "File Clerks",
+    "display_name":  "File Clerks",
+    "median_age":    40.3,
+    "age_formatted": "40.3 yrs",
+    "occ_group":     "g52"
+  },
+  {
+    "occ":           "5300",
+    "name":          "Hotel, motel, and resort desk clerks",
+    "display_name":  "Hotel desk clerks",
+    "median_age":    35.0,
+    "age_formatted": "35.0 yrs",
+    "occ_group":     "g53"
+  },
+  {
+    "occ":           "5310",
+    "name":          "Interviewers, except eligibility and loan",
+    "display_name":  "Interviewers",
+    "median_age":    40.8,
+    "age_formatted": "40.8 yrs",
+    "occ_group":     "g53"
+  },
+  {
+    "occ":           "5320",
+    "name":          "Library assistants, clerical",
+    "display_name":  "Library assistants, clerical",
+    "median_age":    35.9,
+    "age_formatted": "35.9 yrs",
+    "occ_group":     "g53"
+  },
+  {
+    "occ":           "5330",
+    "name":          "Loan interviewers and clerks",
+    "display_name":  "Loan clerks",
+    "median_age":    40.3,
+    "age_formatted": "40.3 yrs",
+    "occ_group":     "g53"
+  },
+  {
+    "occ":           "5350",
+    "name":          "Order clerks",
+    "display_name":  "Order clerks",
+    "median_age":    39.5,
+    "age_formatted": "39.5 yrs",
+    "occ_group":     "g53"
+  },
+  {
+    "occ":           "5360",
+    "name":          "Human resources assistants, except payroll and timekeeping",
+    "display_name":  "Human resources assistants",
+    "median_age":    42.5,
+    "age_formatted": "42.5 yrs",
+    "occ_group":     "g53"
+  },
+  {
+    "occ":           "5400",
+    "name":          "Receptionists and information clerks",
+    "display_name":  "Receptionists",
+    "median_age":    35.9,
+    "age_formatted": "35.9 yrs",
+    "occ_group":     "g54"
+  },
+  {
+    "occ":           "5410",
+    "name":          "Reservation and transportation ticket agents and travel clerks",
+    "display_name":  "Reservation",
+    "median_age":    41.0,
+    "age_formatted": "41.0 yrs",
+    "occ_group":     "g54"
+  },
+  {
+    "occ":           "5510",
+    "name":          "Couriers and messengers",
+    "display_name":  "Couriers",
+    "median_age":    40.6,
+    "age_formatted": "40.6 yrs",
+    "occ_group":     "g55"
+  },
+  {
+    "occ":           "5521",
+    "name":          "Public safety telecommunicators",
+    "display_name":  "911 dispatchers",
+    "median_age":    37.8,
+    "age_formatted": "37.8 yrs",
+    "occ_group":     "g55"
+  },
+  {
+    "occ":           "5522",
+    "name":          "Dispatchers, except police, fire, and ambulance",
+    "display_name":  "Dispatchers",
+    "median_age":    41.1,
+    "age_formatted": "41.1 yrs",
+    "occ_group":     "g55"
+  },
+  {
+    "occ":           "5540",
+    "name":          "Postal service clerks",
+    "display_name":  "Postal clerks",
+    "median_age":    44.1,
+    "age_formatted": "44.1 yrs",
+    "occ_group":     "g55"
+  },
+  {
+    "occ":           "5550",
+    "name":          "Postal service mail carriers",
+    "display_name":  "Mail carriers",
+    "median_age":    46.4,
+    "age_formatted": "46.4 yrs",
+    "occ_group":     "g55"
+  },
+  {
+    "occ":           "5600",
+    "name":          "Production, planning, and expediting clerks",
+    "display_name":  "Production clerks",
+    "median_age":    43.1,
+    "age_formatted": "43.1 yrs",
+    "occ_group":     "g56"
+  },
+  {
+    "occ":           "5610",
+    "name":          "Shipping, receiving, and inventory clerks",
+    "display_name":  "Shipping clerks",
+    "median_age":    42.5,
+    "age_formatted": "42.5 yrs",
+    "occ_group":     "g56"
+  },
+  {
+    "occ":           "5630",
+    "name":          "Weighers, measurers, checkers, and samplers, recordkeeping",
+    "display_name":  "Weighers, measurers, checkers",
+    "median_age":    40.1,
+    "age_formatted": "40.1 yrs",
+    "occ_group":     "g56"
+  },
+  {
+    "occ":           "5710",
+    "name":          "Executive secretaries and executive administrative assistants",
+    "display_name":  "Executive assistants",
+    "median_age":    49.1,
+    "age_formatted": "49.1 yrs",
+    "occ_group":     "g57"
+  },
+  {
+    "occ":           "5730",
+    "name":          "Medical secretaries and administrative assistants",
+    "display_name":  "Medical secretaries",
+    "median_age":    45.9,
+    "age_formatted": "45.9 yrs",
+    "occ_group":     "g57"
+  },
+  {
+    "occ":           "5740",
+    "name":          "Secretaries and administrative assistants, except legal, medical, and executive",
+    "display_name":  "Administrative assistants",
+    "median_age":    48.2,
+    "age_formatted": "48.2 yrs",
+    "occ_group":     "g57"
+  },
+  {
+    "occ":           "5810",
+    "name":          "Data entry keyers",
+    "display_name":  "Data entry",
+    "median_age":    40.8,
+    "age_formatted": "40.8 yrs",
+    "occ_group":     "g58"
+  },
+  {
+    "occ":           "5840",
+    "name":          "Insurance claims and policy processing clerks",
+    "display_name":  "Insurance clerks",
+    "median_age":    41.7,
+    "age_formatted": "41.7 yrs",
+    "occ_group":     "g58"
+  },
+  {
+    "occ":           "5860",
+    "name":          "Office clerks, general",
+    "display_name":  "Office clerks",
+    "median_age":    42.4,
+    "age_formatted": "42.4 yrs",
+    "occ_group":     "g58"
+  },
+  {
+    "occ":           "6005",
+    "name":          "First-line supervisors of farming, fishing, and forestry workers",
+    "display_name":  "Farm supervisors",
+    "median_age":    49.8,
+    "age_formatted": "49.8 yrs",
+    "occ_group":     "g60"
+  },
+  {
+    "occ":           "6040",
+    "name":          "Graders and sorters, agricultural products",
+    "display_name":  "Graders",
+    "median_age":    43.5,
+    "age_formatted": "43.5 yrs",
+    "occ_group":     "g60"
+  },
+  {
+    "occ":           "6200",
+    "name":          "First-line supervisors of construction trades and extraction workers",
+    "display_name":  "Construction supervisors",
+    "median_age":    45.3,
+    "age_formatted": "45.3 yrs",
+    "occ_group":     "g62"
+  },
+  {
+    "occ":           "6220",
+    "name":          "Brickmasons, blockmasons, and stonemasons",
+    "display_name":  "Brickmasons",
+    "median_age":    40.3,
+    "age_formatted": "40.3 yrs",
+    "occ_group":     "g62"
+  },
+  {
+    "occ":           "6230",
+    "name":          "Carpenters",
+    "display_name":  "Carpenters",
+    "median_age":    41.8,
+    "age_formatted": "41.8 yrs",
+    "occ_group":     "g62"
+  },
+  {
+    "occ":           "6240",
+    "name":          "Carpet, floor, and tile installers and finishers",
+    "display_name":  "Floor installers",
+    "median_age":    41.1,
+    "age_formatted": "41.1 yrs",
+    "occ_group":     "g62"
+  },
+  {
+    "occ":           "6250",
+    "name":          "Cement masons, concrete finishers, and terrazzo workers",
+    "display_name":  "Cement masons",
+    "median_age":    41.8,
+    "age_formatted": "41.8 yrs",
+    "occ_group":     "g62"
+  },
+  {
+    "occ":           "6260",
+    "name":          "Construction laborers",
+    "display_name":  "Construction laborers",
+    "median_age":    40.1,
+    "age_formatted": "40.1 yrs",
+    "occ_group":     "g62"
+  },
+  {
+    "occ":           "6305",
+    "name":          "Construction equipment operators",
+    "display_name":  "Construction equipment operators",
+    "median_age":    43.3,
+    "age_formatted": "43.3 yrs",
+    "occ_group":     "g63"
+  },
+  {
+    "occ":           "6330",
+    "name":          "Drywall installers, ceiling tile installers, and tapers",
+    "display_name":  "Drywall installers",
+    "median_age":    40.2,
+    "age_formatted": "40.2 yrs",
+    "occ_group":     "g63"
+  },
+  {
+    "occ":           "6355",
+    "name":          "Electricians",
+    "display_name":  "Electricians",
+    "median_age":    39.6,
+    "age_formatted": "39.6 yrs",
+    "occ_group":     "g63"
+  },
+  {
+    "occ":           "6410",
+    "name":          "Painters and paperhangers",
+    "display_name":  "Painters",
+    "median_age":    41.1,
+    "age_formatted": "41.1 yrs",
+    "occ_group":     "g64"
+  },
+  {
+    "occ":           "6442",
+    "name":          "Plumbers, pipefitters, and steamfitters",
+    "display_name":  "Plumbers",
+    "median_age":    40.1,
+    "age_formatted": "40.1 yrs",
+    "occ_group":     "g64"
+  },
+  {
+    "occ":           "6515",
+    "name":          "Roofers",
+    "display_name":  "Roofers",
+    "median_age":    37.9,
+    "age_formatted": "37.9 yrs",
+    "occ_group":     "g65"
+  },
+  {
+    "occ":           "6520",
+    "name":          "Sheet metal workers",
+    "display_name":  "Sheet metal workers",
+    "median_age":    41.8,
+    "age_formatted": "41.8 yrs",
+    "occ_group":     "g65"
+  },
+  {
+    "occ":           "6600",
+    "name":          "Helpers, construction trades",
+    "display_name":  "Construction helpers",
+    "median_age":    26.6,
+    "age_formatted": "26.6 yrs",
+    "occ_group":     "g66"
+  },
+  {
+    "occ":           "6660",
+    "name":          "Construction and building inspectors",
+    "display_name":  "Building inspectors",
+    "median_age":    51.7,
+    "age_formatted": "51.7 yrs",
+    "occ_group":     "g66"
+  },
+  {
+    "occ":           "6730",
+    "name":          "Highway maintenance workers",
+    "display_name":  "Highway workers",
+    "median_age":    41.5,
+    "age_formatted": "41.5 yrs",
+    "occ_group":     "g67"
+  },
+  {
+    "occ":           "7000",
+    "name":          "First-line supervisors of mechanics, installers, and repairers",
+    "display_name":  "Mechanics supervisors",
+    "median_age":    48.6,
+    "age_formatted": "48.6 yrs",
+    "occ_group":     "g70"
+  },
+  {
+    "occ":           "7010",
+    "name":          "Computer, automated teller, and office machine repairers",
+    "display_name":  "Computer, automated teller",
+    "median_age":    43.3,
+    "age_formatted": "43.3 yrs",
+    "occ_group":     "g70"
+  },
+  {
+    "occ":           "7020",
+    "name":          "Radio and telecommunications equipment installers and repairers",
+    "display_name":  "Telecom installers",
+    "median_age":    44.2,
+    "age_formatted": "44.2 yrs",
+    "occ_group":     "g70"
+  },
+  {
+    "occ":           "7130",
+    "name":          "Security and fire alarm systems installers",
+    "display_name":  "Alarm installers",
+    "median_age":    41.3,
+    "age_formatted": "41.3 yrs",
+    "occ_group":     "g71"
+  },
+  {
+    "occ":           "7140",
+    "name":          "Aircraft mechanics and service technicians",
+    "display_name":  "Aircraft mechanics",
+    "median_age":    40.1,
+    "age_formatted": "40.1 yrs",
+    "occ_group":     "g71"
+  },
+  {
+    "occ":           "7150",
+    "name":          "Automotive body and related repairers",
+    "display_name":  "Auto body repairers",
+    "median_age":    40.7,
+    "age_formatted": "40.7 yrs",
+    "occ_group":     "g71"
+  },
+  {
+    "occ":           "7200",
+    "name":          "Automotive service technicians and mechanics",
+    "display_name":  "Auto mechanics",
+    "median_age":    38.9,
+    "age_formatted": "38.9 yrs",
+    "occ_group":     "g72"
+  },
+  {
+    "occ":           "7210",
+    "name":          "Bus and truck mechanics and diesel engine specialists",
+    "display_name":  "Diesel mechanics",
+    "median_age":    41.7,
+    "age_formatted": "41.7 yrs",
+    "occ_group":     "g72"
+  },
+  {
+    "occ":           "7220",
+    "name":          "Heavy vehicle and mobile equipment service technicians and mechanics",
+    "display_name":  "Heavy equipment mechanics",
+    "median_age":    41.6,
+    "age_formatted": "41.6 yrs",
+    "occ_group":     "g72"
+  },
+  {
+    "occ":           "7315",
+    "name":          "Heating, air conditioning, and refrigeration mechanics and installers",
+    "display_name":  "HVAC technicians",
+    "median_age":    38.5,
+    "age_formatted": "38.5 yrs",
+    "occ_group":     "g73"
+  },
+  {
+    "occ":           "7330",
+    "name":          "Industrial and refractory machinery mechanics",
+    "display_name":  "Industrial mechanics",
+    "median_age":    44.6,
+    "age_formatted": "44.6 yrs",
+    "occ_group":     "g73"
+  },
+  {
+    "occ":           "7340",
+    "name":          "Maintenance and repair workers, general",
+    "display_name":  "Maintenance workers",
+    "median_age":    46.8,
+    "age_formatted": "46.8 yrs",
+    "occ_group":     "g73"
+  },
+  {
+    "occ":           "7410",
+    "name":          "Electrical power-line installers and repairers",
+    "display_name":  "Power line workers",
+    "median_age":    36.3,
+    "age_formatted": "36.3 yrs",
+    "occ_group":     "g74"
+  },
+  {
+    "occ":           "7420",
+    "name":          "Telecommunications line installers and repairers",
+    "display_name":  "Telecom line workers",
+    "median_age":    41.5,
+    "age_formatted": "41.5 yrs",
+    "occ_group":     "g74"
+  },
+  {
+    "occ":           "7430",
+    "name":          "Precision instrument and equipment repairers",
+    "display_name":  "Precision instrument",
+    "median_age":    44.0,
+    "age_formatted": "44.0 yrs",
+    "occ_group":     "g74"
+  },
+  {
+    "occ":           "7700",
+    "name":          "First-line supervisors of production and operating workers",
+    "display_name":  "Production supervisors",
+    "median_age":    44.9,
+    "age_formatted": "44.9 yrs",
+    "occ_group":     "g77"
+  },
+  {
+    "occ":           "7720",
+    "name":          "Electrical, electronics, and electromechanical assemblers",
+    "display_name":  "Electronics assemblers",
+    "median_age":    47.2,
+    "age_formatted": "47.2 yrs",
+    "occ_group":     "g77"
+  },
+  {
+    "occ":           "7800",
+    "name":          "Bakers",
+    "display_name":  "Bakers",
+    "median_age":    37.1,
+    "age_formatted": "37.1 yrs",
+    "occ_group":     "g78"
+  },
+  {
+    "occ":           "7840",
+    "name":          "Food batchmakers",
+    "display_name":  "Food batchmakers",
+    "median_age":    39.2,
+    "age_formatted": "39.2 yrs",
+    "occ_group":     "g78"
+  },
+  {
+    "occ":           "7905",
+    "name":          "Computer numerically controlled tool operators and programmers",
+    "display_name":  "CNC operators",
+    "median_age":    41.6,
+    "age_formatted": "41.6 yrs",
+    "occ_group":     "g79"
+  },
+  {
+    "occ":           "7950",
+    "name":          "Cutting, punching, and press machine setters, operators, and tenders, metal and plastic",
+    "display_name":  "Metal press operators",
+    "median_age":    44.3,
+    "age_formatted": "44.3 yrs",
+    "occ_group":     "g79"
+  },
+  {
+    "occ":           "8030",
+    "name":          "Machinists",
+    "display_name":  "Machinists",
+    "median_age":    46.9,
+    "age_formatted": "46.9 yrs",
+    "occ_group":     "g80"
+  },
+  {
+    "occ":           "8140",
+    "name":          "Welding, soldering, and brazing workers",
+    "display_name":  "Welders",
+    "median_age":    39.7,
+    "age_formatted": "39.7 yrs",
+    "occ_group":     "g81"
+  },
+  {
+    "occ":           "8255",
+    "name":          "Printing press operators",
+    "display_name":  "Print operators",
+    "median_age":    46.2,
+    "age_formatted": "46.2 yrs",
+    "occ_group":     "g82"
+  },
+  {
+    "occ":           "8300",
+    "name":          "Laundry and dry-cleaning workers",
+    "display_name":  "Laundry workers",
+    "median_age":    48.9,
+    "age_formatted": "48.9 yrs",
+    "occ_group":     "g83"
+  },
+  {
+    "occ":           "8320",
+    "name":          "Sewing machine operators",
+    "display_name":  "Sewing operators",
+    "median_age":    49.5,
+    "age_formatted": "49.5 yrs",
+    "occ_group":     "g83"
+  },
+  {
+    "occ":           "8350",
+    "name":          "Tailors, dressmakers, and sewers",
+    "display_name":  "Tailors",
+    "median_age":    51.7,
+    "age_formatted": "51.7 yrs",
+    "occ_group":     "g83"
+  },
+  {
+    "occ":           "8610",
+    "name":          "Stationary engineers and boiler operators",
+    "display_name":  "Stationary engineers",
+    "median_age":    47.6,
+    "age_formatted": "47.6 yrs",
+    "occ_group":     "g86"
+  },
+  {
+    "occ":           "8620",
+    "name":          "Water and wastewater treatment plant and system operators",
+    "display_name":  "Water treatment operators",
+    "median_age":    43.5,
+    "age_formatted": "43.5 yrs",
+    "occ_group":     "g86"
+  },
+  {
+    "occ":           "8650",
+    "name":          "Crushing, grinding, polishing, mixing, and blending workers",
+    "display_name":  "Mixing/blending workers",
+    "median_age":    41.7,
+    "age_formatted": "41.7 yrs",
+    "occ_group":     "g86"
+  },
+  {
+    "occ":           "8810",
+    "name":          "Cutting workers",
+    "display_name":  "Cutting workers",
+    "median_age":    44.3,
+    "age_formatted": "44.3 yrs",
+    "occ_group":     "g88"
+  },
+  {
+    "occ":           "8740",
+    "name":          "Inspectors, testers, sorters, samplers, and weighers",
+    "display_name":  "Inspectors/testers",
+    "median_age":    43.2,
+    "age_formatted": "43.2 yrs",
+    "occ_group":     "g87"
+  },
+  {
+    "occ":           "8760",
+    "name":          "Dental and ophthalmic laboratory technicians and medical appliance technicians",
+    "display_name":  "Dental",
+    "median_age":    44.8,
+    "age_formatted": "44.8 yrs",
+    "occ_group":     "g87"
+  },
+  {
+    "occ":           "8800",
+    "name":          "Packaging and filling machine operators and tenders",
+    "display_name":  "Packaging operators",
+    "median_age":    41.8,
+    "age_formatted": "41.8 yrs",
+    "occ_group":     "g88"
+  },
+  {
+    "occ":           "8810",
+    "name":          "Painting workers",
+    "display_name":  "Painting workers",
+    "median_age":    42.9,
+    "age_formatted": "42.9 yrs",
+    "occ_group":     "g88"
+  },
+  {
+    "occ":           "8950",
+    "name":          "Helpers--production workers",
+    "display_name":  "Helpers--production workers",
+    "median_age":    30.5,
+    "age_formatted": "30.5 yrs",
+    "occ_group":     "g89"
+  },
+  {
+    "occ":           "9005",
+    "name":          "Supervisors of transportation and material moving workers",
+    "display_name":  "Transport supervisors",
+    "median_age":    43.7,
+    "age_formatted": "43.7 yrs",
+    "occ_group":     "g90"
+  },
+  {
+    "occ":           "9030",
+    "name":          "Aircraft pilots and flight engineers",
+    "display_name":  "Pilots",
+    "median_age":    46.6,
+    "age_formatted": "46.6 yrs",
+    "occ_group":     "g90"
+  },
+  {
+    "occ":           "9050",
+    "name":          "Flight attendants",
+    "display_name":  "Flight attendants",
+    "median_age":    42.9,
+    "age_formatted": "42.9 yrs",
+    "occ_group":     "g90"
+  },
+  {
+    "occ":           "9121",
+    "name":          "Bus drivers, school",
+    "display_name":  "School bus drivers",
+    "median_age":    56.0,
+    "age_formatted": "56.0 yrs",
+    "occ_group":     "g91"
+  },
+  {
+    "occ":           "9122",
+    "name":          "Bus drivers, transit and intercity",
+    "display_name":  "Transit bus drivers",
+    "median_age":    54.5,
+    "age_formatted": "54.5 yrs",
+    "occ_group":     "g91"
+  },
+  {
+    "occ":           "9130",
+    "name":          "Driver/sales workers and truck drivers",
+    "display_name":  "Truck drivers",
+    "median_age":    45.6,
+    "age_formatted": "45.6 yrs",
+    "occ_group":     "g91"
+  },
+  {
+    "occ":           "9141",
+    "name":          "Shuttle drivers and chauffeurs",
+    "display_name":  "Chauffeurs",
+    "median_age":    54.0,
+    "age_formatted": "54.0 yrs",
+    "occ_group":     "g91"
+  },
+  {
+    "occ":           "9142",
+    "name":          "Taxi drivers",
+    "display_name":  "Taxi drivers",
+    "median_age":    45.7,
+    "age_formatted": "45.7 yrs",
+    "occ_group":     "g91"
+  },
+  {
+    "occ":           "9240",
+    "name":          "Railroad conductors and yardmasters",
+    "display_name":  "Railroad conductors and yardmasters",
+    "median_age":    42.6,
+    "age_formatted": "42.6 yrs",
+    "occ_group":     "g92"
+  },
+  {
+    "occ":           "9350",
+    "name":          "Parking attendants",
+    "display_name":  "Parking attendants",
+    "median_age":    38.3,
+    "age_formatted": "38.3 yrs",
+    "occ_group":     "g93"
+  },
+  {
+    "occ":           "9365",
+    "name":          "Transportation service attendants",
+    "display_name":  "Transportation service attendants",
+    "median_age":    29.6,
+    "age_formatted": "29.6 yrs",
+    "occ_group":     "g93"
+  },
+  {
+    "occ":           "9510",
+    "name":          "Crane and tower operators",
+    "display_name":  "Crane operators",
+    "median_age":    44.2,
+    "age_formatted": "44.2 yrs",
+    "occ_group":     "g95"
+  },
+  {
+    "occ":           "9600",
+    "name":          "Industrial truck and tractor operators",
+    "display_name":  "Forklift operators",
+    "median_age":    40.6,
+    "age_formatted": "40.6 yrs",
+    "occ_group":     "g96"
+  },
+  {
+    "occ":           "9610",
+    "name":          "Cleaners of vehicles and equipment",
+    "display_name":  "Vehicle cleaners",
+    "median_age":    32.7,
+    "age_formatted": "32.7 yrs",
+    "occ_group":     "g96"
+  },
+  {
+    "occ":           "9620",
+    "name":          "Laborers and freight, stock, and material movers, hand",
+    "display_name":  "Freight movers",
+    "median_age":    36.1,
+    "age_formatted": "36.1 yrs",
+    "occ_group":     "g96"
+  },
+  {
+    "occ":           "9640",
+    "name":          "Packers and packagers, hand",
+    "display_name":  "Hand packers",
+    "median_age":    35.6,
+    "age_formatted": "35.6 yrs",
+    "occ_group":     "g96"
+  },
+  {
+    "occ":           "9645",
+    "name":          "Stockers and order fillers",
+    "display_name":  "Stockers",
+    "median_age":    33.3,
+    "age_formatted": "33.3 yrs",
+    "occ_group":     "g96"
+  },
+  {
+    "occ":           "9720",
+    "name":          "Refuse and recyclable material collectors",
+    "display_name":  "Garbage collectors",
+    "median_age":    43.1,
+    "age_formatted": "43.1 yrs",
+    "occ_group":     "g97"
+  }
+]

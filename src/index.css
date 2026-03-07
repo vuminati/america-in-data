@@ -1,0 +1,942 @@
+/* ─── Reset & base ────────────────────────────────────────────────────────── */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #f0ede5;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #1e1e1e;
+  min-height: 100dvh;
+}
+
+#root {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+/* ─── Loading / error state ───────────────────────────────────────────────── */
+
+.game-loading {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: #888;
+  letter-spacing: 0.02em;
+}
+
+/* ─── Game shell ──────────────────────────────────────────────────────────── */
+
+.game {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 1.25rem;
+}
+
+/* ─── Header (score) ──────────────────────────────────────────────────────── */
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 2.5rem;
+}
+
+/* ─── Header left action group ───────────────────────────────────────────── */
+
+.header-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* ─── Share button ────────────────────────────────────────────────────────── */
+
+.share-btn {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #d8d4cc;
+  background: transparent;
+  color: #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.15s ease;
+}
+
+.share-btn:hover {
+  color: #333;
+  border-color: #999;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.share-btn:active {
+  transform: scale(0.93);
+}
+
+.share-btn-copied {
+  font-family: inherit;
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #555;
+  white-space: nowrap;
+}
+
+.score-display {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.score-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+}
+
+/* The streak item needs relative positioning so particles burst from its centre */
+.score-item--streak {
+  position: relative;
+}
+
+.score-label {
+  font-size: 0.6rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+.score-value {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #444;
+  line-height: 1;
+}
+
+/* ─── Main game area ──────────────────────────────────────────────────────── */
+
+.game-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 1.5rem 0;
+}
+
+/* ─── Question ────────────────────────────────────────────────────────────── */
+
+.question {
+  font-size: clamp(1.7rem, 4.4vw, 2.5rem);
+  font-weight: 300;
+  text-align: center;
+  color: #2c2c2c;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  max-width: 600px;
+  margin-bottom: 0.5rem;
+}
+
+/* ─── Buttons row ─────────────────────────────────────────────────────────── */
+
+.game-area {
+  display: flex;
+  align-items: stretch;
+  gap: 6rem;
+  width: 100%;
+}
+
+/* ─── Item button ─────────────────────────────────────────────────────────── */
+
+.item-button {
+  flex: 1;
+  min-height: 160px;
+  background: #faf9f5;
+  border: 1px solid #e2dfd7;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.055);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+  gap: 0.75rem;
+  transition:
+    background-color 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.2s ease,
+    transform 0.15s ease;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.item-button:hover:not([disabled]):not(.item-button--correct):not(.item-button--incorrect) {
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+  border-color: #ccc9c0;
+}
+
+.item-button:active:not([disabled]):not(.item-button--correct):not(.item-button--incorrect) {
+  transform: translateY(0);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* Correct answer — soft sage green */
+.item-button--correct {
+  background-color: #e6f2e6;
+  border-color: #aacfaa;
+  cursor: default;
+}
+
+/* Incorrect answer — soft warm red */
+.item-button--incorrect {
+  background-color: #fceaea;
+  border-color: #e8adad;
+  cursor: default;
+}
+
+/* Unchosen answer — medium dark gray */
+.item-button--dimmed {
+  background-color: #c2bfb8;
+  border-color: #aeaba4;
+  cursor: default;
+}
+
+.item-name {
+  font-size: clamp(1.15rem, 2.8vw, 1.55rem);
+  font-weight: 400;
+  color: #1e1e1e;
+  line-height: 1.25;
+  transition: color 0.25s ease;
+}
+
+.item-button--correct .item-name {
+  color: #2d6e2d;
+}
+
+.item-button--incorrect .item-name {
+  color: #8b3535;
+}
+
+.item-button--dimmed .item-name {
+  color: #6a6760;
+}
+
+.item-value {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: #666;
+  letter-spacing: 0.01em;
+  animation: fadeIn 0.3s ease;
+}
+
+.item-value--sub {
+  font-size: 0.74rem;
+  color: #888;
+  margin-top: -0.1rem;
+}
+
+.item-button--correct .item-value {
+  color: #3a7a3a;
+}
+
+.item-button--incorrect .item-value {
+  color: #a05050;
+}
+
+.item-button--dimmed .item-value {
+  color: #7a7870;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ─── Next/refresh button ─────────────────────────────────────────────────── */
+
+.next-btn {
+  flex-shrink: 0;
+  align-self: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 1px solid #d8d4cc;
+  background: #f0ede5;
+  color: #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Hidden until answered — keeps layout space, fades in smoothly */
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity 0.25s ease,
+    color 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.15s ease;
+}
+
+.next-btn--active {
+  cursor: pointer;
+  opacity: 1;
+  pointer-events: auto;
+  color: #555;
+  border-color: #b0ac9f;
+}
+
+.next-btn--active:hover {
+  color: #111;
+  border-color: #888;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.13);
+  transform: scale(1.1);
+}
+
+.next-btn--active:active {
+  transform: scale(0.93);
+}
+
+/* ─── Footer ──────────────────────────────────────────────────────────────── */
+
+.game-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: auto;
+}
+
+/* More info button sits here, just above the divider line */
+.footer-above-line {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.75rem;
+}
+
+/* Attribution / logo / source row with the divider */
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid #e2dfd7;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  justify-self: start;
+}
+
+.footer-attribution {
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: #555;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.footer-contact-btn {
+  font-family: inherit;
+  font-size: 0.78rem;   /* matches footer-attribution */
+  font-weight: 400;
+  color: #555;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  letter-spacing: 0.01em;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: #bbb;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+.footer-contact-btn:hover {
+  color: #1e1e1e;
+  text-decoration-color: #555;
+}
+
+.footer-source {
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: #555;
+  letter-spacing: 0.01em;
+  white-space: pre-line;  /* respects \n line breaks in source strings */
+  text-align: right;
+  justify-self: end;
+  line-height: 1.4;
+}
+
+.more-info-btn {
+  font-family: inherit;
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: #888;
+  background: none;
+  border: 1px solid #ccc9c0;
+  border-radius: 5px;
+  padding: 0.2rem 0.55rem;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  /* opacity transition replaces the one-shot fadeIn so it can fade in/out smoothly */
+  opacity: 1;
+  transition:
+    color 0.15s ease,
+    border-color 0.15s ease,
+    background-color 0.15s ease,
+    opacity 0.2s ease;
+}
+
+/* Always in the DOM; invisible + non-interactive until answered */
+.more-info-btn--hidden {
+  opacity: 0;
+  pointer-events: none;
+  cursor: default;
+}
+
+.more-info-btn:hover:not(.more-info-btn--hidden) {
+  color: #222;
+  border-color: #999;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* Logo: AMERICA / in / DATA */
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.logo-word {
+  font-family: 'Courier New', 'Courier', 'Lucida Console', monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  color: #1e1e1e;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.logo-in {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.45em;
+  color: #666;
+  font-style: italic;
+  text-transform: lowercase;
+  line-height: 1.4;
+}
+
+/* ─── Info modal ──────────────────────────────────────────────────────────── */
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  animation: fadeIn 0.15s ease;
+  padding: 1rem;
+}
+
+.modal {
+  position: relative;
+  background: #faf9f5;
+  border: 1px solid #e2dfd7;
+  border-radius: 14px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  padding: 2.5rem 2.25rem 2.25rem;
+  max-width: 500px;
+  width: 100%;
+  animation: modalIn 0.18s ease;
+}
+
+@keyframes modalIn {
+  from { opacity: 0; transform: translateY(8px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s, background-color 0.15s;
+}
+
+.modal-close:hover {
+  color: #333;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.modal-context {
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-bottom: 0.7rem;
+}
+
+.modal-summary {
+  font-size: 1.05rem;
+  font-weight: 300;
+  color: #2c2c2c;
+  line-height: 1.55;
+  margin-bottom: 1.4rem;
+}
+
+.modal-summary strong {
+  font-weight: 500;
+}
+
+.modal-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.modal-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  border-radius: 7px;
+  gap: 1rem;
+}
+
+.modal-row--winner {
+  background: #e6f2e6;
+  border: 1px solid #aacfaa;
+}
+
+.modal-row--loser {
+  background: #f5f4f0;
+  border: 1px solid #e2dfd7;
+}
+
+.modal-row-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.modal-row-name {
+  font-size: 0.96rem;
+  font-weight: 400;
+  color: #2c2c2c;
+}
+
+.modal-row-id {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-family: 'Courier New', 'Courier', monospace;
+  font-weight: 700;
+  color: #555;
+  letter-spacing: 0.05em;
+  background: #e4e0d8;
+  border-radius: 3px;
+  padding: 1px 5px;
+  margin-top: 2px;
+}
+
+.modal-row-value {
+  font-size: 0.96rem;
+  font-weight: 500;
+  color: #2c2c2c;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.modal-row--winner .modal-row-name,
+.modal-row--winner .modal-row-value {
+  color: #2d6e2d;
+}
+
+.modal-row--winner .modal-row-id {
+  color: #5a9e5a;
+}
+
+/* ─── Version button (footer inline link) ────────────────────────────────── */
+
+.version-btn {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  color: #555;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: #bbb;
+  transition: color 0.15s ease, text-decoration-color 0.15s ease;
+}
+
+.version-btn:hover {
+  color: #1e1e1e;
+  text-decoration-color: #555;
+}
+
+/* ─── Version modal ───────────────────────────────────────────────────────── */
+
+.version-modal {
+  max-width: 300px;
+}
+
+.version-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.version-item {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.version-tag {
+  font-family: 'Courier New', 'Courier', monospace;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #555;
+  background: #e4e0d8;
+  border-radius: 3px;
+  padding: 1px 6px;
+  flex-shrink: 0;
+  letter-spacing: 0.04em;
+}
+
+.version-desc {
+  font-size: 0.92rem;
+  font-weight: 300;
+  color: #2c2c2c;
+  line-height: 1.5;
+}
+
+.version-date {
+  font-weight: 400;
+  color: #888;
+}
+
+/* ─── Contact modal ───────────────────────────────────────────────────────── */
+
+.contact-modal {
+  max-width: 380px;
+}
+
+.contact-about {
+  font-size: 0.92rem;
+  font-weight: 300;
+  color: #2c2c2c;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.contact-link {
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: #2c2c2c;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.contact-link:hover {
+  color: #111;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ─── Milestone particle burst ────────────────────────────────────────────── */
+
+.particle-container {
+  position: absolute;
+  /* Centre on the score-item (which is itself centred on the number) */
+  top: 50%;
+  left: 50%;
+  pointer-events: none;
+  z-index: 200;
+  overflow: visible;
+}
+
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  /* Start centred on the origin point */
+  transform: translate(-50%, -50%);
+  animation: particleShoot 0.78s ease-out both;
+}
+
+@keyframes particleShoot {
+  0% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+  }
+  100% {
+    /* CSS custom properties set per-particle via inline style */
+    transform: translate(calc(-50% + var(--dx)), calc(-50% + var(--dy))) scale(0);
+    opacity: 0;
+  }
+}
+
+/* ─── Password gate ───────────────────────────────────────────────────────── */
+
+.gate {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gate-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.gate-logo {
+  /* Upsize the logo slightly for the standalone gate screen */
+}
+
+.gate-logo .logo-word {
+  font-size: 2rem;
+}
+
+.gate-logo .logo-in {
+  font-size: 1.3rem;
+}
+
+.gate-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.65rem;
+  width: 240px;
+}
+
+.gate-input {
+  padding: 0.65rem 1rem;
+  background: #faf9f5;
+  border: 1px solid #e2dfd7;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #1e1e1e;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.gate-input:focus {
+  border-color: #b0ac9f;
+}
+
+.gate-input--error {
+  border-color: #e8adad;
+  background-color: #fceaea;
+}
+
+.gate-btn {
+  padding: 0.65rem 1rem;
+  background: #1e1e1e;
+  color: #f0ede5;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.gate-btn:hover {
+  background: #3a3a3a;
+}
+
+.gate-btn:active {
+  background: #555;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%       { transform: translateX(-8px); }
+  40%       { transform: translateX(8px); }
+  60%       { transform: translateX(-5px); }
+  80%       { transform: translateX(5px); }
+}
+
+.gate-form--shake {
+  animation: shake 0.45s ease;
+}
+
+/* ─── Responsive — mobile ─────────────────────────────────────────────────── */
+
+@media (max-width: 600px) {
+  .game {
+    padding: 0.6rem 1rem 0.6rem;
+  }
+
+  .game-header {
+    min-height: 2rem;
+  }
+
+  .share-btn {
+    width: 32px;
+    height: 32px;
+  }
+
+  .game-main {
+    gap: 1rem;
+    padding: 0.4rem 0;
+  }
+
+  .question {
+    font-size: clamp(1.25rem, 5.5vw, 1.6rem);
+    margin-bottom: 0;
+  }
+
+  .game-area {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .item-button {
+    min-height: 100px;
+    padding: 1rem 1rem;
+  }
+
+  .item-name {
+    font-size: clamp(1rem, 4.5vw, 1.3rem);
+  }
+
+  .next-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  .score-value {
+    font-size: 1.15rem;
+  }
+
+  .footer-above-line {
+    padding-bottom: 0.45rem;
+  }
+
+  .more-info-btn {
+    font-size: 0.68rem;
+    padding: 0.18rem 0.5rem;
+  }
+
+  .footer-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
+    padding-top: 0.65rem;
+    text-align: center;
+  }
+
+  .footer-left {
+    align-items: center;
+    align-self: unset;
+    justify-self: unset;
+  }
+
+  .footer-contact-btn {
+    text-align: center;
+  }
+
+  .footer-attribution,
+  .footer-contact-btn,
+  .footer-source {
+    font-size: 0.68rem;
+    justify-self: unset;
+    align-self: unset;
+  }
+
+  .footer-source {
+    text-align: center;
+    white-space: pre-line;
+  }
+
+  .logo-word {
+    font-size: 1.15rem;
+  }
+
+  .logo-in {
+    font-size: 0.78rem;
+  }
+}
