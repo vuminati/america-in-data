@@ -39,6 +39,14 @@ export default function ContactModal({ onClose }) {
             andrew@americaindata.com
           </a>
           <a
+            href="https://github.com/vuminati/america-in-data"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-link"
+          >
+            View on GitHub ↗
+          </a>
+          <a
             href="https://andrewvu.substack.com/"
             target="_blank"
             rel="noopener noreferrer"
