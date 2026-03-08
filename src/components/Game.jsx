@@ -98,6 +98,23 @@ function readPreview() {
 }
 const PREVIEW = readPreview()
 
+// ── Shared question links ─────────────────────────────────────────────────────
+// ?q=topicId&a=leftIdx&b=rightIdx  — loads a specific question for someone to answer
+function readShared() {
+  const p = new URLSearchParams(window.location.search)
+  if (!p.get('q')) return null
+  return {
+    topicId:  p.get('q') || '',
+    leftIdx:  Math.max(0, parseInt(p.get('a') || '0', 10)),
+    rightIdx: Math.max(0, parseInt(p.get('b') || '1', 10)),
+  }
+}
+const SHARED = readShared()
+
+function buildShareURL(topicId, a, b) {
+  return `${window.location.origin}/?${new URLSearchParams({ q: topicId, a, b })}`
+}
+
 /**
  * Pick a random question type and a valid item pair for it.
  * If the new type uses the same dataset as the previous round,
@@ -158,10 +175,24 @@ export default function Game() {
             setRevealed(true)
             setSelectedSide(PREVIEW.state === 'answered-left' ? 'left' : 'right')
           }
+        } else if (SHARED) {
+          // Shared link: load the specific question, always unanswered
+          const type  = questionTypes.find(t => t.id === SHARED.topicId) ?? questionTypes[0]
+          const items = loaded[type.dataPath] ?? []
+          const l     = items[SHARED.leftIdx]  ?? items[0]
+          const r     = items[SHARED.rightIdx] ?? items[1]
+          setCurrentType(type)
+          setPair([l, r])
+          // URL already has ?q=... — no change needed
         } else {
           const { type, pair } = pickRound(loaded, null, null)
           setCurrentType(type)
           setPair(pair)
+          // Encode this question in the URL so Share / Copy Link always capture it
+          const items = loaded[type.dataPath]
+          const a = items.indexOf(pair[0])
+          const b = items.indexOf(pair[1])
+          history.replaceState(null, '', buildShareURL(type.id, a, b))
         }
 
         setLoading(false)
@@ -196,9 +227,11 @@ export default function Game() {
   )
 
   const handleShare = useCallback(async () => {
-    const text = streak > 0
-      ? `I'm on a ${streak}-question streak on America in Data! 🇺🇸`
-      : 'Higher or lower with real US government data. 🇺🇸'
+    const [i1, i2] = pair ?? []
+    const questionText = (i1 && i2)
+      ? `Which is higher — ${i1.display_name} or ${i2.display_name}?`
+      : 'Higher or lower with real US government data.'
+    const text = `${questionText} 🇺🇸`
     const url = window.location.href
     try {
       if (navigator.share) {
@@ -211,7 +244,7 @@ export default function Game() {
     } catch {
       // user cancelled or permission denied — do nothing
     }
-  }, [streak])
+  }, [pair])
 
   const handleCopyLink = useCallback(async () => {
     try {
@@ -231,6 +264,13 @@ export default function Game() {
     setPair(newPair)
     setRevealed(false)
     setSelectedSide(null)
+    // Keep the URL in sync so Share / Copy Link always point to the current question
+    if (!PREVIEW) {
+      const items = datasets[type.dataPath]
+      const a = items.indexOf(newPair[0])
+      const b = items.indexOf(newPair[1])
+      history.replaceState(null, '', buildShareURL(type.id, a, b))
+    }
   }, [revealed, datasets, currentType, pair])
 
   // Keyboard shortcut: Enter / Space to advance after reveal
