@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preview Tool — America in Data</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      margin: 0; padding: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #111;
+      color: #ccc;
+      display: flex;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    /* ── Left control panel ─────────────────────────────── */
+    .panel {
+      width: 370px;
+      flex-shrink: 0;
+      overflow-y: auto;
+      padding: 16px;
+      border-right: 1px solid #222;
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+      background: #161616;
+    }
+
+    .panel-title {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #444;
+      margin: 0;
+    }
+
+    .field-label {
+      display: block;
+      font-size: 11px;
+      color: #555;
+      margin-bottom: 4px;
+    }
+
+    select, input[type="text"], input[type="number"] {
+      width: 100%;
+      background: #1c1c1c;
+      border: 1px solid #2a2a2a;
+      color: #ddd;
+      padding: 6px 8px;
+      border-radius: 5px;
+      font-size: 13px;
+      outline: none;
+      font-family: inherit;
+    }
+    select:focus, input:focus { border-color: #444; }
+
+    select[size] {
+      height: 148px;
+      padding: 2px;
+      font-size: 12px;
+    }
+    select[size] option { padding: 3px 6px; border-radius: 3px; }
+    select[size] option:checked { background: #2d2d50; color: #aaf; }
+
+    .pair-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .pair-col-label { font-size: 11px; color: #555; font-weight: 600; margin-bottom: 4px; }
+    .search-input { margin-bottom: 4px; font-size: 12px; padding: 5px 7px; }
+
+    hr { border: none; border-top: 1px solid #1f1f1f; margin: 0; }
+
+    .state-options { display: flex; flex-direction: column; gap: 6px; }
+    .state-option {
+      display: flex; align-items: center; gap: 8px;
+      font-size: 13px; color: #bbb; cursor: pointer;
+    }
+    .state-option input[type="radio"] { width: auto; margin: 0; cursor: pointer; }
+
+    .streak-row { display: flex; align-items: center; gap: 10px; }
+    .streak-row input { width: 70px; }
+    .streak-row .note { font-size: 11px; color: #444; }
+
+    /* ── Hint ───────────────────────────────────────────── */
+    .hint {
+      font-size: 12px; line-height: 1.65;
+      padding: 9px 11px;
+      background: #1a1a1a;
+      border: 1px solid #252525;
+      border-radius: 5px;
+      display: none;
+    }
+    .hint b { color: #888; font-weight: 600; }
+    .hint .val { color: #555; font-size: 11px; }
+    .h-correct { color: #5aaa68; font-weight: 600; }
+    .h-wrong   { color: #cc6666; font-weight: 600; }
+    .h-neutral { color: #666; }
+
+    /* ── URL + buttons ──────────────────────────────────── */
+    .url-box {
+      background: #141414;
+      border: 1px solid #222;
+      border-radius: 5px;
+      padding: 7px 10px;
+      font-family: 'SF Mono', 'Fira Code', monospace;
+      font-size: 10px;
+      color: #555;
+      word-break: break-all;
+      max-height: 48px;
+      overflow-y: auto;
+      user-select: all;
+      cursor: text;
+    }
+
+    .btn-row { display: flex; gap: 6px; }
+    button {
+      flex: 1;
+      padding: 7px 10px;
+      border-radius: 5px;
+      border: 1px solid #2a2a2a;
+      background: #1c1c1c;
+      color: #bbb;
+      cursor: pointer;
+      font-size: 12px;
+      font-family: inherit;
+      transition: background 0.1s;
+    }
+    button:hover { background: #252525; }
+    button.primary {
+      background: #20203a; border-color: #30305a; color: #9999dd;
+    }
+    button.primary:hover { background: #28284a; }
+
+    /* ── Right preview panel ────────────────────────────── */
+    .preview-panel {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background: #0e0e0e;
+      min-width: 0;
+    }
+
+    .preview-bar {
+      background: #141414;
+      border-bottom: 1px solid #222;
+      padding: 6px 14px;
+      font-size: 11px;
+      color: #444;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+    .dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: #333;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+    .dot.live { background: #4aaa66; animation: pulse 2.5s infinite; }
+    @keyframes pulse { 0%,100%{ opacity:1 } 50%{ opacity:0.45 } }
+
+    iframe { flex: 1; border: none; width: 100%; }
+  </style>
+</head>
+<body>
+
+<!-- ── Control panel ──────────────────────────────────────────────────── -->
+<div class="panel">
+  <p class="panel-title">🎯 Screenshot Preview Tool</p>
+
+  <div>
+    <span class="field-label">Topic</span>
+    <select id="topic-select">
+      <option value="imports-value">US Imports — $ value</option>
+      <option value="employment-wage">Jobs — Median hourly wage</option>
+      <option value="employment-count">Jobs — # people employed</option>
+      <option value="cpi-weight">Household spending share (CPI)</option>
+      <option value="country-imports">Country imports — $ value</option>
+      <option value="jobs-age">Jobs — Median worker age</option>
+    </select>
+  </div>
+
+  <hr>
+
+  <div>
+    <span class="field-label">Items</span>
+    <div class="pair-cols">
+      <div>
+        <div class="pair-col-label">Left card</div>
+        <input class="search-input" id="left-search" type="text" placeholder="Search…" autocomplete="off">
+        <select id="left-select" size="8"></select>
+      </div>
+      <div>
+        <div class="pair-col-label">Right card</div>
+        <input class="search-input" id="right-search" type="text" placeholder="Search…" autocomplete="off">
+        <select id="right-select" size="8"></select>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div>
+    <span class="field-label">Game state</span>
+    <div class="state-options">
+      <label class="state-option">
+        <input type="radio" name="state" value="idle" checked>
+        Question (no answer shown yet)
+      </label>
+      <label class="state-option">
+        <input type="radio" name="state" value="answered-left">
+        Left card was guessed
+      </label>
+      <label class="state-option">
+        <input type="radio" name="state" value="answered-right">
+        Right card was guessed
+      </label>
+    </div>
+  </div>
+
+  <div>
+    <span class="field-label">Streak shown</span>
+    <div class="streak-row">
+      <input type="number" id="streak-input" value="0" min="0" max="99">
+      <span class="note">shown in score display</span>
+    </div>
+  </div>
+
+  <hr>
+
+  <div id="hint" class="hint"></div>
+
+  <div>
+    <span class="field-label">Preview URL</span>
+    <div class="url-box" id="url-display">—</div>
+  </div>
+
+  <div class="btn-row">
+    <button id="copy-btn">Copy URL</button>
+    <button class="primary" id="open-btn">Open in new tab ↗</button>
+  </div>
+</div>
+
+<!-- ── Live iframe preview ───────────────────────────────────────────── -->
+<div class="preview-panel">
+  <div class="preview-bar">
+    <span class="dot" id="status-dot"></span>
+    <span id="status-text">Initialising…</span>
+  </div>
+  <iframe id="preview-frame" src="about:blank" title="Game preview"></iframe>
+</div>
+
+<script>
+  // Mirrors src/data/topics.js — keep in sync if topics change
+  const TOPICS = [
+    { id: 'imports-value',    dataPath: '/data/imports.json',         valueKey: 'value' },
+    { id: 'employment-wage',  dataPath: '/data/employment.json',      valueKey: 'median_hourly_wage' },
+    { id: 'employment-count', dataPath: '/data/employment.json',      valueKey: 'total_employment' },
+    { id: 'cpi-weight',       dataPath: '/data/cpi.json',             valueKey: 'value' },
+    { id: 'country-imports',  dataPath: '/data/country_imports.json', valueKey: 'value' },
+    { id: 'jobs-age',         dataPath: '/data/jobs_age.json',        valueKey: 'median_age' },
+  ]
+
+  const dataCache = {}
+  let currentItems = []
+  let leftIdx  = 0
+  let rightIdx = 1
+
+  // ── Helpers ──────────────────────────────────────────────────────────────
+  const $ = id => document.getElementById(id)
+
+  function getTopic() {
+    const id = $('topic-select').value
+    return TOPICS.find(t => t.id === id) || TOPICS[0]
+  }
+
+  function itemLabel(item, i) {
+    return item.display_name || item.name || `Item ${i}`
+  }
+
+  function fmtVal(v) {
+    if (v == null) return '?'
+    if (Math.abs(v) >= 1e9) return (v / 1e9).toFixed(1) + 'B'
+    if (Math.abs(v) >= 1e6) return (v / 1e6).toFixed(1) + 'M'
+    if (Math.abs(v) >= 1e3) return (v / 1e3).toFixed(1) + 'K'
+    return Number.isInteger(v) ? String(v) : v.toFixed(1)
+  }
+
+  function rebuildSelect(sel, query, keepIdx) {
+    const q = query.trim().toLowerCase()
+    const vk = getTopic().valueKey
+    const rows = currentItems
+      .map((item, i) => ({ item, i, label: itemLabel(item, i) }))
+      .filter(({ label }) => !q || label.toLowerCase().includes(q))
+    sel.innerHTML = rows.map(({ i, label, item }) => {
+      const v = item[vk]
+      return `<option value="${i}">${label}  (${fmtVal(v)})</option>`
+    }).join('')
+    const match = [...sel.options].find(o => +o.value === keepIdx)
+    if (match) sel.value = match.value
+    else if (sel.options.length) sel.selectedIndex = 0
+  }
+
+  // ── Load data for current topic ───────────────────────────────────────────
+  async function loadItems() {
+    const topic = getTopic()
+    if (!dataCache[topic.dataPath]) {
+      try {
+        dataCache[topic.dataPath] = await fetch(topic.dataPath).then(r => r.json())
+      } catch {
+        currentItems = []
+        update(); return
+      }
+    }
+    currentItems = dataCache[topic.dataPath]
+    leftIdx  = 0
+    rightIdx = Math.min(1, currentItems.length - 1)
+    $('left-search').value  = ''
+    $('right-search').value = ''
+    rebuildSelect($('left-select'),  '', leftIdx)
+    rebuildSelect($('right-select'), '', rightIdx)
+    update()
+  }
+
+  // ── Build URL ─────────────────────────────────────────────────────────────
+  function buildURL() {
+    const topic  = getTopic()
+    const state  = document.querySelector('input[name="state"]:checked')?.value || 'idle'
+    const streak = Math.max(0, parseInt($('streak-input').value, 10) || 0)
+    return `${location.origin}/?${new URLSearchParams({
+      preview: '1', topic: topic.id,
+      left: leftIdx, right: rightIdx,
+      state, streak,
+    })}`
+  }
+
+  // ── Hint ──────────────────────────────────────────────────────────────────
+  function updateHint() {
+    const hint = $('hint')
+    const l = currentItems[leftIdx]
+    const r = currentItems[rightIdx]
+    if (!l || !r) { hint.style.display = 'none'; return }
+    const vk = getTopic().valueKey
+    const lv = l[vk], rv = r[vk]
+    const lLabel = itemLabel(l, leftIdx)
+    const rLabel = itemLabel(r, rightIdx)
+    const lHigher = lv >= rv
+    const state = document.querySelector('input[name="state"]:checked')?.value || 'idle'
+    let result
+    if (state === 'answered-left') {
+      result = lHigher
+        ? `<span class="h-correct">✓ Correct — left is higher</span>`
+        : `<span class="h-wrong">✗ Wrong — right is actually higher</span>`
+    } else if (state === 'answered-right') {
+      result = !lHigher
+        ? `<span class="h-correct">✓ Correct — right is higher</span>`
+        : `<span class="h-wrong">✗ Wrong — left is actually higher</span>`
+    } else {
+      result = lHigher
+        ? `<span class="h-neutral">→ Left has the higher value</span>`
+        : `<span class="h-neutral">→ Right has the higher value</span>`
+    }
+    hint.innerHTML =
+      `<b>Left:</b> ${lLabel} <span class="val">(${fmtVal(lv)})</span><br>` +
+      `<b>Right:</b> ${rLabel} <span class="val">(${fmtVal(rv)})</span><br>` +
+      result
+    hint.style.display = 'block'
+  }
+
+  // ── Refresh iframe (debounced) ────────────────────────────────────────────
+  let timer = null
+  function update() {
+    updateHint()
+    const url = buildURL()
+    $('url-display').textContent = url
+    clearTimeout(timer)
+    timer = setTimeout(() => {
+      const frame = $('preview-frame')
+      const dot   = $('status-dot')
+      const txt   = $('status-text')
+      dot.classList.remove('live')
+      txt.textContent = 'Loading…'
+      frame.onload = () => {
+        dot.classList.add('live')
+        txt.textContent = 'Live preview'
+      }
+      frame.src = url
+    }, 280)
+  }
+
+  // ── Event wiring ──────────────────────────────────────────────────────────
+  $('topic-select').addEventListener('change', loadItems)
+
+  $('left-search').addEventListener('input', e => {
+    rebuildSelect($('left-select'), e.target.value, leftIdx)
+    leftIdx = +($('left-select').options[$('left-select').selectedIndex]?.value ?? 0)
+    update()
+  })
+  $('right-search').addEventListener('input', e => {
+    rebuildSelect($('right-select'), e.target.value, rightIdx)
+    rightIdx = +($('right-select').options[$('right-select').selectedIndex]?.value ?? 1)
+    update()
+  })
+
+  $('left-select').addEventListener('change',  e => { leftIdx  = +e.target.value; update() })
+  $('right-select').addEventListener('change', e => { rightIdx = +e.target.value; update() })
+
+  document.querySelectorAll('input[name="state"]').forEach(r => r.addEventListener('change', update))
+  $('streak-input').addEventListener('input', update)
+
+  $('copy-btn').addEventListener('click', () => {
+    navigator.clipboard.writeText(buildURL())
+    $('copy-btn').textContent = 'Copied!'
+    setTimeout(() => $('copy-btn').textContent = 'Copy URL', 2000)
+  })
+  $('open-btn').addEventListener('click', () => window.open(buildURL(), '_blank'))
+
+  // ── Boot ──────────────────────────────────────────────────────────────────
+  loadItems()
+</script>
+
+</body>
+</html>

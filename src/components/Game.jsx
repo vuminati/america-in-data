@@ -83,6 +83,21 @@ function NextIcon() {
   )
 }
 
+// ── Screenshot preview mode ──────────────────────────────────────────────────
+// Activated by URL params: ?preview=1&topic=X&left=N&right=N&state=idle|answered-left|answered-right&streak=N
+function readPreview() {
+  const p = new URLSearchParams(window.location.search)
+  if (p.get('preview') !== '1') return null
+  return {
+    topicId:  p.get('topic') || '',
+    leftIdx:  Math.max(0, parseInt(p.get('left')   || '0', 10)),
+    rightIdx: Math.max(0, parseInt(p.get('right')  || '1', 10)),
+    state:    p.get('state')  || 'idle',
+    streak:   Math.max(0, parseInt(p.get('streak') || '0', 10)),
+  }
+}
+const PREVIEW = readPreview()
+
 /**
  * Pick a random question type and a valid item pair for it.
  * If the new type uses the same dataset as the previous round,
@@ -102,8 +117,8 @@ export default function Game() {
   const [pair, setPair]               = useState(null)
   const [revealed, setRevealed]       = useState(false)
   const [selectedSide, setSelectedSide] = useState(null)
-  const [streak, setStreak]           = useState(0)
-  const [bestStreak, setBestStreak]   = useState(0)
+  const [streak, setStreak]           = useState(PREVIEW?.streak ?? 0)
+  const [bestStreak, setBestStreak]   = useState(PREVIEW?.streak ?? 0)
   const [loading, setLoading]         = useState(true)
   const [error, setError]             = useState(null)
   const [showModal, setShowModal]     = useState(false)
@@ -130,9 +145,25 @@ export default function Game() {
         const loaded = {}
         results.forEach(({ path, data }) => { loaded[path] = data })
         setDatasets(loaded)
-        const { type, pair } = pickRound(loaded, null, null)
-        setCurrentType(type)
-        setPair(pair)
+
+        if (PREVIEW) {
+          // Preview mode: use the exact topic + items specified in the URL
+          const type  = questionTypes.find(t => t.id === PREVIEW.topicId) ?? questionTypes[0]
+          const items = loaded[type.dataPath] ?? []
+          const l     = items[PREVIEW.leftIdx]  ?? items[0]
+          const r     = items[PREVIEW.rightIdx] ?? items[1]
+          setCurrentType(type)
+          setPair([l, r])
+          if (PREVIEW.state !== 'idle') {
+            setRevealed(true)
+            setSelectedSide(PREVIEW.state === 'answered-left' ? 'left' : 'right')
+          }
+        } else {
+          const { type, pair } = pickRound(loaded, null, null)
+          setCurrentType(type)
+          setPair(pair)
+        }
+
         setLoading(false)
       })
       .catch((err) => {
